@@ -58,12 +58,15 @@ a {
   align-items: center;
   text-align: center;
   justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .aracon img{
   padding-top: 50px;
   padding-bottom: 25px;
-  max-width: 600px;
+  max-width: 40%;
 }
 
 .aracon iframe {
