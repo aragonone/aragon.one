@@ -19,6 +19,7 @@ body {
   padding: 0;
   -webkit-font-smoothing: antialiased;
   color: white;
+  background-color: #000000;
 }
 
 a, a span, button {

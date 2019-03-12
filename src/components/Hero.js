@@ -19,7 +19,6 @@ const Hero = () => (
 )
 
 const HeroSection = styled.section`
-  background-color: #000000;
   min-height: 600px;
   height: 100vh;
 

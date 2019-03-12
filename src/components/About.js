@@ -31,6 +31,7 @@ const AboutSection = styled.section`
   height: 100vh;
   display: flex;
   align-items: center;
+  padding: 100px 0;
 `;
 
 const TextBox = styled.div`

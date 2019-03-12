@@ -1,6 +1,7 @@
 import React from 'react';
 import Hero from '../components/Hero';
 import About from '../components/About';
+import Quotes from '../components/Quotes';
 import WorkConditions from '../components/WorkConditions';
 import styled from 'styled-components';
 
@@ -14,6 +15,7 @@ class Home extends React.Component {
       <div>
         <Hero/>
         <About/>
+        <Quotes/>
         <WorkConditions/>
       </div>
     );
