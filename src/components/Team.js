@@ -19,20 +19,20 @@ const Team = () => (
       <Carousel>
         <Carousel.Item>
           <TeamContainer>
-            <TeamCard />
-            <TeamCard />
+            <TeamCard name="Luis Ivan Cuende" position="Founder" imageUrl="luis"/>
+            <TeamCard name="Jorge Izquierdo" position="Founder" imageUrl="jorge"/>
           </TeamContainer>
         </Carousel.Item>
         <Carousel.Item>
           <TeamContainer>
-            <TeamCard />
-            <TeamCard />
+            <TeamCard name="Monica Zeng" position="HR Manager" imageUrl="monica"/>
+            <TeamCard name="Delfina Polito" position="Frontend developer" imageUrl="delfina"/>
           </TeamContainer>
         </Carousel.Item>
         <Carousel.Item>
           <TeamContainer>
-            <TeamCard />
-            <TeamCard />
+            <TeamCard name="Jorge Izquierdo" position="Founder" imageUrl="jorge"/>
+            <TeamCard name="Monica Zeng" position="HR Manager" imageUrl="monica"/>
           </TeamContainer>
         </Carousel.Item>
       </Carousel>

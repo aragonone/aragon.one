@@ -93,6 +93,7 @@ const Container = styled.div`
 `;
 const Box = styled.div`
   display: grid;
+  margin-top: 70px;
   ${medium(
     'grid-template-columns: calc(33% - 15px) calc(33% - 15px) calc(33% - 15px); grid-template-rows: auto auto'
   )};

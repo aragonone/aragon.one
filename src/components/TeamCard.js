@@ -1,20 +1,20 @@
 import React from 'react';
 import styled from 'styled-components';
 import A1 from './assets/team/A1.svg';
-import luis from './assets/team/luis.png';
 
-const TeamCard = () => (
+const TeamCard = ({ ...props }) => (
+
   <TeamCardContainer>
     <Position>
       <div>
-        <p>Position</p>
+        <p>{props.position}</p>
       </div>
       <div>
         <img src={A1} />
       </div>
     </Position>
-    <Name>Name lastname</Name>
-    <Photo src={luis} />
+    <Name>{props.name}</Name>
+    <Photo src={require(`./assets/team/${props.imageUrl}.jpg`)} />
     <Description>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
