@@ -1,5 +1,7 @@
 import React from 'react';
-import Hero from '../components/Hero'
+import Hero from '../components/Hero';
+import About from '../components/About';
+import WorkConditions from '../components/WorkConditions';
 import styled from 'styled-components';
 
 import {breakpoint, BreakPoint, Button} from '@aragon/ui';
@@ -11,6 +13,8 @@ class Home extends React.Component {
     return (
       <div>
         <Hero/>
+        <About/>
+        <WorkConditions/>
       </div>
     );
   }

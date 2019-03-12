@@ -33,6 +33,7 @@ const Container = styled.div`
   background-attachment: cover;
   display: flex;
   align-items: center;
+  justify-content: center;
   h1 {
     font-family: 'FontBold';
     margin: 0;
