@@ -1,27 +1,25 @@
-import React from 'react'
-import styled from 'styled-components'
-import background from './assets/hero-background.svg'
+import React from 'react';
+import styled from 'styled-components';
+import background from './assets/hero-background.svg';
 
-import { breakpoint, BreakPoint, Button } from '@aragon/ui'
-const medium = css => breakpoint('medium', css)
-const large = css => breakpoint('large', css)
-
+import {breakpoint, BreakPoint, Button} from '@aragon/ui';
+const medium = css => breakpoint('medium', css);
+const large = css => breakpoint('large', css);
 
 const Hero = () => (
-    <HeroSection>
-      <Container>
-        <div>
-          <h1>We believe and</h1>
-          <h1 className="pink">fight for freedom</h1>
-        </div>
-      </Container>
-    </HeroSection>
-)
+  <HeroSection>
+    <Container>
+      <div>
+        <h1>We believe and</h1>
+        <h1 className="pink">fight for freedom</h1>
+      </div>
+    </Container>
+  </HeroSection>
+);
 
 const HeroSection = styled.section`
   min-height: 600px;
   height: 100vh;
-
 `;
 
 const Container = styled.div`
@@ -41,7 +39,7 @@ const Container = styled.div`
     font-size: 132px;
   }
   h1.pink {
-    color: #FF5D5D;
+    color: #ff5d5d;
   }
 `;
-export default Hero
+export default Hero;

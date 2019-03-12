@@ -1,25 +1,27 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from 'react';
+import styled from 'styled-components';
 
-import { breakpoint, BreakPoint, Button } from '@aragon/ui'
-const medium = css => breakpoint('medium', css)
-const large = css => breakpoint('large', css)
-
+import {breakpoint, BreakPoint, Button} from '@aragon/ui';
+const medium = css => breakpoint('medium', css);
+const large = css => breakpoint('large', css);
 
 const Quotes = () => (
-    <QuotesSection>
-      <Container>
-        <div>
-          <h3>We are building products that <br/>has the potential to impact <br/>every <span className="pink">person on the planet</span></h3>
-        </div>
-      </Container>
-    </QuotesSection>
-)
+  <QuotesSection>
+    <Container>
+      <div>
+        <h3>
+          We are building products that <br />
+          has the potential to impact <br />
+          every <span className="pink">person on the planet</span>
+        </h3>
+      </div>
+    </Container>
+  </QuotesSection>
+);
 
 const QuotesSection = styled.section`
   height: auto;
   padding: 100px 0;
-
 `;
 
 const Container = styled.div`
@@ -32,12 +34,12 @@ const Container = styled.div`
     line-height: 98px;
     font-size: 78px;
     letter-spacing: -0.5px;
-    color: #FFFFFF;
+    color: #ffffff;
     max-width: 1024px;
     margin: auto;
     .pink {
-      color: #FF5D5D;
+      color: #ff5d5d;
     }
   }
 `;
-export default Quotes
+export default Quotes;

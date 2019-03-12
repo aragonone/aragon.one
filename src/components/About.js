@@ -9,7 +9,9 @@ const About = () => (
   <AboutSection>
     <img src={about} />
     <TextBox>
-      <h6><span className="grey">—</span> ABOUT ARAGON ONE</h6>
+      <h6>
+        <span className="grey">—</span> ABOUT ARAGON ONE
+      </h6>
       <p>
         Aragon One is a company that encompasses the foundational team working
         on the Aragon project. The company is currently established in
@@ -40,7 +42,7 @@ const TextBox = styled.div`
   p {
     line-height: 48px;
     font-size: 32px;
-    color: #FFFFFF;
+    color: #ffffff;
   }
   h6 {
     font-family: 'FontRegular';
@@ -52,6 +54,6 @@ const TextBox = styled.div`
       color: #525252;
     }
   }
-`
+`;
 
 export default About;
