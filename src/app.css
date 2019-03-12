@@ -26,3 +26,30 @@ a, a span, button {
   outline: none;
   transition: all 0.25s ease-in-out;
 }
+
+.carousel-indicators {
+  bottom: -60px !important;
+}
+.carousel-control-prev {
+  display: none;
+}
+
+.carousel-control-next {
+  position: absolute;
+  top: -39px;
+  bottom: 0;
+  align-items: flex-start;
+  width: auto;
+}
+
+.carousel-indicators li {
+  width: 15%;
+  border: 0px solid transparent;
+  background: #3a3a3a;
+  opacity: 1;
+  height: 1px;
+}
+.carousel-indicators li.active {
+  background: linear-gradient(185.85deg, #FF7C56 0%, #FF5D5D 80.57%);
+  height: 3px;
+}

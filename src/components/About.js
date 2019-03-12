@@ -44,16 +44,6 @@ const TextBox = styled.div`
     font-size: 32px;
     color: #ffffff;
   }
-  h6 {
-    font-family: 'FontRegular';
-    font-size: 14px;
-    letter-spacing: 2.6px;
-    line-height: 1;
-    margin: 0 0 70px 0;
-    .grey {
-      color: #525252;
-    }
-  }
 `;
 
 export default About;

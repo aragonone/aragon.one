@@ -88,7 +88,12 @@ export default {
               content="width=device-width, initial-scale=1"
             />
             <link rel="icon" href="/favicon.png" />
-
+            <link
+              rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+              integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+              crossOrigin="anonymous"
+            />
 
             <meta name="twitter:card" content="summary" />
             <meta name="twitter:site" content="@AragonOneTeam" />
