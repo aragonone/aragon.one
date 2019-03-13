@@ -18,12 +18,12 @@ const Team = () => (
           <TeamContainer>
             <TeamCard
               name="Luis Ivan Cuende"
-              position="Founder"
+              position="CEO"
               imageUrl="Luis"
             />
             <TeamCard
               name="Jorge Izquierdo"
-              position="Founder"
+              position="CTO"
               imageUrl="Jorge"
             />
           </TeamContainer>
@@ -36,7 +36,7 @@ const Team = () => (
               imageUrl="Monica"
             />
             <TeamCard
-              name="Maria Gomez"
+              name="María Gómez"
               position="Ecosystem"
               imageUrl="Maria"
             />
@@ -45,12 +45,12 @@ const Team = () => (
         <Carousel.Item>
           <TeamContainer>
             <TeamCard
-              name="Luke"
+              name="Luke Duncan"
               position="Reaserch"
               imageUrl="Luke"
             />
             <TeamCard
-              name="Brett"
+              name="Brett Sun"
               position="Dev lead"
               imageUrl="Brett"
             />
@@ -59,7 +59,7 @@ const Team = () => (
         <Carousel.Item>
           <TeamContainer>
             <TeamCard
-              name="Bingen"
+              name="Bingen Eguzkitza"
               position="Solidity dev"
               imageUrl="Bingen"
             />
@@ -73,12 +73,12 @@ const Team = () => (
         <Carousel.Item>
           <TeamContainer>
             <TeamCard
-              name="Pierre"
+              name="Pierre Bertet"
               position="Frontend dev"
               imageUrl="Pierre"
             />
             <TeamCard
-              name="Gorka"
+              name="Gorka Ludlow"
               position="Frontend dev"
               imageUrl="Gorka"
             />
@@ -92,7 +92,7 @@ const Team = () => (
               imageUrl="Delfi"
             />
             <TeamCard
-              name="Daniel"
+              name="Daniel Norman"
               position="Web3 dev"
               imageUrl="Daniel"
             />
@@ -101,12 +101,12 @@ const Team = () => (
         <Carousel.Item>
           <TeamContainer>
             <TeamCard
-              name="Jouni"
+              name="Jouni Helminen"
               position="Product design"
               imageUrl="Jouni"
             />
             <TeamCard
-              name="Paty"
+              name="Patricia Davila"
               position="UX design"
               imageUrl="Paty"
             />
@@ -115,12 +115,12 @@ const Team = () => (
         <Carousel.Item>
           <TeamContainer>
             <TeamCard
-              name="Adri"
+              name="Adrian García"
               position="Brand design"
               imageUrl="Adri"
             />
             <TeamCard
-              name="John"
+              name="John Light"
               position="Communications lead"
               imageUrl="John"
             />
@@ -129,12 +129,12 @@ const Team = () => (
         <Carousel.Item>
           <TeamContainer>
             <TeamCard
-              name="Tatu"
+              name="Tatu Kärki"
               position="Communication"
               imageUrl="Tatu"
             />
             <TeamCard
-              name="Lorena"
+              name="Lorena González"
               position="Opetations"
               imageUrl="Lorena"
             />
