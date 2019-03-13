@@ -2,8 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import A1 from './assets/team/A1.svg';
 
-const TeamCard = ({ ...props }) => (
-
+const TeamCard = ({...props}) => (
   <TeamCardContainer>
     <Position>
       <div>
@@ -14,7 +13,7 @@ const TeamCard = ({ ...props }) => (
       </div>
     </Position>
     <Name>{props.name}</Name>
-    <Photo src={require(`./assets/team/${props.imageUrl}.jpg`)} />
+    <Photo src={require(`./assets/team/${props.imageUrl}.gif`)} />
     <Description>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -64,7 +63,6 @@ const Photo = styled.img`
   width: 100%;
 `;
 
-
 const Description = styled.div`
   p {
     font-family: 'FontRegular';
@@ -73,5 +71,5 @@ const Description = styled.div`
     padding: 20px;
     margin: 0;
   }
-`
+`;
 export default TeamCard;

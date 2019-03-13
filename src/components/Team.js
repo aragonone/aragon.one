@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-// import team1 from './assets/team/1.svg';
 import Carousel from 'react-bootstrap/Carousel';
 import TeamCard from './TeamCard';
 
@@ -11,28 +10,134 @@ const large = css => breakpoint('large', css);
 const Team = () => (
   <TeamSection>
     <Container>
-      <div>
       <h6>
         <span className="grey">—</span> MEET THE TEAM
       </h6>
-      </div>
       <Carousel>
         <Carousel.Item>
           <TeamContainer>
-            <TeamCard name="Luis Ivan Cuende" position="Founder" imageUrl="luis"/>
-            <TeamCard name="Jorge Izquierdo" position="Founder" imageUrl="jorge"/>
+            <TeamCard
+              name="Luis Ivan Cuende"
+              position="Founder"
+              imageUrl="Luis"
+            />
+            <TeamCard
+              name="Jorge Izquierdo"
+              position="Founder"
+              imageUrl="Jorge"
+            />
           </TeamContainer>
         </Carousel.Item>
         <Carousel.Item>
           <TeamContainer>
-            <TeamCard name="Monica Zeng" position="HR Manager" imageUrl="monica"/>
-            <TeamCard name="Delfina Polito" position="Frontend developer" imageUrl="delfina"/>
+            <TeamCard
+              name="Monica Zeng"
+              position="HR"
+              imageUrl="Monica"
+            />
+            <TeamCard
+              name="Maria Gomez"
+              position="Ecosystem"
+              imageUrl="Maria"
+            />
           </TeamContainer>
         </Carousel.Item>
         <Carousel.Item>
           <TeamContainer>
-            <TeamCard name="Jorge Izquierdo" position="Founder" imageUrl="jorge"/>
-            <TeamCard name="Monica Zeng" position="HR Manager" imageUrl="monica"/>
+            <TeamCard
+              name="Luke"
+              position="Reaserch"
+              imageUrl="Luke"
+            />
+            <TeamCard
+              name="Brett"
+              position="Dev lead"
+              imageUrl="Brett"
+            />
+          </TeamContainer>
+        </Carousel.Item>
+        <Carousel.Item>
+          <TeamContainer>
+            <TeamCard
+              name="Bingen"
+              position="Solidity dev"
+              imageUrl="Bingen"
+            />
+            <TeamCard
+              name="Facundo Spagnuolo"
+              position="Solidity dev"
+              imageUrl="Facu"
+            />
+          </TeamContainer>
+        </Carousel.Item>
+        <Carousel.Item>
+          <TeamContainer>
+            <TeamCard
+              name="Pierre"
+              position="Frontend dev"
+              imageUrl="Pierre"
+            />
+            <TeamCard
+              name="Gorka"
+              position="Frontend dev"
+              imageUrl="Gorka"
+            />
+          </TeamContainer>
+        </Carousel.Item>
+        <Carousel.Item>
+          <TeamContainer>
+            <TeamCard
+              name="Delfina Polito"
+              position="Frontend dev"
+              imageUrl="Delfi"
+            />
+            <TeamCard
+              name="Daniel"
+              position="Web3 dev"
+              imageUrl="Daniel"
+            />
+          </TeamContainer>
+        </Carousel.Item>
+        <Carousel.Item>
+          <TeamContainer>
+            <TeamCard
+              name="Jouni"
+              position="Product design"
+              imageUrl="Jouni"
+            />
+            <TeamCard
+              name="Paty"
+              position="UX design"
+              imageUrl="Paty"
+            />
+          </TeamContainer>
+        </Carousel.Item>
+        <Carousel.Item>
+          <TeamContainer>
+            <TeamCard
+              name="Adri"
+              position="Brand design"
+              imageUrl="Adri"
+            />
+            <TeamCard
+              name="John"
+              position="Communications lead"
+              imageUrl="John"
+            />
+          </TeamContainer>
+        </Carousel.Item>
+        <Carousel.Item>
+          <TeamContainer>
+            <TeamCard
+              name="Tatu"
+              position="Communication"
+              imageUrl="Tatu"
+            />
+            <TeamCard
+              name="Lorena"
+              position="Opetations"
+              imageUrl="Lorena"
+            />
           </TeamContainer>
         </Carousel.Item>
       </Carousel>
@@ -41,8 +146,8 @@ const Team = () => (
 );
 
 const TeamSection = styled.section`
-  min-height: 600px;
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
   padding: 100px 0 200px 0;
   margin-bottom: 100px;
 `;

@@ -3,6 +3,8 @@ import Hero from '../components/Hero';
 import About from '../components/About';
 import Quotes from '../components/Quotes';
 import Team from '../components/Team';
+import JobOpenings from '../components/JobOpenings';
+import HiringProcess from '../components/HiringProcess';
 import Company from '../components/Company';
 import WorkConditions from '../components/WorkConditions';
 import styled from 'styled-components';
@@ -20,6 +22,8 @@ class Home extends React.Component {
         <Quotes/>
         <Team/>
         <WorkConditions/>
+        <JobOpenings/>
+        <HiringProcess/>
         <Company/>
       </HomeContainer>
     );

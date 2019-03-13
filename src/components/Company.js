@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import background from './assets/swiss.png';
+import background from './assets/company-background.png';
 import Photos from './Photos';
 
 import {breakpoint, BreakPoint, Button} from '@aragon/ui';
@@ -16,17 +16,21 @@ const Company = () => (
         <h1>established in</h1>
         <h1 className="pink">Switzerland</h1>
       </div>
-      <Photos/>
+      <Photos />
+      <div>
+        <h6>
+          <span className="grey">—</span> OUR LAST POSTS
+        </h6>
+      </div>
     </Container>
-
   </CompanySection>
 );
 
 const CompanySection = styled.section`
   min-height: 600px;
   height: 250vh;
-  background: url(${background}) bottom no-repeat;
-  background-size: cover;
+  background: url(${background}) top no-repeat;
+  background-size: contain;
 `;
 
 const Container = styled.div`
@@ -41,7 +45,7 @@ const Container = styled.div`
     color: white;
     line-height: 132px;
     font-size: 125px;
-    color: #FFFFFF;
+    color: #ffffff;
   }
   h1.pink {
     color: #ff5d5d;
