@@ -1,13 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
-import about from './assets/about.svg';
+import about from './assets/about.gif';
 
 import {breakpoint, BreakPoint, Button} from '@aragon/ui';
 const medium = css => breakpoint('medium', css);
 
 const About = () => (
   <AboutSection>
-    <img src={about} />
+    <AboutImg src={about} />
     <TextBox>
       <h6>
         <span className="grey">—</span> ABOUT ARAGON ONE
@@ -27,6 +27,9 @@ const About = () => (
   </AboutSection>
 );
 
+const AboutImg = styled.img`
+  width: 665px;
+`
 const AboutSection = styled.section`
   background-color: #000000;
   min-height: 600px;

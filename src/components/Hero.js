@@ -40,6 +40,9 @@ const Container = styled.div`
   }
   h1.pink {
     color: #ff5d5d;
+    background: -webkit-linear-gradient(left, #FF3333, #FF7C56);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 `;
 export default Hero;

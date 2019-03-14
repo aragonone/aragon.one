@@ -113,6 +113,7 @@ const Item = styled.div`
   p {
     font-family: 'FontRegular';
     line-height: 32px;
+    padding: 20px 0;
     font-size: 20px;
     text-align: center;
     color: #ffffff;

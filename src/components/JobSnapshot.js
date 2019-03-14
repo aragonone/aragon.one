@@ -19,6 +19,7 @@ const SnapshotCard = ({...props}) => (
       <p>Descentralized</p>
       <h4>Job Type</h4>
       <p>Designer</p>
+      <a>Apply now</a>
     </Description>
   </SnapshotCardContainer>
 );
@@ -50,14 +51,13 @@ const Title = styled.div`
 
 const Description = styled.div`
   padding: 30px;
+  font-family: 'FontRegular';
   p {
-    font-family: 'FontRegular';
     line-height: 37px;
     font-size: 22px;
     margin-bottom: 30px;
   }
   h4 {
-    font-family: 'FontRegular';
     line-height: 1;
     font-size: 14px;
     letter-spacing: 2.6px;
@@ -65,6 +65,20 @@ const Description = styled.div`
     mix-blend-mode: normal;
     opacity: 0.5;
     text-transform: uppercase
+  }
+  a {
+    border: solid 1px #FF7671;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 2.6px;
+    text-transform: uppercase;
+    width: 100%;
+    display: inherit;
+    padding: 15px;
+    cursor: pointer;
+  }
+  a:hover {
+    background: #FF7671;
   }
 `;
 export default SnapshotCard;
