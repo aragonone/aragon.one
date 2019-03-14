@@ -28,6 +28,7 @@ const SnapshotCardContainer = styled.div`
   max-width: 50%;
   margin: 0 15px;
   width: 450px;
+  min-width: 315px;
 `;
 
 const Title = styled.div`
@@ -43,7 +44,7 @@ const Title = styled.div`
     margin: 0;
     font-family: 'FontRegular';
     line-height: 48px;
-    font-size: 22px;
+    font-size: 24px;
   }
 `;
 
