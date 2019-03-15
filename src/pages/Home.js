@@ -4,6 +4,7 @@ import About from '../components/About';
 import Quotes from '../components/Quotes';
 import Team from '../components/Team';
 import JobOpenings from '../components/JobOpenings';
+import Remote from '../components/Remote';
 import HiringProcess from '../components/HiringProcess';
 import Company from '../components/Company';
 import WorkConditions from '../components/WorkConditions';
@@ -21,6 +22,7 @@ class Home extends React.Component {
         <About/>
         <Quotes/>
         <Team/>
+        <Remote/>
         <WorkConditions/>
         <JobOpenings/>
         <HiringProcess/>

@@ -148,7 +148,7 @@ const Team = () => (
 const TeamSection = styled.section`
   min-height: 100vh;
   height: auto;
-  padding: 100px 0 200px 0;
+  padding: 100px 0 100px 0;
   margin-bottom: 100px;
 `;
 
