@@ -17,11 +17,6 @@ const Company = () => (
         <h1 className="pink">Switzerland</h1>
       </div>
       <Photos />
-      <div>
-        <h6>
-          <span className="grey">—</span> OUR LAST POSTS
-        </h6>
-      </div>
     </Container>
   </CompanySection>
 );

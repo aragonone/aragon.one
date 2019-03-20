@@ -8,6 +8,7 @@ import Remote from '../components/Remote';
 import HiringProcess from '../components/HiringProcess';
 import Company from '../components/Company';
 import WorkConditions from '../components/WorkConditions';
+import GhostPosts from '../components/GhostPosts';
 import Footer from '../components/Footer';
 import styled from 'styled-components';
 
@@ -28,6 +29,7 @@ class Home extends React.Component {
         <JobOpenings/>
         <HiringProcess/>
         <Company/>
+        <GhostPosts/>
         <Footer/>
       </HomeContainer>
     );
