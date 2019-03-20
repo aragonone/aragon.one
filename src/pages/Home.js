@@ -8,6 +8,7 @@ import Remote from '../components/Remote';
 import HiringProcess from '../components/HiringProcess';
 import Company from '../components/Company';
 import WorkConditions from '../components/WorkConditions';
+import Footer from '../components/Footer';
 import styled from 'styled-components';
 
 import {breakpoint, BreakPoint, Button} from '@aragon/ui';
@@ -27,6 +28,7 @@ class Home extends React.Component {
         <JobOpenings/>
         <HiringProcess/>
         <Company/>
+        <Footer/>
       </HomeContainer>
     );
   }
