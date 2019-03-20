@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Collapse from 'react-bootstrap/Collapse';
 import JobSnapshot from './JobSnapshot';
+import plus from './assets/plus.svg'
 
 class JobOpening extends React.Component {
   constructor(props, context) {
@@ -20,8 +21,13 @@ class JobOpening extends React.Component {
           onClick={() => this.setState({open: !open})}
           aria-controls="collapse-text"
           aria-expanded={open}>
-          <h4>WRITER</h4>
-          <h2>Documentation Technical Writer</h2>
+          <div>
+            <h4>WRITER</h4>
+            <h2>Documentation Technical Writer</h2>
+          </div>
+          <div>
+            <img src={plus} />
+          </div>
         </JobTitle>
         <Collapse in={this.state.open}>
           <JobInformation id="collapse-text">
@@ -147,6 +153,9 @@ const JobInformation = styled.div`
 const JobTitle = styled.div`
   cursor: pointer;
   padding: 45px 40px 40px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   h2 {
     font-family: 'FontRegular';
     line-height: 48px;

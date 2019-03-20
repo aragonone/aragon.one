@@ -7,6 +7,7 @@ import photo4 from './assets/company/photo4.png';
 import photo5 from './assets/company/photo5.png';
 import photo6 from './assets/company/photo6.png';
 import Carousel from 'react-bootstrap/Carousel';
+import arrow from './assets/arrow.svg';
 
 
 import {breakpoint, BreakPoint, Button} from '@aragon/ui';
@@ -16,7 +17,7 @@ const large = css => breakpoint('large', css);
 const Photos = () => (
   <PhotosSection>
     <Container>
-      <Carousel>
+      <Carousel nextIcon={<img src={arrow} />}>
         <Carousel.Item>
           <PhotosContainer>
             <img src={photo1} />

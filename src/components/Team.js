@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Carousel from 'react-bootstrap/Carousel';
 import TeamCard from './TeamCard';
+import arrow from './assets/arrow.svg';
 
 import {breakpoint, BreakPoint, Button} from '@aragon/ui';
 const medium = css => breakpoint('medium', css);
@@ -13,7 +14,7 @@ const Team = () => (
       <h6>
         <span className="grey">—</span> MEET THE TEAM
       </h6>
-      <Carousel>
+      <Carousel nextIcon={<img src={arrow} />} >
         <Carousel.Item>
           <TeamContainer>
             <TeamCard

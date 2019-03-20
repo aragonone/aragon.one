@@ -6,8 +6,8 @@ import {breakpoint, BreakPoint, Button} from '@aragon/ui';
 const medium = css => breakpoint('medium', css);
 const large = css => breakpoint('large', css);
 
-const Hero = () => (
-  <HeroSection>
+const Remote = () => (
+  <RemoteSection>
     <Container>
       <h6>
         <span className="grey">—</span> A COMPLETE REMOTE TEAM
@@ -17,14 +17,15 @@ const Hero = () => (
         tempor incididunt ut labore et dolore magna aliqua.
       </p>
     </Container>
-  </HeroSection>
+  </RemoteSection>
 );
 
-const HeroSection = styled.section`
+const RemoteSection = styled.section`
   min-height: 600px;
   height: auto;
-  background: url(/static/a9fd696c-map.gif) top right no-repeat;
-  background-size: 60%;
+  background: url(/static/a9fd696c-map.gif) no-repeat;
+  background-position: 135% 50%;
+  background-size: 68%;
   display: flex;
   align-items: center;
 `;
@@ -43,4 +44,4 @@ const Container = styled.div`
     max-width: 40%;
   }
 `;
-export default Hero;
+export default Remote;
