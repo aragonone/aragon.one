@@ -12,22 +12,22 @@ const JobOpenings = () => (
     <h6>
       <span className="grey">—</span> OPEN JOBS POSITIONS
     </h6>
-    <Slide bottom duration="1200">
+    <Slide bottom duration={1200}>
       <JobOpening/>
     </Slide>
-    <Slide bottom duration="1200">
+    <Slide bottom duration={1200}>
       <JobOpening/>
     </Slide>
-    <Slide bottom duration="1200">
+    <Slide bottom duration={1200}>
       <JobOpening/>
     </Slide>
-    <Slide bottom duration="1200">
+    <Slide bottom duration={1200}>
       <JobOpening/>
     </Slide>
-    <Slide bottom duration="1200">
+    <Slide bottom duration={1200}>
       <JobOpening/>
     </Slide>
-    <Slide bottom duration="1200">
+    <Slide bottom duration={1200}>
       <JobOpening/>
     </Slide>
   </JobOpeningsSection>

@@ -11,7 +11,7 @@ const large = css => breakpoint('large', css);
 const Company = () => (
   <CompanySection>
     <Container>
-      <Fade bottom duration="1200" delay="200">
+      <Fade bottom duration={1200} delay={200}>
         <h1>The company is</h1>
         <h1>currently</h1>
         <h1>established in</h1>

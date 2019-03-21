@@ -10,12 +10,12 @@ const About = () => (
   <AboutSection>
     <AboutImg src={about} />
     <TextBox>
-      <Fade bottom duration="1200" delay="200">
+      <Fade bottom duration={1200} delay={200}>
         <h6>
           <span className="grey">—</span> ABOUT ARAGON ONE
         </h6>
       </Fade>
-      <Fade bottom duration="1200" delay="400">
+      <Fade bottom duration={1200} delay={400}>
         <div>
           <p>
             Aragon One is a company that encompasses the foundational team working

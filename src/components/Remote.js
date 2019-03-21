@@ -10,12 +10,12 @@ const large = css => breakpoint('large', css);
 const Remote = () => (
   <RemoteSection>
     <Container>
-      <Fade bottom duration="1200" delay="200">
+      <Fade bottom duration={1200} delay={200}>
         <h6>
           <span className="grey">—</span> A COMPLETE REMOTE TEAM
         </h6>
       </Fade>
-      <Fade bottom duration="1200" delay="400">
+      <Fade bottom duration={1200} delay={400}>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua.

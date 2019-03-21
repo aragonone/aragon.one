@@ -9,7 +9,7 @@ const large = css => breakpoint('large', css);
 const Quotes = () => (
   <QuotesSection>
     <Container>
-      <Fade bottom duration="1200" delay="200">
+      <Fade bottom duration={1200} delay={200}>
         <div>
           <h3>
             We are building products that <br />

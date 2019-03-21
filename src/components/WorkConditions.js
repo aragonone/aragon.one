@@ -21,18 +21,18 @@ const WorkConditions = () => (
       </div>
       <Box>
         <Item className="small">
-          <Slide bottom duration="1200" delay="200">
+          <Slide bottom duration={1200} delay={200}>
             <img src={image1}/>
           </Slide>
-          <Slide bottom duration="1200" delay="300">
+          <Slide bottom duration={1200} delay={300}>
           <p>100% Remote - you can set your optimal workspace and schedule.</p>
           </Slide>
         </Item>
         <Item className="medium">
-          <Slide bottom duration="1200" delay="400">
+          <Slide bottom duration={1200} delay={400}>
             <img src={image2}/>
           </Slide>
-          <Slide bottom duration="1200" delay="500">
+          <Slide bottom duration={1200} delay={500}>
           <p>
             Paid Time Off - you have the flexibility to decide when to take your
             vacations.
@@ -41,10 +41,10 @@ const WorkConditions = () => (
           </Slide>
         </Item>
         <Item>
-          <Slide bottom duration="1200" delay="600">
+          <Slide bottom duration={1200} delay={600}>
             <img src={image3}/>
           </Slide>
-          <Slide bottom duration="1200" delay="700">
+          <Slide bottom duration={1200} delay={700}>
           <p>
             Salary Allocation - you decide how to allocate your salary in ETH,
             DAI and/or ANT.
@@ -52,10 +52,10 @@ const WorkConditions = () => (
           </Slide>
         </Item>
         <Item>
-          <Slide bottom duration="1200" delay="800">
+          <Slide bottom duration={1200} delay={800}>
             <img src={image4}/>
           </Slide>
-          <Slide bottom duration="1200" delay="900">
+          <Slide bottom duration={1200} delay={900}>
           <p>
             Competitive Compensation - we set salaries based on your leverage,
             not only your location.
@@ -63,10 +63,10 @@ const WorkConditions = () => (
           </Slide>
         </Item>
         <Item>
-          <Slide bottom duration="1200" delay="1000">
+          <Slide bottom duration={1200} delay={1000}>
             <img src={image5}/>
           </Slide>
-          <Slide bottom duration="1200" delay="1100">
+          <Slide bottom duration={1200} delay={1100}>
           <p>
             Quarterly Offsites - join the team in inspiring locations to build,
             meet, and have fun.
@@ -74,10 +74,10 @@ const WorkConditions = () => (
           </Slide>
         </Item>
         <Item>
-          <Slide bottom duration="1200" delay="1200">
+          <Slide bottom duration={1200} delay={1200}>
             <img src={image6}/>
           </Slide>
-          <Slide bottom duration="1200" delay="1300">
+          <Slide bottom duration={1200} delay={1300}>
           <p>
             Side Projects - we encourage you to spend some paid time
             contributing to the broader ecosystem.
