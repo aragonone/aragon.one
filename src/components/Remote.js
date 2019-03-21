@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import background from './assets/map.gif';
+import Fade from 'react-reveal/Fade';
 
 import {breakpoint, BreakPoint, Button} from '@aragon/ui';
 const medium = css => breakpoint('medium', css);
@@ -9,13 +10,17 @@ const large = css => breakpoint('large', css);
 const Remote = () => (
   <RemoteSection>
     <Container>
-      <h6>
-        <span className="grey">—</span> A COMPLETE REMOTE TEAM
-      </h6>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
-      </p>
+      <Fade bottom duration="1200" delay="200">
+        <h6>
+          <span className="grey">—</span> A COMPLETE REMOTE TEAM
+        </h6>
+      </Fade>
+      <Fade bottom duration="1200" delay="400">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+      </Fade>
     </Container>
   </RemoteSection>
 );

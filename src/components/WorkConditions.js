@@ -6,6 +6,7 @@ import image3 from './assets/work-conditions/3.svg';
 import image4 from './assets/work-conditions/4.svg';
 import image5 from './assets/work-conditions/5.svg';
 import image6 from './assets/work-conditions/6.svg';
+import Slide from 'react-reveal/Fade';
 
 import {breakpoint, BreakPoint, Button} from '@aragon/ui';
 const medium = css => breakpoint('medium', css);
@@ -20,43 +21,68 @@ const WorkConditions = () => (
       </div>
       <Box>
         <Item className="small">
-          <img src={image1}/>
+          <Slide bottom duration="1200" delay="200">
+            <img src={image1}/>
+          </Slide>
+          <Slide bottom duration="1200" delay="300">
           <p>100% Remote - you can set your optimal workspace and schedule.</p>
+          </Slide>
         </Item>
         <Item className="medium">
-          <img src={image2}/>
+          <Slide bottom duration="1200" delay="400">
+            <img src={image2}/>
+          </Slide>
+          <Slide bottom duration="1200" delay="500">
           <p>
             Paid Time Off - you have the flexibility to decide when to take your
             vacations.
           </p>
+
+          </Slide>
         </Item>
         <Item>
-          <img src={image3}/>
+          <Slide bottom duration="1200" delay="600">
+            <img src={image3}/>
+          </Slide>
+          <Slide bottom duration="1200" delay="700">
           <p>
             Salary Allocation - you decide how to allocate your salary in ETH,
             DAI and/or ANT.
           </p>
+          </Slide>
         </Item>
         <Item>
-          <img src={image4}/>
+          <Slide bottom duration="1200" delay="800">
+            <img src={image4}/>
+          </Slide>
+          <Slide bottom duration="1200" delay="900">
           <p>
             Competitive Compensation - we set salaries based on your leverage,
             not only your location.
           </p>
+          </Slide>
         </Item>
         <Item>
-          <img src={image5}/>
+          <Slide bottom duration="1200" delay="1000">
+            <img src={image5}/>
+          </Slide>
+          <Slide bottom duration="1200" delay="1100">
           <p>
             Quarterly Offsites - join the team in inspiring locations to build,
             meet, and have fun.
           </p>
+          </Slide>
         </Item>
         <Item>
-          <img src={image6}/>
+          <Slide bottom duration="1200" delay="1200">
+            <img src={image6}/>
+          </Slide>
+          <Slide bottom duration="1200" delay="1300">
           <p>
             Side Projects - we encourage you to spend some paid time
             contributing to the broader ecosystem.
           </p>
+          </Slide>
         </Item>
       </Box>
     </Container>
