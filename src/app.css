@@ -46,11 +46,17 @@ a, a span, button {
 .carousel-indicators li {
   width: 15%;
   border: 0px solid transparent;
-  background: #3a3a3a;
+  border-bottom: solid 2px #3a3a3a;
+  height: 21px;
+  background: transparent;
   opacity: 1;
-  height: 1px;
+  margin: 0;
 }
 .carousel-indicators li.active {
   background: linear-gradient(185.85deg, #FF7C56 0%, #FF5D5D 80.57%);
-  height: 3px;
+  height: 2px;
+  border-bottom: 0px;
+  border-top: black solid 19px;
+  position: relative;
+  top: 2px;
 }
