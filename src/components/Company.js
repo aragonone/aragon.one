@@ -4,19 +4,27 @@ import background from './assets/company-background.png';
 import Photos from './Photos';
 import Fade from 'react-reveal/Fade';
 
-import {breakpoint, BreakPoint, Button} from '@aragon/ui';
+import {breakpoint, BreakPoint} from '@aragon/ui';
 const medium = css => breakpoint('medium', css);
 const large = css => breakpoint('large', css);
 
 const Company = () => (
   <CompanySection>
     <Container>
-      <Fade bottom duration={1200} delay={200}>
-        <h1>The company is</h1>
-        <h1>currently</h1>
-        <h1>established in</h1>
-        <h1 className="pink">Switzerland</h1>
-      </Fade>
+      <BreakPoint from="medium">
+        <Fade bottom duration={1200} delay={200}>
+          <h1>The company is</h1>
+          <h1>currently</h1>
+          <h1>established in</h1>
+          <h1 className="pink">Switzerland</h1>
+        </Fade>
+      </BreakPoint>
+      <BreakPoint to="medium">
+        <Fade bottom duration={1200} delay={200}>
+          <h1>The company is currently established in</h1>
+          <h1 className="pink">Switzerland</h1>
+        </Fade>
+      </BreakPoint>
       <Photos />
     </Container>
   </CompanySection>
@@ -39,8 +47,10 @@ const Container = styled.div`
     margin: 0;
     text-align: left;
     color: white;
-    line-height: 132px;
+    line-height: 1.2;
     font-size: 125px;
+    font-size: 54px;
+    ${medium('font-size: 125px; line-height: 132px;')};
     color: #ffffff;
   }
   h1.pink {

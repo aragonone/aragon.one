@@ -1,5 +1,7 @@
 import React, {Fragment} from 'react';
 import styled from 'styled-components';
+import {breakpoint, BreakPoint, Button} from '@aragon/ui';
+const medium = css => breakpoint('medium', css);
 
 class Posts extends React.Component {
   constructor(props) {
@@ -79,7 +81,9 @@ const MoreBtn = styled.a`
 `
 const Post = styled.a`
   margin: 20px;
-  width: calc(50% - 40px);
+  width: calc(100% - 40px);
+  ${medium('width: calc(50% - 40px);')};
+
   background: #191919;
   text-decoration: none!important;
   color: white!important;

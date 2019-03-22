@@ -9,7 +9,6 @@ import photo6 from './assets/company/photo6.png';
 import Carousel from 'react-bootstrap/Carousel';
 import arrow from './assets/arrow.svg';
 
-
 import {breakpoint, BreakPoint, Button} from '@aragon/ui';
 const medium = css => breakpoint('medium', css);
 const large = css => breakpoint('large', css);
@@ -43,6 +42,7 @@ const Photos = () => (
 
 const PhotosSection = styled.section`
   padding: 100px 0 200px 0;
+  overflow: hidden;
   .carousel-indicators {
     display: none;
   }

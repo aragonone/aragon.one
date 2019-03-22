@@ -27,6 +27,7 @@ const FooterSection = styled.section`
   height: auto;
   margin: 30px 0 30px 0;
   text-align: center;
+  overflow: hidden;
 `;
 const A1Logo = styled.img`
   padding-right: 15px;

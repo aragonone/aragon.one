@@ -18,9 +18,9 @@ const About = () => (
       <Fade bottom duration={1200} delay={400}>
         <div>
           <p>
-            Aragon One is a company that encompasses the foundational team working
-            on the Aragon project. The company is currently established in
-            Switzerland, although we want it to function as a DAO as much as
+            Aragon One is a company that encompasses the foundational team
+            working on the Aragon project. The company is currently established
+            in Switzerland, although we want it to function as a DAO as much as
             possible.
           </p>
           <p>
@@ -36,13 +36,17 @@ const About = () => (
 
 const AboutImg = styled.img`
   width: 665px;
-`
+  max-width: 100%;
+`;
 const AboutSection = styled.section`
   background-color: #000000;
   min-height: 600px;
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
   display: flex;
   align-items: center;
+  flex-direction: column;
+  ${medium('flex-direction: row;')};
   padding: 100px 0;
 `;
 

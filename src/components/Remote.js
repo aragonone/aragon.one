@@ -17,8 +17,8 @@ const Remote = () => (
       </Fade>
       <Fade bottom duration={1200} delay={400}>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
       </Fade>
     </Container>
@@ -40,13 +40,14 @@ const Container = styled.div`
   margin: auto;
   height: 100%;
   h6 {
-    margin: 0 0 30px 0!important;
+    margin: 0 0 30px 0 !important;
   }
   p {
     font-family: 'FontRegular';
-    line-height: 48px;
-    font-size: 32px;
-    max-width: 40%;
+    line-height: 1.5;
+    font-size: 25px;
+    max-width: 100%;
+    ${medium('line-height: 48px; font-size: 32px; max-width: 40%;')};
   }
 `;
 export default Remote;

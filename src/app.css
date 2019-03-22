@@ -20,6 +20,7 @@ body {
   -webkit-font-smoothing: antialiased;
   color: white;
   background-color: #000000;
+  width: 100vw;
 }
 
 a, a span, button {

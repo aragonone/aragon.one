@@ -20,23 +20,24 @@ class Home extends React.Component {
   render() {
     return (
       <HomeContainer>
-        <Hero/>
-        <About/>
-        <Quotes/>
-        <Team/>
-        <Remote/>
-        <WorkConditions/>
-        <JobOpenings/>
-        <HiringProcess/>
-        <Company/>
-        <GhostPosts/>
-        <Footer/>
+        <Hero />
+        <About />
+        <Quotes />
+        <Team />
+        <Remote />
+        <WorkConditions />
+        <JobOpenings />
+        <HiringProcess />
+        <Company />
+        <GhostPosts />
+        <Footer />
       </HomeContainer>
     );
   }
 }
 
 const HomeContainer = styled.div`
+  width: 100vw;
   h6 {
     font-family: 'FontRegular';
     font-size: 14px;
@@ -47,5 +48,5 @@ const HomeContainer = styled.div`
       color: #525252;
     }
   }
-`
+`;
 export default Home;
