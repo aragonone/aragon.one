@@ -52,10 +52,13 @@ const PhotosContainer = styled.section`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  img {
+    width: calc(50% - 20px);
+  }
 `;
 
 const Container = styled.div`
-  width: 1060px;
+  width: 100%;
   margin: auto;
   height: 100%;
 `;

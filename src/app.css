@@ -66,7 +66,7 @@ a, a span, button {
 
 /* Menu Icon */
 .hamburger {
-  padding: 15px 15px;
+  padding: 0;
   display: inline-block;
   cursor: pointer;
   transition-property: opacity, filter;
@@ -122,7 +122,7 @@ a, a span, button {
   display: block;
 }
 .hamburger-inner::before {
-  top: -10px;
+  top: -11px;
 }
 .hamburger-inner::after {
   bottom: -10px;

@@ -29,7 +29,7 @@ const HiringProcessSection = styled.section`
   height: auto;
   padding: 100px 0;
   img {
-    max-width: 100%;
+    width: 100%;
   }
 `;
 

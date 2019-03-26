@@ -4,6 +4,9 @@ import modalImage from './assets/logo-menu.gif';
 import Modal from 'react-bootstrap/Modal';
 import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
 import Button from 'react-bootstrap/Button';
+import twitter from './assets/twitter.svg';
+import speech from './assets/speech.svg';
+import background from './assets/hero-background.svg';
 
 import {breakpoint, BreakPoint} from '@aragon/ui';
 const medium = css => breakpoint('medium', css);
@@ -19,10 +22,15 @@ class AragonOneModal  extends React.Component {
       >
         <ImageBox>
           <MenuHeader />
-          <img src={modalImage} />
+          <div className="image-container">
+            <img src={modalImage} />
+          </div>
         </ImageBox>
         <LinksBox>
-          <MenuHeader />
+          <MenuHeader>
+            <div><a target="_blank" href=""><img src={speech}/></a></div>
+            <div><a target="_blank" href="https://twitter.com/AragonOneTeam"><img src={twitter}/></a></div>
+          </MenuHeader>
           <div className="links">
             <ul>
               <li>
@@ -87,6 +95,16 @@ const MenuHeader = styled.div`
   width: 100%;
   height: 70px;
   border-bottom: solid 1px #3a3a3a;
+  display: flex;
+  justify-content: flex-end;
+  div {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: solid 1px #3a3a3a;
+  }
 `
 
 const LinksBox = styled.div`
@@ -97,6 +115,9 @@ const LinksBox = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 30px 0;
+    background: url(${background}) top no-repeat;
+    background-size: 126% 124%;
   }
 `
 const ImageBox = styled.div`
@@ -104,13 +125,19 @@ const ImageBox = styled.div`
   border-right: solid 1px #3a3a3a;
   display: none;
   ${medium('display: flex; text-align: center; flex-direction: column;')};
+  .image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100% - 70px);
+  }
 `
 const StyledModal = styled(Modal)`
   background: black;
   transition: all .25s linear;
   .modal-dialog {
-    max-width: 80%!important;
-    width: 80%;
+    max-width: 80%;
+    width: 1000px;
     margin: 100px auto;
   }
   .modal-content {

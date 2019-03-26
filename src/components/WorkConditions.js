@@ -91,6 +91,7 @@ const WorkConditionsSection = styled.section`
   height: auto;
   padding: 100px 0;
   text-align: center;
+  margin-top: 70px;
 `;
 
 const Container = styled.div`

@@ -14,8 +14,7 @@ class Hero extends React.Component {
         <Navbar />
         <Container>
           <div>
-            <h1>We believe and</h1>
-            <h1 className="pink">fight for freedom</h1>
+            <h1>We believe and <span className="pink">fight for freedom</span></h1>
           </div>
         </Container>
       </HeroSection>
@@ -44,9 +43,10 @@ const Container = styled.div`
     text-align: left;
     color: white;
     font-size: 60px;
-    ${medium('font-size: 146px;')};
+    ${medium('font-size: 112px;')};
+    ${large('font-size: 146px;')};
   }
-  h1.pink {
+  span.pink {
     color: #ff5d5d;
     background: -webkit-linear-gradient(left, #ff3333, #ff7c56);
     -webkit-background-clip: text;

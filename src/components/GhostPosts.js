@@ -60,6 +60,7 @@ const PostContainer = styled.div`
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  margin: 0 -20px;
 `
 const MoreBtn = styled.a`
   border: solid 1px #FF7671;
@@ -82,7 +83,7 @@ const MoreBtn = styled.a`
 const Post = styled.a`
   margin: 20px;
   width: calc(100% - 40px);
-  ${medium('width: calc(50% - 40px);')};
+  ${medium('width: calc(40vw - 20px);')};
 
   background: #191919;
   text-decoration: none!important;
@@ -111,7 +112,7 @@ const Info = styled.div`
 const Image = styled.img`
   height: auto;
   width: 100%;
-  ${medium('height: 300px;')};
+  ${medium('height: calc(20vw - 20px); object-fit: cover;')};
 `;
 
 export default Posts;

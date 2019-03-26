@@ -33,7 +33,7 @@ const CompanySection = styled.section`
   min-height: 600px;
   height: auto;
   background: url(${background}) top no-repeat;
-  background-size: contain;
+  background-size: cover;
 `;
 
 const Container = styled.div`
