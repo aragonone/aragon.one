@@ -20,68 +20,65 @@ const WorkConditions = () => (
         <h2>Our work conditions</h2>
       </div>
       <Box>
-        <Item className="small">
+        <Item className="medium">
           <Slide bottom duration={1200} delay={200}>
-            <img src={image1}/>
+            <img src={image1} />
           </Slide>
           <Slide bottom duration={1200} delay={300}>
-          <p>100% Remote - you can set your optimal workspace and schedule.</p>
+            <p>
+              100% remote team - talent has no borders, our team works from all
+              around the world
+            </p>
           </Slide>
         </Item>
-        <Item className="medium">
+        <Item className="small">
           <Slide bottom duration={1200} delay={400}>
-            <img src={image2}/>
+            <img src={image2} />
           </Slide>
           <Slide bottom duration={1200} delay={500}>
-          <p>
-            Paid Time Off - you have the flexibility to decide when to take your
-            vacations.
-          </p>
-
+            <p>
+              Focus driven - we don’t track hours, we encourage the maker’s schedule
+            </p>
           </Slide>
         </Item>
         <Item>
           <Slide bottom duration={1200} delay={600}>
-            <img src={image3}/>
+            <img src={image4} />
           </Slide>
           <Slide bottom duration={1200} delay={700}>
-          <p>
-            Salary Allocation - you decide how to allocate your salary in ETH,
-            DAI and/or ANT.
-          </p>
+            <p>
+              Dynamic team - we’re a small team and we want to keep it this way to increase individual leverage
+            </p>
           </Slide>
         </Item>
         <Item>
           <Slide bottom duration={1200} delay={800}>
-            <img src={image4}/>
+            <img src={image5} />
           </Slide>
           <Slide bottom duration={1200} delay={900}>
-          <p>
-            Competitive Compensation - we set salaries based on your leverage,
-            not only your location.
-          </p>
+            <p>
+              Quarterly offsites - we get together in inspiring locations to build, meet and have fun
+            </p>
           </Slide>
         </Item>
         <Item>
           <Slide bottom duration={1200} delay={1000}>
-            <img src={image5}/>
+            <img src={image6} />
           </Slide>
           <Slide bottom duration={1200} delay={1100}>
-          <p>
-            Quarterly Offsites - join the team in inspiring locations to build,
-            meet, and have fun.
-          </p>
+            <p>
+              Side projects - we encourage you to spend some time contributing to the broader ecosystem
+            </p>
           </Slide>
         </Item>
-        <Item>
+        <Item className="x-small">
           <Slide bottom duration={1200} delay={1200}>
-            <img src={image6}/>
+            <img src={image3} />
           </Slide>
           <Slide bottom duration={1200} delay={1300}>
-          <p>
-            Side Projects - we encourage you to spend some paid time
-            contributing to the broader ecosystem.
-          </p>
+            <p>
+              Crypto-first - you decide how to allocate your salary in DAI/ANT
+            </p>
           </Slide>
         </Item>
       </Box>
@@ -135,6 +132,9 @@ const Item = styled.div`
   }
   &.medium {
     padding: 0 40px;
+  }
+  &.x-small {
+    padding: 0 75px;
   }
   p {
     font-family: 'FontRegular';

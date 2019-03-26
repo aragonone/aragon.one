@@ -19,14 +19,12 @@ const About = () => (
         <div>
           <p>
             Aragon One is a company that encompasses the foundational team
-            working on the Aragon project. The company is currently established
-            in Switzerland, although we want it to function as a DAO as much as
-            possible.
+            working on the Aragon project. The company is established in
+            Switzerland, although we all work remote.
           </p>
           <p>
-            Funding for the company will come in a form of a grant given by the
-            project's non-profit entity, in similar terms to the ones that the
-            entity.
+            Funding for the company comes from grants given by the project's
+            non-profit entity, and was voted and approved by the community.
           </p>
         </div>
       </Fade>

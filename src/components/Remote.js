@@ -12,13 +12,13 @@ const Remote = () => (
     <Container>
       <Fade bottom duration={1200} delay={200}>
         <h6>
-          <span className="grey">—</span> A COMPLETE REMOTE TEAM
+          <span className="grey">—</span> A COMPLETELY REMOTE TEAM
         </h6>
       </Fade>
       <Fade bottom duration={1200} delay={400}>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Talent shouldn’t be constrained to a piece of land. We work remote.
+          Distance feels shorter when the vision of a fair world unites us all.
         </p>
         <BreakPoint to="medium">
           <MobileImg src={background} />
@@ -34,12 +34,14 @@ const MobileImg = styled.img`
   overflow: hidden;
   object-fit: cover;
   object-position: -54px 100%;
-`
+`;
 const RemoteSection = styled.section`
   min-height: 600px;
   height: auto;
   background: none;
-  ${medium('background: url(/static/a9fd696c-map.gif) no-repeat; background-size: 68%; background-position: 135% 50%;')};
+  ${medium(
+    'background: url(/static/a9fd696c-map.gif) no-repeat; background-size: 68%; background-position: 135% 50%;'
+  )};
   display: flex;
   align-items: center;
 `;

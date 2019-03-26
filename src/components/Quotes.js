@@ -12,9 +12,9 @@ const Quotes = () => (
       <Fade bottom duration={1200} delay={200}>
         <div>
           <h3>
-            We are building products that <br />
-            has the potential to impact <br />
-            every <span className="pink">person on the planet</span>
+            Decentralized organizations can <br />
+            solve the world’s worst problems. <br />
+            That’s <span className="pink">why we are building Aragon.</span>
           </h3>
           <br />
           <h6>
@@ -43,10 +43,10 @@ const Container = styled.div`
     margin: 0;
     line-height: 1.2;
     font-size: 46px;
-    ${medium('font-size: 86px; line-height: 98px;')};
+    ${medium('font-size: 80px; line-height: 98px;')};
     letter-spacing: -0.5px;
     color: #ffffff;
-    max-width: 1121px;
+    max-width: 1281px;
     .pink {
       color: #ff5d5d;
       background: -webkit-linear-gradient(left, #ff3333, #ff7c56);

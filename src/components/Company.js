@@ -13,9 +13,8 @@ const Company = () => (
     <Container>
       <BreakPoint from="medium">
         <Fade bottom duration={1200} delay={200}>
-          <h1>The company is</h1>
-          <h1>currently</h1>
-          <h1>established in</h1>
+          <h1>Based in the</h1>
+          <h1>Crypto Valley,</h1>
           <h1 className="pink">Switzerland</h1>
         </Fade>
       </BreakPoint>
