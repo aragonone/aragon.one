@@ -4,7 +4,7 @@ import about from './assets/about.gif';
 import Fade from 'react-reveal/Fade';
 
 import {breakpoint, BreakPoint, Button} from '@aragon/ui';
-const medium = css => breakpoint('medium', css);
+const large = css => breakpoint('large', css);
 
 const About = () => (
   <AboutSection>
@@ -46,17 +46,17 @@ const AboutSection = styled.section`
   display: flex;
   align-items: center;
   flex-direction: column;
-  ${medium('flex-direction: row;')};
+  ${large('flex-direction: row;')};
   padding: 100px 0;
 `;
 
 const TextBox = styled.div`
   padding: 100px 10% 0 10%;
-  ${medium('padding: 0; padding-left: 60px; padding-right: 10%;')};
+  ${large('padding: 0; padding-left: 60px; padding-right: 10%;')};
   p {
     line-height: 38px;
     font-size: 22px;
-    ${medium('line-height: 48px; font-size: 32px;')};
+    ${large('line-height: 48px; font-size: 32px;')};
     color: #ffffff;
   }
 `;

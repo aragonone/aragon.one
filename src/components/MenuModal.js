@@ -103,7 +103,7 @@ const ImageBox = styled.div`
   width: 400px;
   border-right: solid 1px #3a3a3a;
   display: none;
-  ${medium('display: inherit;')};
+  ${medium('display: flex; text-align: center; flex-direction: column;')};
 `
 const StyledModal = styled(Modal)`
   background: black;
