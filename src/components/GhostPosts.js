@@ -109,8 +109,9 @@ const Info = styled.div`
   }
 `;
 const Image = styled.img`
-  height: 300px;
+  height: auto;
   width: 100%;
+  ${medium('height: 300px;')};
 `;
 
 export default Posts;

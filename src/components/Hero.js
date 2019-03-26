@@ -1,4 +1,5 @@
 import React from 'react';
+import Navbar from './Navbar';
 import styled from 'styled-components';
 import background from './assets/hero-background.svg';
 
@@ -10,6 +11,7 @@ class Hero extends React.Component {
   render() {
     return (
       <HeroSection>
+        <Navbar />
         <Container>
           <div>
             <h1>We believe and</h1>

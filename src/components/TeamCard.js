@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import A1 from './assets/team/A1.svg';
+import {breakpoint} from '@aragon/ui';
+const medium = css => breakpoint('medium', css);
 
 const TeamCard = ({...props}) => (
   <TeamCardContainer>
@@ -26,8 +28,9 @@ const TeamCard = ({...props}) => (
 
 const TeamCardContainer = styled.div`
   border: solid 1px #3a3a3a;
-  max-width: 50%;
-  margin: 0 15px;
+  max-width: 100%;
+  margin: 0;
+  ${medium('max-width: 50%; margin: 0 15px;')};
 `;
 
 const Position = styled.div`

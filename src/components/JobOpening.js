@@ -4,6 +4,9 @@ import Collapse from 'react-bootstrap/Collapse';
 import JobSnapshot from './JobSnapshot';
 import plus from './assets/plus.svg'
 
+import {breakpoint, BreakPoint} from '@aragon/ui';
+const medium = css => breakpoint('medium', css);
+
 class JobOpening extends React.Component {
   constructor(props, context) {
     super(props, context);
@@ -21,11 +24,11 @@ class JobOpening extends React.Component {
           onClick={() => this.setState({open: !open})}
           aria-controls="collapse-text"
           aria-expanded={open}>
-          <div>
+          <div className="info-title">
             <h4>WRITER</h4>
             <h2>Documentation Technical Writer</h2>
           </div>
-          <div>
+          <div className="icon-title">
             <img src={plus} />
           </div>
         </JobTitle>
@@ -40,6 +43,9 @@ class JobOpening extends React.Component {
                 respected engineer but also a decentralization advocate.
               </Description>
               <JobBody>
+                <BreakPoint to="medium">
+                  <JobSnapshot />
+                </BreakPoint>
                 <h5>Responsibilities</h5>
                 <ul>
                   <li>
@@ -122,7 +128,9 @@ class JobOpening extends React.Component {
                 </ul>
               </JobBody>
             </div>
-            <JobSnapshot />
+            <BreakPoint from="medium">
+              <JobSnapshot />
+            </BreakPoint>
           </JobInformation>
         </Collapse>
       </JobOpeningSection>
@@ -138,24 +146,46 @@ const JobOpeningSection = styled.div`
   mix-blend-mode: normal;
   opacity: 0.71;
   border-bottom: solid 1px black;
+  margin-bottom: 20px;
+  ${medium('margin-bottom: 0;')};
 `;
 const JobInformation = styled.div`
   height: auto;
   background: #0f0f0f;
-  padding: 40px 30px 40px 40px;
+  padding: 30px 15px;
+  ${medium('padding: 40px 30px 40px 40px;')};
   display: flex;
   align-items: flex-start;
   .job-container {
-    margin-right: 25px;
+    ${medium('margin-right: 25px;')};
+    max-width: 100%;
   }
 `;
 
 const JobTitle = styled.div`
   cursor: pointer;
-  padding: 45px 40px 40px 40px;
+  padding: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-direction: column;
+  ${medium('flex-direction: row; padding: 45px 40px 40px 40px;')};
+  .info-title {
+    padding: 45px 40px 20px 40px;
+    ${medium('padding 0;')};
+  }
+  .icon-title {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background: #2D2D2D;
+    ${medium('padding 0; width: auto; background: transparent;')};
+    img {
+      width: 25px;
+      ${medium('width: auto;')};
+    }
+  }
+
   h2 {
     font-family: 'FontRegular';
     line-height: 48px;
@@ -206,9 +236,10 @@ const JobBody = styled.div`
 
 const Description = styled.h3`
   font-family: 'FontRegular';
-  line-height: 48px;
-  font-size: 28px;
+  line-height: 35px;
+  font-size: 20px;
   border-bottom: solid 1px #3a3a3a;
   padding-bottom: 30px;
   margin-bottom: 30px;
+  ${medium('line-height: 48px; font-size: 28px;')};
 `;

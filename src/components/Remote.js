@@ -20,17 +20,26 @@ const Remote = () => (
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
+        <BreakPoint to="medium">
+          <MobileImg src={background} />
+        </BreakPoint>
       </Fade>
     </Container>
   </RemoteSection>
 );
 
+const MobileImg = styled.img`
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: -54px 100%;
+`
 const RemoteSection = styled.section`
   min-height: 600px;
   height: auto;
-  background: url(/static/a9fd696c-map.gif) no-repeat;
-  background-position: 135% 50%;
-  background-size: 68%;
+  background: none;
+  ${medium('background: url(/static/a9fd696c-map.gif) no-repeat; background-size: 68%; background-position: 135% 50%;')};
   display: flex;
   align-items: center;
 `;

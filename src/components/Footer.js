@@ -40,6 +40,8 @@ const Container = styled.div`
   align-items: center;
   justify-content: space-between;
   padding-top: 30px;
+  flex-direction: column;
+  ${medium('flex-direction: row;')};
   border-top: solid 1px #3A3A3A;
   a {
     font-family: 'FontRegular';
@@ -49,6 +51,8 @@ const Container = styled.div`
     text-transform: uppercase;
     padding: 0px 15px;
     cursor: pointer;
+    display: block;
+    ${medium('display: inline;')};
   }
   a:hover {
     opacity: 0.8;

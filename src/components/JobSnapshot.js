@@ -2,6 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 import A1 from './assets/job-logo.svg';
 
+import {breakpoint} from '@aragon/ui';
+const medium = css => breakpoint('medium', css);
+
 const SnapshotCard = ({...props}) => (
   <SnapshotCardContainer>
     <Title>
@@ -27,9 +30,11 @@ const SnapshotCard = ({...props}) => (
 const SnapshotCardContainer = styled.div`
   border: solid 1px #3a3a3a;
   max-width: 50%;
-  margin: 0 15px;
+  margin: 0;
   width: 450px;
-  min-width: 315px;
+  min-width: auto;
+  max-width: 100%;
+  ${medium('min-width: 315px; margin: 0 15px;')};
 `;
 
 const Title = styled.div`

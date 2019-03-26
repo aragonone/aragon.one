@@ -51,11 +51,12 @@ const AboutSection = styled.section`
 `;
 
 const TextBox = styled.div`
-  padding-left: 60px;
-  padding-right: 10%;
+  padding: 100px 10% 0 10%;
+  ${medium('padding: 0; padding-left: 60px; padding-right: 10%;')};
   p {
-    line-height: 48px;
-    font-size: 32px;
+    line-height: 38px;
+    font-size: 22px;
+    ${medium('line-height: 48px; font-size: 32px;')};
     color: #ffffff;
   }
 `;
