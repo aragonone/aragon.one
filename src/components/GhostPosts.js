@@ -29,7 +29,7 @@ class Posts extends React.Component {
 
   render() {
     return (
-      <Container>
+      <Container id="blog">
         <h6>
           <span className="grey">—</span> OUR LAST POSTS
         </h6>

@@ -7,6 +7,7 @@ import Button from 'react-bootstrap/Button';
 import twitter from './assets/twitter.svg';
 import speech from './assets/speech.svg';
 import background from './assets/hero-background.svg';
+import { Link } from 'react-static';
 
 import {breakpoint, BreakPoint} from '@aragon/ui';
 const medium = css => breakpoint('medium', css);
@@ -34,19 +35,19 @@ class AragonOneModal  extends React.Component {
           <div className="links">
             <ul>
               <li>
-                <a>About</a>
+                <Link to={'/#about'} onClick={this.props.onHide}>About</Link>
               </li>
               <li>
-                <a>Team</a>
+                <Link to={'/#team'} onClick={this.props.onHide}>Team</Link>
               </li>
               <li>
-                <a>Jobs</a>
+                <Link to={'/#jobs'} onClick={this.props.onHide}>Jobs</Link>
               </li>
               <li>
-                <a>Philosophy</a>
+                <Link to={'/#philosophy'} onClick={this.props.onHide}>Philosophy</Link>
               </li>
               <li>
-                <a>Blog</a>
+                <Link to={'/#blog'} onClick={this.props.onHide}>Blog</Link>
               </li>
             </ul>
           </div>
@@ -118,6 +119,10 @@ const LinksBox = styled.div`
     padding: 30px 0;
     background: url(${background}) top no-repeat;
     background-size: 126% 124%;
+  }
+  a {
+    color: white!important;
+    text-decoration: none!important;
   }
 `
 const ImageBox = styled.div`

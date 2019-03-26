@@ -9,7 +9,7 @@ const medium = css => breakpoint('medium', css);
 const large = css => breakpoint('large', css);
 
 const Team = () => (
-  <TeamSection>
+  <TeamSection id="team">
     <Container>
       <h6>
         <span className="grey">—</span> MEET THE TEAM

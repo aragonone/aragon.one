@@ -7,7 +7,7 @@ import {breakpoint, BreakPoint, Button} from '@aragon/ui';
 const large = css => breakpoint('large', css);
 
 const About = () => (
-  <AboutSection>
+  <AboutSection id="about">
     <AboutImg src={about} />
     <TextBox>
       <Fade bottom duration={1200} delay={200}>

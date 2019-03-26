@@ -13,7 +13,7 @@ const medium = css => breakpoint('medium', css);
 const large = css => breakpoint('large', css);
 
 const WorkConditions = () => (
-  <WorkConditionsSection>
+  <WorkConditionsSection id="philosophy">
     <Container>
       <div>
         <h5>WORK WITH US</h5>

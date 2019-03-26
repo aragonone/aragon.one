@@ -8,7 +8,7 @@ const medium = css => breakpoint('medium', css);
 const large = css => breakpoint('large', css);
 
 const JobOpenings = () => (
-  <JobOpeningsSection>
+  <JobOpeningsSection id="jobs">
     <h6>
       <span className="grey">—</span> OPEN JOBS POSITIONS
     </h6>
