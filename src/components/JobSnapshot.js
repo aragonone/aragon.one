@@ -31,9 +31,12 @@ const SnapshotCardContainer = styled.div`
   border: solid 1px #3a3a3a;
   max-width: 50%;
   margin: 0;
-  width: 450px;
+  width: 350px;
   min-width: auto;
   max-width: 100%;
+  position: sticky;
+  top: 0;
+  right: 0;
   ${medium('min-width: 315px; margin: 0 15px;')};
 `;
 
