@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import Collapse from 'react-bootstrap/Collapse';
 import JobSnapshot from './JobSnapshot';
 import plus from './assets/plus.svg'
+import minus from './assets/minus.svg'
 
 import {breakpoint, BreakPoint} from '@aragon/ui';
 const medium = css => breakpoint('medium', css);
@@ -25,111 +26,28 @@ class JobOpening extends React.Component {
           aria-controls="collapse-text"
           aria-expanded={open}>
           <div className="info-title">
-            <h4>WRITER</h4>
-            <h2>Documentation Technical Writer</h2>
+            <h4>{this.props.category}</h4>
+            <h2>{this.props.title}</h2>
           </div>
           <div className="icon-title">
-            <img src={plus} />
+            <img src={open ? minus : plus} />
           </div>
         </JobTitle>
         <Collapse in={this.state.open}>
           <JobInformation id="collapse-text">
             <div className="job-container">
               <Description>
-                We're looking for a Frontend Developer to work with us on the
-                Aragon Labs, Aragon client, and aragonOS. Our Frontend Developer
-                must not only be a frontend and web3 expert but also a
-                nonconformist. That means that our ideal candidate is not only a
-                respected engineer but also a decentralization advocate.
+                {this.props.description}
               </Description>
               <JobBody>
                 <BreakPoint to="medium">
                   <JobSnapshot />
                 </BreakPoint>
-                <h5>Responsibilities</h5>
-                <ul>
-                  <li>
-                    Develop, ship, and maintain quality frontends for the Aragon
-                    Labs and Aragon client app projects, working closely with
-                    our <a href="">UI toolkit</a>.
-                  </li>
-                  <li>
-                    Work with our Design Lead to transform ideas and designs
-                    into modern, clean, and readable code.
-                  </li>
-                  <li>
-                    Research, develop, test and implement features on web
-                    applications built with modern technologies.
-                  </li>
-                  <li>
-                    Collaborate with the product team to define new product
-                    features.
-                  </li>
-                </ul>
-                <h5>Responsibilities</h5>
-                <ul>
-                  <li>
-                    Develop, ship, and maintain quality frontends for the Aragon
-                    Labs and Aragon client app projects, working closely with
-                    our UI toolkit.
-                  </li>
-                  <li>
-                    Work with our Design Lead to transform ideas and designs
-                    into modern, clean, and readable code.
-                  </li>
-                  <li>
-                    Research, develop, test and implement features on web
-                    applications built with modern technologies.
-                  </li>
-                  <li>
-                    Collaborate with the product team to define new product
-                    features.
-                  </li>
-                </ul>
-                <h5>Responsibilities</h5>
-                <ul>
-                  <li>
-                    Develop, ship, and maintain quality frontends for the Aragon
-                    Labs and Aragon client app projects, working closely with
-                    our UI toolkit.
-                  </li>
-                  <li>
-                    Work with our Design Lead to transform ideas and designs
-                    into modern, clean, and readable code.
-                  </li>
-                  <li>
-                    Research, develop, test and implement features on web
-                    applications built with modern technologies.
-                  </li>
-                  <li>
-                    Collaborate with the product team to define new product
-                    features.
-                  </li>
-                </ul>
-                <h5>Responsibilities</h5>
-                <ul>
-                  <li>
-                    Develop, ship, and maintain quality frontends for the Aragon
-                    Labs and Aragon client app projects, working closely with
-                    our UI toolkit.
-                  </li>
-                  <li>
-                    Work with our Design Lead to transform ideas and designs
-                    into modern, clean, and readable code.
-                  </li>
-                  <li>
-                    Research, develop, test and implement features on web
-                    applications built with modern technologies.
-                  </li>
-                  <li>
-                    Collaborate with the product team to define new product
-                    features.
-                  </li>
-                </ul>
+                {this.props.children}
               </JobBody>
             </div>
             <BreakPoint from="medium">
-              <JobSnapshot />
+              <JobSnapshot role={this.props.role}/>
             </BreakPoint>
           </JobInformation>
         </Collapse>
@@ -231,6 +149,9 @@ const JobBody = styled.div`
     margin-left: -30px;
     position: relative;
     top: 1px;
+  }
+  ol li::before {
+    content: "";
   }
 `;
 

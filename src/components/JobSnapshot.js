@@ -21,8 +21,8 @@ const SnapshotCard = ({...props}) => (
       <h4>Location</h4>
       <p>Descentralized</p>
       <h4>Job Type</h4>
-      <p>Designer</p>
-      <a>Apply now</a>
+      <p>{props.role}</p>
+      <a href="mailto:hiring@aragon.one">Apply now</a>
     </Description>
   </SnapshotCardContainer>
 );
@@ -84,6 +84,8 @@ const Description = styled.div`
     display: inherit;
     padding: 15px;
     cursor: pointer;
+    color: white!important;
+    text-decoration: none!important;
   }
   a:hover {
     background: #FF7671;
