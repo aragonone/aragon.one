@@ -2,6 +2,7 @@ import React, {Fragment} from 'react';
 import styled from 'styled-components';
 import {breakpoint, BreakPoint, Button} from '@aragon/ui';
 const medium = css => breakpoint('medium', css);
+import moment from 'moment';
 
 class Posts extends React.Component {
   constructor(props) {
@@ -38,7 +39,7 @@ class Posts extends React.Component {
             <Post key={item.id} target="_blank" href={'https://blog.aragon.one' + item.url}>
               <Image src={'https://blog.aragon.one/' + item.feature_image} />
               <Info>
-                <h6>created at</h6>
+                <h6>{moment(item.created_at).format("MMM Do, YYYY")}</h6>
                 <p>{item.meta_title}</p>
               </Info>
             </Post>
