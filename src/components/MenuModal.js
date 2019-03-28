@@ -11,6 +11,7 @@ import { Link } from 'react-static';
 
 import {breakpoint, BreakPoint} from '@aragon/ui';
 const medium = css => breakpoint('medium', css);
+const large = css => breakpoint('large', css);
 
 
 class AragonOneModal  extends React.Component {
@@ -33,6 +34,7 @@ class AragonOneModal  extends React.Component {
             <div><a target="_blank" href="https://twitter.com/AragonOneTeam"><img src={twitter}/></a></div>
           </MenuHeader>
           <div className="links">
+            <h6>WELCOME ARAGON ONE CREW</h6>
             <ul>
               <li>
                 <Link to={'/#about'} onClick={this.props.onHide}>About</Link>
@@ -109,7 +111,7 @@ const MenuHeader = styled.div`
 `
 
 const LinksBox = styled.div`
-  ${medium('width: calc(100% - 400px);')};
+  ${large('width: calc(100% - 400px);')};
   width: 100%;
   .links {
     width: 100%;
@@ -119,17 +121,28 @@ const LinksBox = styled.div`
     padding: 30px 0;
     background: url(${background}) top no-repeat;
     background-size: 126% 124%;
+    position: relative;
   }
   a {
     color: white!important;
     text-decoration: none!important;
+  }
+  h6 {
+    position: absolute;
+    right: 0;
+    transform-origin: 0 50%;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 6px;
+    transform: rotate(-90deg) translate(-50%,calc(100% + 310px));
   }
 `
 const ImageBox = styled.div`
   width: 400px;
   border-right: solid 1px #3a3a3a;
   display: none;
-  ${medium('display: flex; text-align: center; flex-direction: column;')};
+  ${large('display: flex; text-align: center; flex-direction: column;')};
   .image-container {
     display: flex;
     align-items: center;
@@ -159,13 +172,13 @@ const StyledModal = styled(Modal)`
     ul {
       list-style-type: none;
       padding: 60px 0;
-      ${medium('padding: 0;')};
+      ${large('padding: 0;')};
     }
     li {
       font-family: 'FontBold';
       font-size: 41px;
       line-height: 62px;
-      ${medium('font-size: 61px; line-height: 92px;')};
+      ${large('font-size: 61px; line-height: 92px;')};
     }
   }
 `
