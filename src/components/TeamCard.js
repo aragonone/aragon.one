@@ -18,9 +18,7 @@ const TeamCard = ({...props}) => (
     <Photo src={require(`./assets/team/${props.imageUrl}.gif`)} />
     <Description>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam.
+        {props.bio}
       </p>
     </Description>
   </TeamCardContainer>
@@ -30,6 +28,7 @@ const TeamCardContainer = styled.div`
   border: solid 1px #3a3a3a;
   max-width: 100%;
   margin: 0;
+  width: 615px;
   ${medium('max-width: 50%; margin: 0 15px;')};
 `;
 
@@ -73,6 +72,7 @@ const Description = styled.div`
     font-size: 18px;
     padding: 20px;
     margin: 0;
+    min-height: 150px;
   }
 `;
 export default TeamCard;
