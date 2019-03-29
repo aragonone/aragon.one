@@ -28,7 +28,8 @@ const Quotes = () => (
 
 const QuotesSection = styled.section`
   height: auto;
-  padding: 100px 0;
+  padding: 0 0 50px 0;
+  ${medium('padding: 100px 0;')};
 `;
 
 const Container = styled.div`

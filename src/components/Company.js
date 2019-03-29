@@ -20,8 +20,7 @@ const Company = () => (
       </BreakPoint>
       <BreakPoint to="medium">
         <Fade bottom duration={1200} delay={200}>
-          <h1>The company is currently established in</h1>
-          <h1 className="pink">Switzerland</h1>
+          <h1>Based in the Crypto Valley, <span className="pink"> Switzerland</span></h1>
         </Fade>
       </BreakPoint>
       <Photos />
@@ -40,7 +39,9 @@ const Container = styled.div`
   width: 80%;
   margin: auto;
   height: 100%;
-  padding-top: 200px;
+  padding-top: 50px;
+  ${medium('padding-top: 200px;')};
+
   h1 {
     font-family: 'FontBold';
     margin: 0;
@@ -52,7 +53,7 @@ const Container = styled.div`
     ${medium('font-size: 125px; line-height: 132px;')};
     color: #ffffff;
   }
-  h1.pink {
+  span.pink {
     color: #ff5d5d;
   }
 `;

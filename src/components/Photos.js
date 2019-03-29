@@ -52,8 +52,12 @@ const PhotosContainer = styled.section`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-direction: column;
+  ${large('flex-direction: row;')};
   img {
-    width: calc(50% - 20px);
+    width: 100%;
+    margin: 20px 0;
+    ${large('width: calc(50% - 20px); margin: 0;')};
   }
 `;
 

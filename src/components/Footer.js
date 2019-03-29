@@ -52,7 +52,9 @@ const Container = styled.div`
     padding: 0px 15px;
     cursor: pointer;
     display: block;
-    ${medium('display: inline;')};
+    margin: 10px 0;
+    ${medium('display: inline; margin: 0;')};
+
   }
   a:hover {
     opacity: 0.8;
