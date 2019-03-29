@@ -44,14 +44,14 @@ const Container = styled.div`
   .fist-title::after {
     animation-delay: var(--animation-delay, 1s);
     animation-iteration-count: var(--iterations, 1);
-    animation-duration: var(--duration, 800ms);
+    animation-duration: var(--duration, 600ms);
     animation-fill-mode: both;
     animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
   }
   .second-title, .second-title::after {
     animation-delay: var(--animation-delay, 1.5s);
     animation-iteration-count: var(--iterations, 1);
-    animation-duration: var(--duration, 800ms);
+    animation-duration: var(--duration, 600ms);
     animation-fill-mode: both;
     animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
   }
