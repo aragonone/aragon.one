@@ -156,6 +156,7 @@ const StyledModal = styled(Modal)`
   .modal-dialog {
     max-width: 80%;
     width: 1000px;
+    min-width: 50%;
     margin: 100px auto;
   }
   .modal-content {
