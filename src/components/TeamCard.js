@@ -28,8 +28,8 @@ const TeamCardContainer = styled.div`
   border: solid 1px #3a3a3a;
   max-width: 100%;
   margin: 0;
-  width: 39vw;
-  ${medium('max-width: 50%; margin: 0 15px;')};
+  width: 100%;
+  ${medium('max-width: 50%; margin: 0 15px; width: 39vw;')};
 `;
 
 const Position = styled.div`

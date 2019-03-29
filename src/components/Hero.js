@@ -59,7 +59,7 @@ const Container = styled.div`
   .fist-title {
     position: relative;
     animation-name: clip-text;
-    white-space: nowrap;
+    max-width: 90vw;
 
     &::after {
       content: '';
@@ -79,7 +79,7 @@ const Container = styled.div`
   .second-title {
     position: relative;
     animation-name: clip-text2;
-    white-space: nowrap;
+    max-width: 90vw;
 
     &::after {
       content: '';
