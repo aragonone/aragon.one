@@ -56,9 +56,9 @@ const Container = styled.div`
   p {
     font-family: 'FontRegular';
     line-height: 1.5;
-    font-size: 25px;
+    font-size: 1.78rem;
     max-width: 100%;
-    ${medium('line-height: 48px; font-size: 32px; max-width: 40%;')};
+    ${medium('font-size: 2.28rem; max-width: 40%;')};
   }
 `;
 export default Remote;

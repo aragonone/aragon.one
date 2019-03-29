@@ -37,7 +37,7 @@ const SnapshotCardContainer = styled.div`
   position: inherit;
   top: 0;
   right: 0;
-  ${medium('min-width: 315px; margin: 0 15px; position: sticky;')};
+  ${medium('min-width: 20%; margin: 0 15px; position: sticky;')};
 `;
 
 const Title = styled.div`
@@ -52,8 +52,8 @@ const Title = styled.div`
   p {
     margin: 0;
     font-family: 'FontRegular';
-    line-height: 48px;
-    font-size: 24px;
+    line-height: 3.42rem;
+    font-size: 1.71rem;
   }
 `;
 
@@ -61,13 +61,13 @@ const Description = styled.div`
   padding: 30px;
   font-family: 'FontRegular';
   p {
-    line-height: 37px;
-    font-size: 22px;
+    line-height: 2.64rem;
+    font-size: 1.57rem;
     margin-bottom: 30px;
   }
   h4 {
     line-height: 1;
-    font-size: 14px;
+    font-size: 1rem;
     letter-spacing: 2.6px;
     color: #FFFFFF;
     mix-blend-mode: normal;
@@ -76,7 +76,7 @@ const Description = styled.div`
   }
   a {
     border: solid 1px #FF7671;
-    font-size: 14px;
+    font-size: 1rem;
     text-align: center;
     letter-spacing: 2.6px;
     text-transform: uppercase;

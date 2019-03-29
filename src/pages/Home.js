@@ -40,7 +40,7 @@ const HomeContainer = styled.div`
   width: 100vw;
   h6 {
     font-family: 'FontRegular';
-    font-size: 14px;
+    font-size: 1rem;
     letter-spacing: 2.6px;
     line-height: 1;
     margin: 0 0 70px 0;

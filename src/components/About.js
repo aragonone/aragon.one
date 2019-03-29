@@ -52,9 +52,9 @@ const TextBox = styled.div`
   padding: 100px 10% 0 10%;
   ${large('padding: 0; padding-left: 60px; padding-right: 10%;')};
   p {
-    line-height: 38px;
-    font-size: 22px;
-    ${large('line-height: 48px; font-size: 32px;')};
+    line-height: 1.7;
+    font-size: 1.57rem;
+    ${large('line-height: 1.5; font-size: 2.28rem;')};
     color: #ffffff;
   }
 `;

@@ -100,8 +100,8 @@ const Container = styled.div`
   height: 100%;
   h2 {
     font-family: 'FontRegular';
-    line-height: 48px;
-    font-size: 32px;
+    line-height: 3.42;
+    font-size: 2.28rem;
     text-align: center;
     color: #ffffff;
     margin-top: 0;
@@ -109,7 +109,7 @@ const Container = styled.div`
   h5 {
     font-family: 'FontRegular';
     margin: 0;
-    font-size: 14px;
+    font-size: 1rem;
     text-align: center;
     letter-spacing: 2.6px;
     color: #ff7671;
@@ -139,9 +139,9 @@ const Item = styled.div`
   }
   p {
     font-family: 'FontRegular';
-    line-height: 32px;
+    line-height: 2.28rem;
     padding: 20px 0;
-    font-size: 20px;
+    font-size: 1.42rem;
     text-align: center;
     color: #ffffff;
   }

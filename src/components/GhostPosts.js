@@ -65,7 +65,7 @@ const PostContainer = styled.div`
 `
 const MoreBtn = styled.a`
   border: solid 1px #FF7671;
-  font-size: 14px;
+  font-size: 1rem;
   text-align: center;
   letter-spacing: 2.6px;
   text-transform: uppercase;
@@ -94,16 +94,16 @@ const Info = styled.div`
   padding: 30px;
   p {
     font-family: 'FontRegular';
-    line-height: 48px;
-    font-size: 28px;
+    line-height: 1.7;
+    font-size: 2rem;
     height: 95.56px;
     overflow: hidden;
     margin-bottom: 0;
   }
   h6 {
     font-family: 'FontRegular';
-    line-height: 130px;
-    font-size: 14px;
+    line-height: 9.28;
+    font-size: 1rem;
     letter-spacing: 2.6px;
     color: #FF7671;
     text-transform: uppercase;

@@ -28,7 +28,7 @@ const TeamCardContainer = styled.div`
   border: solid 1px #3a3a3a;
   max-width: 100%;
   margin: 0;
-  width: 615px;
+  width: 39vw;
   ${medium('max-width: 50%; margin: 0 15px;')};
 `;
 
@@ -45,7 +45,7 @@ const Position = styled.div`
     margin: 0;
     font-family: 'FontRegular';
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 1rem;
     letter-spacing: 2.6px;
   }
 `;
@@ -53,7 +53,7 @@ const Position = styled.div`
 const Name = styled.div`
   font-family: 'FontRegular';
   text-transform: uppercase;
-  font-size: 23px;
+  font-size: 1.64rem;
   letter-spacing: 3px;
   height: 70px;
   display: flex;
@@ -68,8 +68,8 @@ const Photo = styled.img`
 const Description = styled.div`
   p {
     font-family: 'FontRegular';
-    line-height: 36px;
-    font-size: 18px;
+    line-height: 2.57rem;
+    font-size: 1.28rem;
     padding: 20px;
     margin: 0;
     min-height: 150px;

@@ -132,7 +132,7 @@ const LinksBox = styled.div`
     right: 0;
     transform-origin: 0 50%;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 1rem;
     line-height: 1;
     letter-spacing: 6px;
     transform: rotate(-90deg) translate(-50%,calc(100% + 310px));
@@ -176,9 +176,9 @@ const StyledModal = styled(Modal)`
     }
     li {
       font-family: 'FontBold';
-      font-size: 41px;
-      line-height: 62px;
-      ${large('font-size: 61px; line-height: 92px;')};
+      font-size: 2.92rem;
+      line-height: 4.42rem;
+      ${large('font-size: 4.35rem; line-height: 6.57rem;')};
     }
   }
 `

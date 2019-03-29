@@ -106,14 +106,14 @@ const JobTitle = styled.div`
 
   h2 {
     font-family: 'FontRegular';
-    line-height: 48px;
-    font-size: 32px;
+    line-height: 1.5;
+    font-size: 2.28rem;
     margin: 0;
   }
   h4 {
     font-family: 'FontRegular';
     margin: 0;
-    font-size: 14px;
+    font-size: 1rem;
     letter-spacing: 2.6px;
     color: #ff7671;
   }
@@ -121,13 +121,13 @@ const JobTitle = styled.div`
 const JobBody = styled.div`
   font-family: 'FontRegular';
   h5 {
-    line-height: 48px;
-    font-size: 24px;
+    line-height: 2;
+    font-size: 1.71rem;
     letter-spacing: 0.275px;
   }
   li {
-    line-height: 27px;
-    font-size: 18px;
+    line-height: 1.5;
+    font-size: 1.28rem;
     letter-spacing: 0.275px;
     margin-bottom: 10px;
   }
@@ -143,7 +143,7 @@ const JobBody = styled.div`
     content: "•";
     color: #FF7671;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 2.14rem;
     display: inline-block;
     width: 30px;
     margin-left: -30px;
@@ -157,10 +157,10 @@ const JobBody = styled.div`
 
 const Description = styled.h3`
   font-family: 'FontRegular';
-  line-height: 35px;
-  font-size: 20px;
+  line-height: 1.2;
+  font-size: 1.42rem;
   border-bottom: solid 1px #3a3a3a;
   padding-bottom: 30px;
   margin-bottom: 30px;
-  ${medium('line-height: 48px; font-size: 28px;')};
+  ${medium('line-height: 1.7; font-size: 2rem;')};
 `;

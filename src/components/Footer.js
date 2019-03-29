@@ -45,8 +45,8 @@ const Container = styled.div`
   border-top: solid 1px #3A3A3A;
   a {
     font-family: 'FontRegular';
-    line-height: 29px;
-    font-size: 14px;
+    line-height: 2;
+    font-size: 1rem;
     letter-spacing: 1.6px;
     text-transform: uppercase;
     padding: 0px 15px;

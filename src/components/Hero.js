@@ -42,54 +42,15 @@ const Container = styled.div`
     margin: 0;
     text-align: left;
     color: white;
-    font-size: 60px;
-    ${medium('font-size: 112px;')};
-    ${large('font-size: 146px;')};
+    font-size: 4.28rem;
+    ${medium('font-size: 8rem;')};
+    ${large('font-size: 10.43rem;')};
   }
   span.pink {
     color: #ff5d5d;
     background: -webkit-linear-gradient(left, #ff3333, #ff7c56);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-  }
-  .text {
-    display: inline-block;
-    font-size: 15vmin;
-    line-height: 1.205;
-  }
-
-  .first,
-  .second {
-    position: relative;
-  }
-
-  .word {
-    opacity: 0;
-  }
-
-  .first-bg,
-  .second-bg {
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: 100;
-    transform-origin: left;
-    transform: scaleX(0);
-  }
-
-  .first-bg {
-    background-color: #5fbff9;
-  }
-
-  .second-bg {
-    background-color: #f06543;
-  }
-
-  .second {
-    margin-left: 15vmin;
   }
 `;
 export default Hero;
