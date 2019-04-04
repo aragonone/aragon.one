@@ -24,7 +24,7 @@ const WorkConditions = () => (
           <Slide bottom duration={1200} delay={200}>
             <img src={image1} />
           </Slide>
-          <Slide bottom duration={1200} delay={300}>
+          <Slide bottom duration={1200} delay={200}>
             <p>
               100% remote team - talent has no borders, our team works from all
               around the world
@@ -32,50 +32,50 @@ const WorkConditions = () => (
           </Slide>
         </Item>
         <Item className="small">
-          <Slide bottom duration={1200} delay={400}>
+          <Slide bottom duration={1200} delay={300}>
             <img src={image2} />
           </Slide>
-          <Slide bottom duration={1200} delay={500}>
+          <Slide bottom duration={1200} delay={300}>
             <p>
               Focus driven - we don’t track hours, we encourage the maker’s schedule
             </p>
           </Slide>
         </Item>
         <Item>
-          <Slide bottom duration={1200} delay={600}>
+          <Slide bottom duration={1200} delay={400}>
             <img src={image4} />
           </Slide>
-          <Slide bottom duration={1200} delay={700}>
+          <Slide bottom duration={1200} delay={400}>
             <p>
               Dynamic team - we’re a small team and we want to keep it this way to increase individual leverage
             </p>
           </Slide>
         </Item>
         <Item>
-          <Slide bottom duration={1200} delay={800}>
+          <Slide bottom duration={1200} delay={500}>
             <img src={image5} />
           </Slide>
-          <Slide bottom duration={1200} delay={900}>
+          <Slide bottom duration={1200} delay={500}>
             <p>
               Quarterly offsites - we get together in inspiring locations to build, meet and have fun
             </p>
           </Slide>
         </Item>
         <Item>
-          <Slide bottom duration={1200} delay={1000}>
+          <Slide bottom duration={1200} delay={600}>
             <img src={image6} />
           </Slide>
-          <Slide bottom duration={1200} delay={1100}>
+          <Slide bottom duration={1200} delay={600}>
             <p>
               Side projects - we encourage you to spend some time contributing to the broader ecosystem
             </p>
           </Slide>
         </Item>
         <Item className="x-small">
-          <Slide bottom duration={1200} delay={1200}>
+          <Slide bottom duration={1200} delay={700}>
             <img src={image3} />
           </Slide>
-          <Slide bottom duration={1200} delay={1300}>
+          <Slide bottom duration={1200} delay={700}>
             <p>
               Crypto-first - you decide how to allocate your salary in DAI/ANT
             </p>

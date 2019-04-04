@@ -15,19 +15,23 @@ const About = () => (
           <span className="grey">—</span> ABOUT ARAGON ONE
         </h6>
       </Fade>
-      <Fade bottom duration={1200} delay={400}>
+
         <div>
+          <Fade bottom duration={1200} delay={400}>
           <p>
             Aragon One is a company that encompasses the foundational team
             working on the Aragon project. The company is established in
             Switzerland, although we all work remote.
           </p>
+          </Fade>
+          <Fade bottom duration={1200} delay={400}>
           <p>
             Funding for the company comes from grants given by the project's
             non-profit entity, and was voted and approved by the community.
           </p>
+          </Fade>
         </div>
-      </Fade>
+
     </TextBox>
   </AboutSection>
 );

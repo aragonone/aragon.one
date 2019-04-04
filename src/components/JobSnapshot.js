@@ -1,30 +1,35 @@
 import React from 'react';
 import styled from 'styled-components';
 import A1 from './assets/job-logo.svg';
+import Fade from 'react-reveal/Fade';
 
 import {breakpoint} from '@aragon/ui';
 const medium = css => breakpoint('medium', css);
 
 const SnapshotCard = ({...props}) => (
-  <SnapshotCardContainer>
-    <Title>
-      <div>
-        <p>Info</p>
-      </div>
-      <div>
-        <img src={A1} />
-      </div>
-    </Title>
-    <Description>
-      <h4>Type</h4>
-      <p>Full-time</p>
-      <h4>Location</h4>
-      <p>Remote</p>
-      <h4>Role</h4>
-      <p>{props.role}</p>
-      <a href="mailto:hiring@aragon.one">Apply now</a>
-    </Description>
-  </SnapshotCardContainer>
+  <Snapshot>
+      <Fade duration={1200}>
+        <SnapshotCardContainer>
+          <Title>
+            <div>
+              <p>Info</p>
+            </div>
+            <div>
+              <img src={A1} />
+            </div>
+          </Title>
+          <Description>
+            <h4>Type</h4>
+            <p>Full-time</p>
+            <h4>Location</h4>
+            <p>Remote</p>
+            <h4>Role</h4>
+            <p>{props.role}</p>
+            <a href="mailto:hiring@aragon.one">Apply now</a>
+          </Description>
+        </SnapshotCardContainer>
+      </Fade>
+  </Snapshot>
 );
 
 const SnapshotCardContainer = styled.div`
@@ -34,11 +39,16 @@ const SnapshotCardContainer = styled.div`
   width: 350px;
   min-width: auto;
   max-width: 100%;
-  position: inherit;
-  top: 0;
-  right: 0;
-  ${medium('min-width: 24%; margin: 0 15px; position: sticky;')};
+
+  ${medium('min-width: 24%; margin: 0 15px;')};
 `;
+  const Snapshot = styled.div`
+    position: inherit;
+    top: 0;
+    transition: all 2s ease-in-out;
+    right: 0;
+    ${medium('position: sticky; top: 50px;')};
+  `;
 
 const Title = styled.div`
   border-bottom: solid 1px #3a3a3a;
