@@ -20,7 +20,7 @@ const Team = () => (
             <TeamCard name="Luis Ivan Cuende" position="CEO" imageUrl="Luis" bio="Luis is our CEO. He loves helping people solve unfair situations in the world through technology and he's currently leading our product."/>
           </Carousel.Item>
           <Carousel.Item>
-            <TeamCard name="Jorge Izquierdo" position="CTO" imageUrl="Jorge" bio="Jorge is our CTO. He's a curious hacker, creator of multiple apps for iOS, macOs and Pebble, and currently enjoying researching about governance."/>
+            <TeamCard name="Jorge Izquierdo" position="CTO" imageUrl="Jorge" bio="Jorge is our CTO. He's a curious hacker, creator of multiple apps for iOS, macOS and Pebble, and currently enjoying researching about governance."/>
           </Carousel.Item>
           <Carousel.Item>
             <TeamCard name="Monica Zeng" position="HR" imageUrl="Monica" bio="Monica is our HR. She has an international background specialized in strategy, management and executive coaching for startups and founders."/>
@@ -143,7 +143,7 @@ const Team = () => (
                 name="Jorge Izquierdo"
                 position="CTO"
                 imageUrl="Jorge"
-                bio="Jorge is our CTO. He's a curious hacker, creator of multiple apps for iOS, macOs and Pebble, and currently enjoying researching about governance."
+                bio="Jorge is our CTO. He's a curious hacker, creator of multiple apps for iOS, macOS and Pebble, and currently enjoying researching about governance."
               />
             </TeamContainer>
           </Carousel.Item>

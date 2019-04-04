@@ -11,9 +11,9 @@ const Footer = () => (
     <Container>
       <div>
         <A1Logo src={logo}/>
-        <a>Rocket chat</a>
-        <a>Twitter</a>
-        <a>Forum</a>
+        <a href="http://blog.aragon.one" target="_blank">Blog</a>
+        <a href="https://twitter.com/AragonOneTeam" target="_blank">Twitter</a>
+        <a href="https://aragon.org" target="_blank">Aragon Project</a>
       </div>
       <div>
         <img src={signature}/>
@@ -30,7 +30,7 @@ const FooterSection = styled.section`
   overflow: hidden;
 `;
 const A1Logo = styled.img`
-  padding-right: 15px;
+  ${medium('padding-right: 15px;')};
 `
 const Container = styled.div`
   width: 80%;
@@ -53,6 +53,8 @@ const Container = styled.div`
     cursor: pointer;
     display: block;
     margin: 10px 0;
+    color: white;
+    text-decoration: none;
     ${medium('display: inline; margin: 0;')};
 
   }

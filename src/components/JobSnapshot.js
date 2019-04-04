@@ -9,7 +9,7 @@ const SnapshotCard = ({...props}) => (
   <SnapshotCardContainer>
     <Title>
       <div>
-        <p>Job Snapshot</p>
+        <p>Info</p>
       </div>
       <div>
         <img src={A1} />
@@ -19,8 +19,8 @@ const SnapshotCard = ({...props}) => (
       <h4>Type</h4>
       <p>Full-time</p>
       <h4>Location</h4>
-      <p>Descentralized</p>
-      <h4>Job Type</h4>
+      <p>Remote</p>
+      <h4>Role</h4>
       <p>{props.role}</p>
       <a href="mailto:hiring@aragon.one">Apply now</a>
     </Description>

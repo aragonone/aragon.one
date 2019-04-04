@@ -14,7 +14,7 @@ class Hero extends React.Component {
         <Navbar />
         <Container>
           <div>
-            <h1 className="fist-title">We believe and</h1>
+            <h1 className="fist-title">We believe in and</h1>
             <h1 className="second-title">
               <span className="pink">fight for freedom</span>
             </h1>

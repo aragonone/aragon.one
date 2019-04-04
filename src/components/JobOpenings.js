@@ -33,8 +33,10 @@ const JobOpenings = () => (
             permits, policies, insurance, contracts, and other legal
             responsibilities.
           </li>
-          <li>Work with the CEO to develop strategic.</li>
-          partnerships with banks, governments, and other external stakeholders.
+          <li>
+            Work with the CEO to develop strategic partnerships with banks,
+            governments, and other external stakeholders.
+          </li>
           <li>
             Work with the Communications team to manage sponsorships, providers
             and team logistics for events, meetups, and conferences.
@@ -537,7 +539,7 @@ const JobOpeningsSection = styled.section`
     margin-left: 5px;
   }
   .highlight {
-    background: #1B1B1B;
+    background: #1b1b1b;
     padding: 45px;
     margin-top: 10px;
   }

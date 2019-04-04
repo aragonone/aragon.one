@@ -17,7 +17,7 @@ const Remote = () => (
       </Fade>
       <Fade bottom duration={1200} delay={400}>
         <p>
-          Talent shouldn’t be constrained to a piece of land. We work remote.
+          Talent shouldn't be constrained by geography. We work remote.
           Distance feels shorter when the vision of a fair world unites us all.
         </p>
         <BreakPoint to="medium">
