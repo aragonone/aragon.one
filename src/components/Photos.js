@@ -6,6 +6,16 @@ import photo3 from './assets/company/photo3.png';
 import photo4 from './assets/company/photo4.png';
 import photo5 from './assets/company/photo5.png';
 import photo6 from './assets/company/photo6.png';
+import photo7 from './assets/company/photo7.png';
+import photo8 from './assets/company/photo8.png';
+import photo9 from './assets/company/photo9.png';
+import photo10 from './assets/company/photo10.png';
+import photo11 from './assets/company/photo11.png';
+import photo12 from './assets/company/photo12.png';
+import photo13 from './assets/company/photo13.png';
+import photo14 from './assets/company/photo14.png';
+import photo15 from './assets/company/photo15.png';
+import photo16 from './assets/company/photo16.png';
 import Carousel from 'react-bootstrap/Carousel';
 import arrow from './assets/arrow.svg';
 
@@ -33,6 +43,36 @@ const Photos = () => (
           <PhotosContainer>
             <img src={photo5} />
             <img src={photo6} />
+          </PhotosContainer>
+        </Carousel.Item>
+        <Carousel.Item>
+          <PhotosContainer>
+            <img src={photo7} />
+            <img src={photo8} />
+          </PhotosContainer>
+        </Carousel.Item>
+        <Carousel.Item>
+          <PhotosContainer>
+            <img src={photo9} />
+            <img src={photo10} />
+          </PhotosContainer>
+        </Carousel.Item>
+        <Carousel.Item>
+          <PhotosContainer>
+            <img src={photo11} />
+            <img src={photo12} />
+          </PhotosContainer>
+        </Carousel.Item>
+        <Carousel.Item>
+          <PhotosContainer>
+            <img src={photo13} />
+            <img src={photo14} />
+          </PhotosContainer>
+        </Carousel.Item>
+        <Carousel.Item>
+          <PhotosContainer>
+            <img src={photo15} />
+            <img src={photo16} />
           </PhotosContainer>
         </Carousel.Item>
       </Carousel>

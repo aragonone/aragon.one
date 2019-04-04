@@ -144,7 +144,7 @@ a, a span, button {
   display: block;
 }
 .hamburger-inner::before {
-  top: -11px;
+  top: -10px;
 }
 .hamburger-inner::after {
   bottom: -10px;
