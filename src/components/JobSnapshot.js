@@ -47,7 +47,7 @@ const Title = styled.div`
   justify-content: space-between;
   height: 70px;
   div {
-    padding: 0 15px;
+    padding: 0 30px;
   }
   p {
     margin: 0;
