@@ -37,7 +37,7 @@ const SnapshotCardContainer = styled.div`
   position: inherit;
   top: 0;
   right: 0;
-  ${medium('min-width: 20%; margin: 0 15px; position: sticky;')};
+  ${medium('min-width: 24%; margin: 0 15px; position: sticky;')};
 `;
 
 const Title = styled.div`
