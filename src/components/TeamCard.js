@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import A1 from './assets/team/A1.svg';
+import twitter from './assets/twitter-team.svg';
 import {breakpoint} from '@aragon/ui';
 const medium = css => breakpoint('medium', css);
 
@@ -20,6 +21,7 @@ const TeamCard = ({...props}) => (
       <p>
         {props.bio}
       </p>
+      <a href={"https://twitter.com/" + props.twitter} target="_blank"><img src={twitter} /></a>
     </Description>
   </TeamCardContainer>
 );
@@ -66,13 +68,16 @@ const Photo = styled.img`
 `;
 
 const Description = styled.div`
+  padding: 20px;
   p {
     font-family: 'FontRegular';
     line-height: 2.57rem;
     font-size: 1.28rem;
-    padding: 20px;
     margin: 0;
-    min-height: 150px;
+    min-height: 115px;
+  }
+  a:hover {
+    opacity: 0.8;
   }
 `;
 export default TeamCard;
