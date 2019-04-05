@@ -107,7 +107,7 @@ export default {
             <meta property="og:url" content="https://aragon.one/" />
             <meta property="og:site_name" content="Aragon One" />
             <meta property="og:image" content="https://raw.githubusercontent.com/aragonone/website/master/public/twitter-card-icon.png" />
-            <meta property="og:image:secure_url" content="https://raw.githubusercontent.com/aragon/website/master/public/twitter-card-icon.png" />
+            <meta property="og:image:secure_url" content="https://raw.githubusercontent.com/aragonone/website/master/public/twitter-card-icon.png" />
             <meta property="og:image:width" content="300" />
             <meta property="og:image:height" content="300" />
 

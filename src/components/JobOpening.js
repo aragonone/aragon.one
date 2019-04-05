@@ -114,7 +114,8 @@ const JobTitle = styled.div`
   ${medium('flex-direction: row; padding: 45px 40px 40px 40px;')};
   .info-title {
     padding: 45px 40px 20px 40px;
-    ${medium('padding 0;')};
+    width: 100%;
+    ${medium('padding 0; width: auto;')};
   }
   .icon-title {
     width: 100%;
