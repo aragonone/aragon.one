@@ -41,7 +41,7 @@ class Posts extends React.Component {
     return (
       <Container id="blog">
         <h6>
-          <span className="grey">—</span> OUR LAST POSTS
+          <span className="grey">—</span> OUR LATEST POSTS
         </h6>
         <PostContainer>
           {this.state.items.map(item => (

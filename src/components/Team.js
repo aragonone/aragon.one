@@ -93,7 +93,7 @@ class Team extends React.Component {
                   twitter="Smokyish"
                   position="Communications"
                   imageUrl="Tatu"
-                  bio="Tatu is works on Communications. He loves helping people solve their problems and supporting and spreading the word about decentralization."
+                  bio="Tatu works on Communications. He loves helping people solve their problems and supporting and spreading the word about decentralization."
                 />
               </Carousel.Item>
               <Carousel.Item>
@@ -102,7 +102,7 @@ class Team extends React.Component {
                   twitter="MyPaoG"
                   position="Ecosystem"
                   imageUrl="Maria"
-                  bio="María is our Ecosystem Developer. She is a reinvented lawyers who loves traveling, networking and technology."
+                  bio="María is our Ecosystem Developer. She is a reinvented lawyer who loves traveling, networking and technology."
                 />
               </Carousel.Item>
               <Carousel.Item>
@@ -129,7 +129,7 @@ class Team extends React.Component {
                   twitter="bingentxu"
                   position="Solidity dev"
                   imageUrl="Bingen"
-                  bio="Bingen is our Solidity Engineer. He is a long time open source software, hardware and data passionate."
+                  bio="Bingen is our Solidity Engineer. He is a long time open source software, hardware and data enthusiast."
                 />
               </Carousel.Item>
               <Carousel.Item>
@@ -147,7 +147,7 @@ class Team extends React.Component {
                   twitter="PolitoDelfina"
                   position="Frontend dev"
                   imageUrl="Delfi"
-                  bio="Delfi is our Frontend Engineer. She loves bringing designs to life, being careful to details to make things shine is definitely part of her core."
+                  bio="Delfi is our Frontend Engineer. She loves bringing designs to life, being careful about details to make things shine is definitely part of her core."
                 />
               </Carousel.Item>
               <Carousel.Item>
@@ -156,7 +156,7 @@ class Team extends React.Component {
                   twitter="AquiGorka"
                   position="Frontend dev"
                   imageUrl="Gorka"
-                  bio="Gorka is our Frontend Engineer. He is passionate about life and a tinkerer, always ready to demo you his new side project."
+                  bio="Gorka is our Frontend Engineer. He is enthusiast about life and a tinkerer, always ready to demo you his new side project."
                 />
               </Carousel.Item>
               <Carousel.Item>
@@ -230,7 +230,7 @@ class Team extends React.Component {
                     twitter="sohkai"
                     position="Dev lead"
                     imageUrl="Brett"
-                    bio="Brett is our Tech Lead. He's a highly curious full-stack engineer, a wizard both in frontend and Solidity."
+                    bio="Brett is our Dev Lead. He's a highly curious full-stack engineer, a wizard both in frontend and Solidity."
                   />
                   <TeamCard
                     name="John Light"
@@ -255,7 +255,7 @@ class Team extends React.Component {
                     twitter="Smokyish"
                     position="Communications"
                     imageUrl="Tatu"
-                    bio="Tatu is works on Communications. He loves helping people solve their problems and supporting and spreading the word about decentralization."
+                    bio="Tatu works on Communications. He loves helping people solve their problems and supporting and spreading the word about decentralization."
                   />
                 </TeamContainer>
               </Carousel.Item>
@@ -267,7 +267,7 @@ class Team extends React.Component {
                     twitter="MyPaoG"
                     position="Ecosystem"
                     imageUrl="Maria"
-                    bio="María is our Ecosystem Developer. She is a reinvented lawyers who loves traveling, networking and technology."
+                    bio="María is our Ecosystem Developer. She is a reinvented lawyer who loves traveling, networking and technology."
                   />
                   <TeamCard
                     name="Pierre Bertet"
@@ -310,7 +310,7 @@ class Team extends React.Component {
                     twitter="PolitoDelfina"
                     position="Frontend dev"
                     imageUrl="Delfi"
-                    bio="Delfi is our Frontend Engineer. She loves bringing designs to life, being careful to details to make things shine is definitely part of her core."
+                    bio="Delfi is our Frontend Engineer. She loves bringing designs to life, being careful about details to make things shine is definitely part of her core."
                   />
                 </TeamContainer>
               </Carousel.Item>

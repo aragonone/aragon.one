@@ -21,7 +21,7 @@ const About = () => (
           <p>
             Aragon One is a company that encompasses the foundational team
             working on the Aragon project. The company is established in
-            Switzerland, although we all work remote.
+            Switzerland, although we all work remotely.
           </p>
           </Fade>
           <Fade bottom duration={1200} delay={400}>
