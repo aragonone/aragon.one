@@ -219,7 +219,7 @@ class Team extends React.Component {
                     twitter="izqui9"
                     position="CTO"
                     imageUrl="Jorge"
-                    bio="JJorge is our CTO. He's a curious hacker and researcher pushing to make the decentralized web happen."
+                    bio="Jorge is our CTO. He's a curious hacker and researcher pushing to make the decentralized web happen."
                   />
                 </TeamContainer>
               </Carousel.Item>
