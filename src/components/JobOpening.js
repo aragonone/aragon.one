@@ -11,21 +11,45 @@ const medium = css => breakpoint('medium', css);
 class JobOpening extends React.Component {
   constructor(props, context) {
     super(props, context);
-
+    let open = false;
+    if(window.location.href.indexOf(this.props.open) > 0) {
+      open = true;
+    }
     this.state = {
-      open: false,
+      open: open,
+    };
+    this.handleClick = this.handleClick.bind(this);
+  }
+  handleClick () {
+    let open = this.state.open;
+    if (open) {
+      window.location.hash = 'job';
+    } else {
+      window.location.hash = this.props.open;
+    }
+    this.setState({open: !open})
+  }
+  componentDidMount() {
+    console.log("did");
+    let open = false;
+    if(window.location.href.indexOf(this.props.open) > 0) {
+      open = true;
+    }
+    this.state = {
+      open: open,
     };
   }
-
   render() {
+    console.log("render");
     const {open} = this.state;
     return (
-      <JobOpeningSection>
+      <JobOpeningSection >
         <JobTitle
-          onClick={() => this.setState({open: !open})}
+          onClick={this.handleClick}
           aria-controls="collapse-text"
-          aria-expanded={open}>
-          <div className="info-title">
+          aria-expanded={open}
+          >
+          <div className="info-title" id={this.props.idprop || ''}>
             <h4>{this.props.category}</h4>
             <h2>{this.props.title}</h2>
           </div>

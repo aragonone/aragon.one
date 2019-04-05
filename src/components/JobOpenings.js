@@ -9,7 +9,7 @@ const large = css => breakpoint('large', css);
 
 const JobOpenings = () => (
   <JobOpeningsSection id="jobs">
-    <h6>
+    <h6 id="operations">
       <span className="grey">—</span> OPEN JOBS POSITIONS
     </h6>
     <Slide bottom duration={1200}>
@@ -17,6 +17,8 @@ const JobOpenings = () => (
         role="Operations"
         category="OPERATIONS"
         title="Operations"
+        open="operations"
+        idprop="frontend-engineer"
         description="We’re looking for an Operations person who loves to wear many hats, ready to hustle, and able to turn chaos into efficient processes. You will help us bridge Aragon One with the world by optimizing traditional operations, supporting the team and the community, and defining the development of apps to automate operations in DAOs. ">
         <h5>Responsibilities</h5>
         <ul>
@@ -113,6 +115,8 @@ const JobOpenings = () => (
         role="Frontend Engineer"
         category="ENGINEERING"
         title="Frontend Engineer"
+        open="frontend-engineer"
+        idprop="systems-engineer"
         description="We're looking for a Frontend Engineer with a love for beautiful, well-crafted interfaces. You'll work with our rockstar frontend team building Aragon Labs, Aragon client, and aragonOS.">
         <h5>Responsibilities</h5>
         <ul>
@@ -235,6 +239,8 @@ const JobOpenings = () => (
         role="Systems Engineer"
         category="ENGINEERING"
         title="Systems Engineer"
+        open="systems-engineer"
+        idprop="developer-relations"
         description={
           <span>
             We’re looking for a Systems Engineer to help us architect and
@@ -324,6 +330,8 @@ const JobOpenings = () => (
         role="Developer Relations"
         category="COMMUNITY"
         title="Developer Relations"
+        idprop="solidity-engineer"
+        open="developer-relations"
         description="We're looking for a Developer Relations to help third party developers create apps on top of the Aragon client and aragonOS. Our Dev Rels must be someone passionate in helping others understand technical subjects through technical writing, networking and educating people. That means that our ideal Dev Rels is not only a legit developer but also an Aragon Technical Evangelist.">
         <h5>Responsibilities</h5>
         <ul>
@@ -404,6 +412,8 @@ const JobOpenings = () => (
         role="Solidity Engineer"
         category="ENGINEERING"
         title="Solidity Engineer"
+        open="solidity-engineer"
+        idprop="documentation-technical-writer"
         description="We're looking for a Solidity Engineer to help us build the smart contract framework for decentralized organizations and court systems. You'll work with our product and research teams to architect and implement the Aragon client, Aragon Labs, and aragonOS. ">
         <h5>Responsibilities</h5>
         <ul>
@@ -468,6 +478,7 @@ const JobOpenings = () => (
         role="Documentation writer"
         category="ENGINEERING"
         title="Documentation Technical Writer"
+        open="documentation-technical-writer"
         description="We’re looking for a Technical Writer to help us communicate the different moving parts of Aragon client and Dev Tools to facilitate the development of the Ethereum community. Our Technical Writer will be the bridge between Aragon engineers and external developers, as well as the reference to support the growth of the Ethereum community through better documentation.">
         <h5>Responsibilities</h5>
         <ul>
