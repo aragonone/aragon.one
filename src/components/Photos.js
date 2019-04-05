@@ -23,62 +23,85 @@ import {breakpoint, BreakPoint, Button} from '@aragon/ui';
 const medium = css => breakpoint('medium', css);
 const large = css => breakpoint('large', css);
 
-const Photos = () => (
-  <PhotosSection>
-    <Container>
-      <Carousel nextIcon={<img src={arrow} />}>
-        <Carousel.Item>
-          <PhotosContainer>
-            <img src={photo1} />
-            <img src={photo2} />
-          </PhotosContainer>
-        </Carousel.Item>
-        <Carousel.Item>
-          <PhotosContainer>
-            <img src={photo3} />
-            <img src={photo4} />
-          </PhotosContainer>
-        </Carousel.Item>
-        <Carousel.Item>
-          <PhotosContainer>
-            <img src={photo5} />
-            <img src={photo6} />
-          </PhotosContainer>
-        </Carousel.Item>
-        <Carousel.Item>
-          <PhotosContainer>
-            <img src={photo7} />
-            <img src={photo8} />
-          </PhotosContainer>
-        </Carousel.Item>
-        <Carousel.Item>
-          <PhotosContainer>
-            <img src={photo9} />
-            <img src={photo10} />
-          </PhotosContainer>
-        </Carousel.Item>
-        <Carousel.Item>
-          <PhotosContainer>
-            <img src={photo11} />
-            <img src={photo12} />
-          </PhotosContainer>
-        </Carousel.Item>
-        <Carousel.Item>
-          <PhotosContainer>
-            <img src={photo13} />
-            <img src={photo14} />
-          </PhotosContainer>
-        </Carousel.Item>
-        <Carousel.Item>
-          <PhotosContainer>
-            <img src={photo15} />
-            <img src={photo16} />
-          </PhotosContainer>
-        </Carousel.Item>
-      </Carousel>
-    </Container>
-  </PhotosSection>
-);
+class Photos extends React.Component {
+  constructor(props, context) {
+    super(props, context);
+
+    this.handleSelect = this.handleSelect.bind(this);
+
+    this.state = {
+      index: 0,
+      direction: null,
+    };
+  }
+
+  handleSelect(selectedIndex, e) {
+    this.setState({
+      index: selectedIndex,
+      direction: e.direction,
+    });
+  }
+
+  render() {
+    const { index, direction } = this.state;
+    return (
+      <PhotosSection>
+        <Container>
+          <Carousel interval={null} pauseOnHover="true" nextIcon={<img src={arrow} />}>
+            <Carousel.Item>
+              <PhotosContainer>
+                <img src={photo1} />
+                <img src={photo2} />
+              </PhotosContainer>
+            </Carousel.Item>
+            <Carousel.Item>
+              <PhotosContainer>
+                <img src={photo3} />
+                <img src={photo4} />
+              </PhotosContainer>
+            </Carousel.Item>
+            <Carousel.Item>
+              <PhotosContainer>
+                <img src={photo5} />
+                <img src={photo6} />
+              </PhotosContainer>
+            </Carousel.Item>
+            <Carousel.Item>
+              <PhotosContainer>
+                <img src={photo7} />
+                <img src={photo8} />
+              </PhotosContainer>
+            </Carousel.Item>
+            <Carousel.Item>
+              <PhotosContainer>
+                <img src={photo9} />
+                <img src={photo10} />
+              </PhotosContainer>
+            </Carousel.Item>
+            <Carousel.Item>
+              <PhotosContainer>
+                <img src={photo11} />
+                <img src={photo12} />
+              </PhotosContainer>
+            </Carousel.Item>
+            <Carousel.Item>
+              <PhotosContainer>
+                <img src={photo13} />
+                <img src={photo14} />
+              </PhotosContainer>
+            </Carousel.Item>
+            <Carousel.Item>
+              <PhotosContainer>
+                <img src={photo15} />
+                <img src={photo16} />
+              </PhotosContainer>
+            </Carousel.Item>
+          </Carousel>
+        </Container>
+      </PhotosSection>
+    );
+  }
+}
 
 const PhotosSection = styled.section`
   padding: 100px 0 200px 0;
