@@ -1,0 +1,38 @@
+{
+  "name": "aragonone-website",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "AGPL-3.0-or-later",
+  "homepage": "https://aragon.one",
+  "scripts": {
+    "start": "NODE_PRESERVE_SYMLINKS=1 react-static start",
+    "build": "NODE_PRESERVE_SYMLINKS=1 react-static build",
+    "optimize-svg": "find ./src -name '*.svg' -exec svgo --config '{ \"plugins\": [ { \"removeDesc\": {\"removeAny\": true}, \"removeTitle\": true } ] }' {} \\;",
+    "generate-favicon": "icon-gen -i favicon.png -o public -r",
+    "deploy": "NODE_ENV=production SITE_ROOT=https://aragon.one/ npm run build && echo 'aragon.one' > dist/CNAME && gh-pages -d dist"
+  },
+  "dependencies": {
+    "@aragon/ui": "^0.32.0",
+    "@tryghost/content-api": "^1.2.0",
+    "bootstrap": "^4.3.1",
+    "moment": "^2.24.0",
+    "react": "^16.1.1",
+    "react-bootstrap": "^1.0.0-beta.5",
+    "react-dom": "^16.0.0",
+    "react-reveal": "^1.2.2",
+    "react-router": "^4.2.0",
+    "react-spring": "^5.9.2",
+    "react-static": "^5.7.1",
+    "styled-components": "^4.1.3"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "copy-webpack-plugin": "^4.2.1",
+    "eslint-config-react-tools": "1.x.x",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "gh-pages": "^1.1.0",
+    "icon-gen": "^1.2.0",
+    "prettier": "^1.16.4",
+    "svgo": "^1.0.3"
+  }
+}
