@@ -43,15 +43,13 @@ const title = (
 
 const text1 = (
   <p>
-    Aragon One is a company that encompasses the foundational team working on
-    the Aragon project. The company is established in Switzerland, although we
-    all work remotely.
+    Aragon One is a Swiss company formed by the founders of the Aragon project.
   </p>
 );
 const text2 = (
   <p>
-    Funding for the company comes from grants given by the project's non-profit
-    entity, and was voted and approved by the community.
+    The company is funded primarily through grants given by the Aragon
+    Association, the non-profit steward of the Aragon project.
   </p>
 );
 const AboutImg = styled.img`

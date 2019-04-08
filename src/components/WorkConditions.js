@@ -77,7 +77,7 @@ const WorkConditions = () => (
           </Slide>
           <Slide bottom duration={1200} delay={700}>
             <p>
-              Crypto-first - you decide how to allocate your salary in DAI/ANT
+              Crypto-first - you decide how to allocate your salary in ANT/DAI/ETH
             </p>
           </Slide>
         </Item>
