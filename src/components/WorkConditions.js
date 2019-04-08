@@ -100,7 +100,8 @@ const Container = styled.div`
   height: 100%;
   h2 {
     font-family: 'FontRegular';
-    line-height: 3.42;
+    line-height: 1.5;
+    ${medium('line-height: 3.42;')};
     font-size: 2.28rem;
     text-align: center;
     color: #ffffff;
@@ -127,15 +128,15 @@ const Box = styled.div`
   grid-row-gap: 30px;
 `;
 const Item = styled.div`
-  padding: 0 30px;
+  ${medium('padding: 0 30px')};
   &.small {
-    padding: 0 55px;
+  ${medium('padding: 0 55px')};
   }
   &.medium {
-    padding: 0 40px;
+  ${medium('padding: 0 40px')};
   }
   &.x-small {
-    padding: 0 75px;
+  ${medium('padding: 0 75px')};
   }
   p {
     font-family: 'FontRegular';

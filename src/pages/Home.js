@@ -42,7 +42,8 @@ const HomeContainer = styled.div`
     font-family: 'FontRegular';
     font-size: 1rem;
     letter-spacing: 2.6px;
-    line-height: 1;
+    line-height: 1.5;
+    ${medium('line-height: 1;')};
     margin: 0 0 70px 0;
     .grey {
       color: #525252;

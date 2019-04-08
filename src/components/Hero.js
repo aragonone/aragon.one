@@ -14,11 +14,12 @@ class Hero extends React.Component {
         <Navbar />
         <Container>
           <div>
-            <h1 className="fist-title">We believe in and</h1>
             <BreakPoint to="medium">
-              <h1 className="second-title mobile-pink">fight for freedom</h1>
+              <h1 className="">We believe in and</h1>
+              <h1 className="mobile-pink">fight for freedom</h1>
             </BreakPoint>
             <BreakPoint from="medium">
+              <h1 className="fist-title">We believe in and</h1>
               <h1 className="second-title">
                 <span className="pink">fight for freedom</span>
               </h1>

@@ -79,6 +79,7 @@ const MoreBtn = styled.a`
   letter-spacing: 2.6px;
   text-transform: uppercase;
   width: 300px;
+  max-width: 100%;
   display: inherit;
   padding: 15px;
   cursor: pointer;

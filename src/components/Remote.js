@@ -10,20 +10,30 @@ const large = css => breakpoint('large', css);
 const Remote = () => (
   <RemoteSection>
     <Container>
-      <Fade bottom duration={1200} delay={200}>
+      <BreakPoint to="medium">
         <h6>
           <span className="grey">—</span> A COMPLETELY REMOTE TEAM
         </h6>
-      </Fade>
-      <Fade bottom duration={1200} delay={400}>
         <p>
           Talent shouldn't be constrained by geography. We work remotely.
           Distance feels shorter when the vision of a fair world unites us all.
         </p>
-        <BreakPoint to="medium">
-          <MobileImg src={background} />
-        </BreakPoint>
-      </Fade>
+        <MobileImg src={background} />
+      </BreakPoint>
+      <BreakPoint from="medium">
+        <Fade bottom duration={1200} delay={200}>
+          <h6>
+            <span className="grey">—</span> A COMPLETELY REMOTE TEAM
+          </h6>
+        </Fade>
+        <Fade bottom duration={1200} delay={400}>
+          <p>
+            Talent shouldn't be constrained by geography. We work remotely.
+            Distance feels shorter when the vision of a fair world unites us
+            all.
+          </p>
+        </Fade>
+      </BreakPoint>
     </Container>
   </RemoteSection>
 );

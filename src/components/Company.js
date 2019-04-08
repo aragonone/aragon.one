@@ -43,6 +43,7 @@ const Container = styled.div`
   padding-top: 50px;
   h1 {
     font-family: 'FontBold';
+    word-break: break-word;
     margin: 0;
     text-align: left;
     color: white;

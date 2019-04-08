@@ -134,12 +134,14 @@ const JobTitle = styled.div`
     line-height: 1.5;
     font-size: 2.28rem;
     margin: 0;
+    word-break: break-word;
   }
   h4 {
     font-family: 'FontRegular';
     margin: 0;
     font-size: 1rem;
     letter-spacing: 2.6px;
+    word-break: break-word;
     color: #ff7671;
   }
 `
@@ -149,6 +151,7 @@ const JobBody = styled.div`
     line-height: 2;
     font-size: 1.71rem;
     letter-spacing: 0.275px;
+    word-break: break-word;
   }
   li {
     line-height: 1.5;
