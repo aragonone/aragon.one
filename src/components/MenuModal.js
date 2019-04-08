@@ -34,7 +34,7 @@ class AragonOneModal  extends React.Component {
             <div><a target="_blank" href="https://twitter.com/AragonOneTeam"><img src={twitter}/></a></div>
           </MenuHeader>
           <div className="links">
-            <h6>WELCOME TO ARAGON ONE</h6>
+            <BreakPoint from="medium"><h6>WELCOME TO ARAGON ONE</h6></BreakPoint>
             <ul>
               <li>
                 <Link to={'/#about'} onClick={this.props.onHide}>About</Link>
