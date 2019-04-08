@@ -135,7 +135,7 @@ const LinksBox = styled.div`
     font-size: 1rem;
     line-height: 1;
     letter-spacing: 6px;
-    transform: rotate(-90deg) translate(-50%,calc(100% + 310px));
+    transform: rotate(-90deg) translate(-50%,calc(100% + 278px));
   }
 `
 const ImageBox = styled.div`

@@ -136,7 +136,7 @@ const Item = styled.div`
   ${medium('padding: 0 40px')};
   }
   &.x-small {
-  ${medium('padding: 0 75px')};
+  ${medium('padding: 0 73px')};
   }
   p {
     font-family: 'FontRegular';
