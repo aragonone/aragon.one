@@ -30,7 +30,6 @@ class JobOpening extends React.Component {
     this.setState({open: !open})
   }
   componentDidMount() {
-    console.log("did");
     let open = false;
     if(window.location.href.indexOf(this.props.open) > 0) {
       open = true;
@@ -40,7 +39,6 @@ class JobOpening extends React.Component {
     };
   }
   render() {
-    console.log("render");
     const {open} = this.state;
     return (
       <JobOpeningSection >

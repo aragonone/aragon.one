@@ -11,7 +11,7 @@ const Footer = () => (
     <Container>
       <div>
         <A1Logo src={logo}/>
-        <a href="http://blog.aragon.one" target="_blank">Blog</a>
+        <a href="https://blog.aragon.one" target="_blank">Blog</a>
         <a href="https://twitter.com/AragonOneTeam" target="_blank">Twitter</a>
         <a href="https://aragon.org" target="_blank">Aragon Project</a>
       </div>

@@ -554,8 +554,12 @@ const JobOpeningsSection = styled.section`
     margin-top: 10px;
     padding: 30px 5px;
     ${medium('padding: 45px;')};
-    ul, ol {
+    ul {
       padding-left: 15px;
+      ${medium('padding-left: 40px;')};
+    }
+    ol {
+      padding-left: 23px;
       ${medium('padding-left: 40px;')};
     }
   }

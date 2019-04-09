@@ -27,9 +27,6 @@ class Posts extends React.Component {
             items: posts,
             loading: false,
           });
-          posts.forEach((post) => {
-              console.log(post.title);
-          });
       })
       .catch((err) => {
           console.error(err);
@@ -46,7 +43,7 @@ class Posts extends React.Component {
         <PostContainer>
           {this.state.items.map(item => (
             <Post key={item.id} target="_blank" href={item.url}>
-              <Image src={item.feature_image} />
+              <Image src={item.feature_image.replace('http://', 'https://')} />
               <Info>
                 <h6>{moment(item.created_at).format("MMM Do, YYYY")}</h6>
                 <p>{item.title}</p>
@@ -54,7 +51,7 @@ class Posts extends React.Component {
             </Post>
           ))}
         </PostContainer>
-        <MoreBtn target="_blank" href="http://blog.aragon.one">View more posts</MoreBtn>
+        <MoreBtn target="_blank" href="https://blog.aragon.one">View more posts</MoreBtn>
       </Container>
     );
   }
