@@ -170,6 +170,15 @@ const Container = styled.div`
     font-size: 4.28rem;
     ${medium('font-size: 8rem;')};
     ${large('font-size: 10.43rem;')};
+    @media only screen and (min-width: 1170px) and (max-width: 1330px) {
+      font-size: 9rem;
+    }
+    @media only screen and (min-width: 962px) and (max-width: 1170px) {
+      font-size: 8rem;
+    }
+    @media only screen and (min-width: 770px) and (max-width: 962px) {
+      font-size: 7rem;
+    }
   }
   span.pink {
     word-break: break-all;

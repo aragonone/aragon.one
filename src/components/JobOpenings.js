@@ -551,8 +551,13 @@ const JobOpeningsSection = styled.section`
   }
   .highlight {
     background: #1b1b1b;
-    padding: 45px;
     margin-top: 10px;
+    padding: 30px 5px;
+    ${medium('padding: 45px;')};
+    ul, ol {
+      padding-left: 15px;
+      ${medium('padding-left: 40px;')};
+    }
   }
 `;
 

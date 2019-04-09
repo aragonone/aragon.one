@@ -165,6 +165,8 @@ const JobBody = styled.div`
   ul {
     list-style: none;
     margin-bottom: 40px;
+    padding-left: 15px;
+    ${medium('padding-left: 40px;')};
   }
 
   ul li::before {
@@ -173,8 +175,9 @@ const JobBody = styled.div`
     font-weight: bold;
     font-size: 2.14rem;
     display: inline-block;
-    width: 30px;
-    margin-left: -30px;
+    width: 15px;
+    margin-left: -15px;
+    ${medium('width: 30px; margin-left: -30px;')};
     position: relative;
     top: 1px;
   }
