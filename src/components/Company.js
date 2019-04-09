@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import background from './assets/company-background.png';
+import background from './assets/swiss.jpg';
 import Photos from './Photos';
 import Fade from 'react-reveal/Fade';
 
