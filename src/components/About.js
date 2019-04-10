@@ -43,7 +43,8 @@ const title = (
 
 const text1 = (
   <p>
-    Aragon One is a Swiss company formed by the founders of the Aragon project.
+    Aragon One is a Swiss company formed by the founders of the <a href="https://aragon.org" target="_blank">Aragon project<a/>, 
+    building the tools and community necessary for the project to succeed.
   </p>
 );
 const text2 = (
