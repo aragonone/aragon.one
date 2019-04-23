@@ -191,43 +191,6 @@ const JobOpenings = () => (
             only, we require applicants for developer positions to have a very
             active and healthy GitHub profile.
           </li>
-          <li>
-            Please send the following challenge completed:
-            <div className="highlight">
-              <h5>Description</h5>
-              <p>
-                Build a small app to explore the latest blocks on Ethereum. The
-                goal of the app is to provide a way to glance at the recent
-                Ether transfers happening on the blockchain.
-              </p>
-              <h5>Requirements</h5>
-              <ol>
-                <li>Display the ten latest blocks.</li>
-                <li>
-                  Allow the user to see the transactions from a block. Only the
-                  transactions sending Ether should be displayed.
-                </li>
-                <li>Allow the user to see some details about a transaction.</li>
-              </ol>
-              <h5>Notes</h5>
-              <ul>
-                <li>You can use any library you feel comfortable with.</li>
-                <li>The app will be loaded into a browser with MetaMask.</li>
-                <li>
-                  Feel free to interpret the requirements in any way that you
-                  think could be interesting.
-                </li>
-                <li>
-                  The app doesn’t need to follow the Aragon visual identity.
-                </li>
-                <li>Don’t hesitate to ask any question to the team</li>
-              </ul>
-              <h5>The submission will be evaluated on the following points:</h5>
-              <ul>
-                <li>Code quality / readability / testability.</li>
-                <li>UX / visual solutions.</li>
-                <li>Perceived performance.</li>
-                <li>Accessibility.</li>
               </ul>
             </div>
           </li>
