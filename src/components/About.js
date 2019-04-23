@@ -43,8 +43,11 @@ const title = (
 
 const text1 = (
   <p>
-    Aragon One is a Swiss company formed by the founders of the <a href="https://aragon.org" target="_blank">Aragon project<a/>, 
-    building the tools and community necessary for the project to succeed.
+    Aragon One is a Swiss company formed by the founders of the{' '}
+    <a href="https://aragon.org" target="_blank">
+      Aragon project
+    </a>
+    , building the tools and community necessary for the project to succeed.
   </p>
 );
 const text2 = (
@@ -69,6 +72,10 @@ const AboutSection = styled.section`
   flex-direction: column;
   ${medium('flex-direction: row;')};
   padding: 100px 0;
+  a {
+    color: #ff7671;
+    text-decoration: none;
+  }
 `;
 
 const TextBox = styled.div`

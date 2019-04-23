@@ -191,9 +191,6 @@ const JobOpenings = () => (
             only, we require applicants for developer positions to have a very
             active and healthy GitHub profile.
           </li>
-              </ul>
-            </div>
-          </li>
         </ul>
       </JobOpening>
     </Slide>
