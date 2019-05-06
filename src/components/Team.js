@@ -136,7 +136,7 @@ class Team extends React.Component {
                 <TeamCard
                   name="Lorena González"
                   twitter="curritta"
-                  position="Opetations"
+                  position="Operations"
                   imageUrl="Lorena"
                   bio="Lorena is our Operations Assistant. She has worked as a secretary, assistant, and office manager in a very different range of industries."
                 />
