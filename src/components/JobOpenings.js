@@ -180,7 +180,7 @@ const JobOpenings = () => (
         <h5>How to apply</h5>
         <ul>
           <li>
-            Write an email with the following attachments plus any information
+            Write an email with your LinkedIn and/or CV plus any information
             you consider important to{' '}
             <a href="mailto:hiring@aragon.one">hiring@aragon.one</a>, with the
             subject
