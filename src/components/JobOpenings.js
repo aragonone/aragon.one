@@ -9,9 +9,84 @@ const large = css => breakpoint('large', css);
 
 const JobOpenings = () => (
   <JobOpeningsSection id="jobs">
-    <h6 id="operations">
+    <h6 id="growth-marketing">
       <span className="grey">—</span> OPEN JOBS POSITIONS
     </h6>
+    <Slide bottom duration={1200}>
+      <JobOpening
+        role="Growth Marketing"
+        category="COMMS"
+        title="Growth Marketing"
+        open="growth-marketing"
+        idprop="operations"
+        description="We're looking for a Growth Marketer who is hands-on, social, and thrives in a data-informed, vision-driven environment. You will help us bridge the community and developers with Aragon's products and brand. Our Growth Marketer should have a passion for connecting and networking with the open source community.">
+        <h5>Responsibilities</h5>
+        <ul>
+          <li>
+            Grow the scale of our digital brand through different channels,
+            from social to SEO to paid media.
+          </li>
+          <li>
+            Plan, test, track, and optimize growth tactics and metrics
+            for user acquisition and retention.
+          </li>
+          <li>
+            Prepare and coordinate press releases, announcements,
+            and other news with media and third-party partners.
+          </li>
+          <li>
+            Propose and translate creative ideas to boost community engagement
+            and attract product demand and find product-market-fit.
+          </li>
+          <li>
+            Brainstorm, test and implement viral marketing tactics with
+            experimental or template DAOs and other concepts to attract
+            product demand and find product-market-fit.
+          </li>
+        </ul>
+        <h5>Requirements</h5>
+        <ul>
+          <li>
+            Deep understanding of digital marketing analytics,
+            creative and media tactics and best practices.
+          </li>
+          <li>
+            Strategic mindset and ability to execute quickly.
+          </li>
+          <li>
+            Very good written and spoken communication skills in English.
+          </li>
+          <li>
+            Being highly organized, analytical, and detail oriented.
+          </li>
+          <li>
+            Being passionate about open source and decentralization.
+          </li>
+          <li>
+            Being an autonomous individual with a proactive attitude and a love
+            for time self-management. We work focus-driven, not hours-driven.
+          </li>
+        </ul>
+        <h5>Nice to have</h5>
+        <ul>
+          <li>
+            Previous experience contributing or managing open source projects.
+          </li>
+          <li>Previous experience working remotely.</li>
+        </ul>
+        <h5>How to apply</h5>
+        <ul>
+          <li>
+            Write an email with the following attachments plus any information
+            you consider important to{' '}
+            <a href="mailto:hiring@aragon.one">hiring@aragon.one</a>, with the
+            subject
+            <span className="label">Growth Marketing opening application</span>.
+          </li>
+          <li>Send along your LinkedIn, CV, Twitter and/or Medium profiles.</li>
+        </ul>
+      </JobOpening>
+    </Slide>
     <Slide bottom duration={1200}>
       <JobOpening
         role="Operations"
