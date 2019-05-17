@@ -9,7 +9,7 @@ const large = css => breakpoint('large', css);
 
 const JobOpenings = () => (
   <JobOpeningsSection id="jobs">
-    <h6 id="operations">
+    <h6 id="growth-marketing">
       <span className="grey">—</span> OPEN JOBS POSITIONS
     </h6>
     <Slide bottom duration={1200}>
@@ -17,31 +17,31 @@ const JobOpenings = () => (
         role="Growth Marketing"
         category="COMMS"
         title="Growth Marketing"
-        open="growth marketing"
+        open="growth-marketing"
         idprop="operations"
         description="We're looking for a Growth Marketer who is hands-on, social, and thrives in a data-informed, vision-driven environment. You will help us bridge the community and developers with Aragon's products and brand. Our Growth Marketer should have a passion for connecting and networking with the open source community.">
         <h5>Responsibilities</h5>
         <ul>
           <li>
-            Grow the scale of our digital brand through different channels, 
-            from social to SEO to paid media. 
+            Grow the scale of our digital brand through different channels,
+            from social to SEO to paid media.
           </li>
           <li>
-            Plan, test, track, and optimize growth tactics and metrics 
+            Plan, test, track, and optimize growth tactics and metrics
             for user acquisition and retention.
           </li>
           <li>
-            Prepare and coordinate press releases, announcements, 
+            Prepare and coordinate press releases, announcements,
             and other news with media and third-party partners.
           </li>
           <li>
-            Propose and translate creative ideas to boost community engagement 
+            Propose and translate creative ideas to boost community engagement
             and attract product demand and find product-market-fit.
           </li>
           <li>
-            Brainstorm, test and implement viral marketing tactics with 
-            experimental or template DAOs and other concepts to attract 
-            product demand and find product-market-fit. 
+            Brainstorm, test and implement viral marketing tactics with
+            experimental or template DAOs and other concepts to attract
+            product demand and find product-market-fit.
           </li>
         </ul>
         <h5>Requirements</h5>
@@ -54,7 +54,7 @@ const JobOpenings = () => (
             Strategic mindset and ability to execute quickly.
           </li>
           <li>
-            Very good written and spoken communication skills in English. 
+            Very good written and spoken communication skills in English.
           </li>
           <li>
             Being highly organized, analytical, and detail oriented.
