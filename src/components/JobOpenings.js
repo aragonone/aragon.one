@@ -23,8 +23,8 @@ const JobOpenings = () => (
         <h5>Responsibilities</h5>
         <ul>
           <li>
-            Grow the scale of our digital brand through different channels,
-            from social to SEO to paid media.
+            Grow the scale of the Aragon brand through different online and
+            offline channels.
           </li>
           <li>
             Plan, test, track, and optimize growth tactics and metrics
