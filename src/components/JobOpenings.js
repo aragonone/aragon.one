@@ -18,7 +18,7 @@ const JobOpenings = () => (
         category="COMMS"
         title="Growth Marketing"
         open="growth-marketing"
-        idprop="operations"
+        idprop="frontend-engineer"
         description="We're looking for a Growth Marketer who is hands-on, social, and thrives in a data-informed, vision-driven environment. You will help us bridge the community and developers with Aragon's products and brand. Our Growth Marketer should have a passion for connecting and networking with the open source community.">
         <h5>Responsibilities</h5>
         <ul>
@@ -82,104 +82,6 @@ const JobOpenings = () => (
             <a href="mailto:hiring@aragon.one">hiring@aragon.one</a>, with the
             subject
             <span className="label">Growth Marketing opening application</span>.
-          </li>
-          <li>Send along your LinkedIn, CV, Twitter and/or Medium profiles.</li>
-        </ul>
-      </JobOpening>
-    </Slide>
-    <Slide bottom duration={1200}>
-      <JobOpening
-        role="Operations"
-        category="OPERATIONS"
-        title="Operations"
-        open="operations"
-        idprop="frontend-engineer"
-        description="We’re looking for an Operations person who loves to wear many hats, ready to hustle, and able to turn chaos into efficient processes. You will help us bridge Aragon One with the world by optimizing traditional operations, supporting the team and the community, and defining the development of apps to automate operations in DAOs. ">
-        <h5>Responsibilities</h5>
-        <ul>
-          <li>
-            Collaborate with financial and accounting partners to manage
-            financial models and reports, accounting payable and receivable and
-            bookkeeping.
-          </li>
-          <li>
-            Define, track and report operations metrics, forecasts and budgets.
-          </li>
-          <li>
-            Collaborate with legal partners and HR to process visas, work
-            permits, policies, insurance, contracts, and other legal
-            responsibilities.
-          </li>
-          <li>
-            Work with the CEO to develop strategic partnerships with banks,
-            governments, and other external stakeholders.
-          </li>
-          <li>
-            Work with the Communications team to manage sponsorships, providers
-            and team logistics for events, meetups, and conferences.
-          </li>
-          <li>
-            Work with the Communications team to build and develop an
-            Ambassadors program.
-          </li>
-          <li>
-            Work with the Product team to research features and apps to automate
-            operations in DAOs (such as the{' '}
-            <a
-              target="_blank"
-              href="https://github.com/aragon/aragon-apps/tree/master/future-apps/payroll">
-              Aragon Payroll
-            </a>{' '}
-            and the{' '}
-            <a
-              target="_blank"
-              href="https://github.com/aragon/aragon-apps/tree/master/apps/finance">
-              Aragon Finance
-            </a>{' '}
-            apps).
-          </li>
-        </ul>
-        <h5>Requirements</h5>
-        <ul>
-          <li>
-            Experience working in an operations, admin, accounting, legal or
-            similar roles.
-          </li>
-          <li>
-            Experience working with spreadsheets, management reports and
-            delivering financial statements.
-          </li>
-          <li>
-            Very good written and spoken communication skills in English. German
-            is a plus.
-          </li>
-          <li>Willingness to be involved in community and product projects.</li>
-          <li>Being organized and very detail oriented.</li>
-          <li>Being passionate about open source and decentralization.</li>
-          <li>
-            Being an autonomous individual with a proactive attitude and a love
-            for time self-management. We work focus-driven, not hours-driven.
-          </li>
-        </ul>
-        <h5>Nice to have</h5>
-        <ul>
-          <li>
-            Previous experience contributing or managing open source projects.
-          </li>
-          <li>Previous experience working remotely.</li>
-          <li>
-            European/Swiss resident with experience working with Swiss
-            institutions.
-          </li>
-        </ul>
-        <h5>How to apply</h5>
-        <ul>
-          <li>
-            Write an email with the following attachments plus any information
-            you consider important to{' '}
-            <a href="mailto:hiring@aragon.one">hiring@aragon.one</a>, with the
-            subject
-            <span className="label">Operations opening application</span>.
           </li>
           <li>Send along your LinkedIn, CV, Twitter and/or Medium profiles.</li>
         </ul>
