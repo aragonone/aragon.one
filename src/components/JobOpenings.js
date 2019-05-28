@@ -255,9 +255,7 @@ const JobOpenings = () => (
             <span className="label">Systems Engineer opening application</span>.
           </li>
           <li>
-            Please send along your GitHub profile. Since we are open source
-            only, we require applicants for developer positions to have a very
-            active and healthy GitHub profile.
+            Please send along your LinkedIn, CV, Twitter, and/or Medium.
           </li>
         </ul>
       </JobOpening>
