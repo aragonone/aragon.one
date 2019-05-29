@@ -10,6 +10,7 @@ import Company from '../components/Company';
 import WorkConditions from '../components/WorkConditions';
 import GhostPosts from '../components/GhostPosts';
 import Footer from '../components/Footer';
+import Events from '../components/Events';
 import styled from 'styled-components';
 
 import {breakpoint, BreakPoint, Button} from '@aragon/ui';
@@ -24,6 +25,7 @@ class Home extends React.Component {
         <About />
         <Quotes />
         <Team />
+        <Events />
         <Remote />
         <WorkConditions />
         <JobOpenings />
