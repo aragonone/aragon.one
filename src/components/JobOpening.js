@@ -22,9 +22,7 @@ class JobOpening extends React.Component {
   }
   handleClick () {
     let open = this.state.open;
-    if (open) {
-      window.location.hash = 'job';
-    } else {
+    if (!open) {
       window.location.hash = this.props.open;
     }
     this.setState({open: !open})
