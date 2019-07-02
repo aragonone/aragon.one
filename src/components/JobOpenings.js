@@ -94,7 +94,7 @@ const JobOpenings = () => (
         title="Frontend Engineer"
         open="frontend-engineer"
         idprop="systems-engineer"
-        description="We're looking for a Frontend Engineer with a love for beautiful, well-crafted interfaces. You'll work with our rockstar frontend team building Aragon Labs, Aragon client, and aragonOS.">
+        description="We're looking for a Frontend Engineer with a love for beautiful, well-crafted interfaces. You'll work with our frontend team building Aragon Labs, Aragon client, and aragonUI.">
         <h5>Responsibilities</h5>
         <ul>
           <li>
