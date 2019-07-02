@@ -20,11 +20,13 @@ const universalOptions = {
 }
 
   const t_0 = universal(import('../src/pages/Home'), universalOptions)
+const t_1 = universal(import('../src/pages/Jobs'), universalOptions)
 
 
 // Template Map
 global.componentsByTemplateID = global.componentsByTemplateID || [
-  t_0
+  t_0,
+t_1
 ]
 
 // Template Tree
