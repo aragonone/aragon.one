@@ -25,6 +25,11 @@ export default {
       component: 'src/pages/Home',
       getData: () => ({ title: '' }),
     },
+    {
+      path: '/jobs',
+      component: 'src/pages/Jobs',
+      getData: () => ({ title: '' }),
+    },
   ],
   paths: REACT_STATIC_PATHS,
   webpack: (conf, { defaultLoaders }) => {
