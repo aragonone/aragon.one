@@ -348,7 +348,6 @@ const JobOpenings = () => (
         category="ENGINEERING"
         title="Solidity Engineer"
         open="solidity-engineer"
-        idprop="documentation-technical-writer"
         description="We're looking for a Solidity Engineer to help us build the smart contract framework for decentralized organizations and court systems. You'll work with our product and research teams to architect and implement the Aragon client, Aragon Labs, and aragonOS. ">
         <h5>Responsibilities</h5>
         <ul>
@@ -404,67 +403,6 @@ const JobOpenings = () => (
             Please send along your GitHub, LinkedIn/CV, Twitter/Reddit profiles.
             Since we are open source only, we require applicants for developer
             positions to have a very active and healthy GitHub profile.
-          </li>
-        </ul>
-      </JobOpening>
-    </Slide>
-    <Slide bottom duration={1200}>
-      <JobOpening
-        role="Documentation writer"
-        category="ENGINEERING"
-        title="Documentation Technical Writer"
-        open="documentation-technical-writer"
-        description="We’re looking for a Technical Writer to help us communicate the different moving parts of Aragon client and Dev Tools to facilitate the development of the Ethereum community. Our Technical Writer will be the bridge between Aragon engineers and external developers, as well as the reference to support the growth of the Ethereum community through better documentation.">
-        <h5>Responsibilities</h5>
-        <ul>
-          <li>
-            Write, publish and maintain clear, concise, accurate and easy to
-            understand developer documentation in the Aragon Developer Portal.
-          </li>
-          <li>
-            Write, edit and publish technical articles and announcements to the
-            Aragon Project blog and the Aragon One blog.
-          </li>
-          <li>
-            Work with the Product and Engineering teams to research, identify
-            and create use cases and example code.
-          </li>
-          <li>Facilitate technical community support.</li>
-        </ul>
-        <h5>Requirements</h5>
-        <ul>
-          <li>Excellent written communication skills in English.</li>
-          <li>
-            Previous experience writing and editing technical documentation and
-            defining the structure of a documentation set.
-          </li>
-          <li>
-            Previous experience contributing to or managing open source
-            projects.
-          </li>
-        </ul>
-        <h5>Nice to have</h5>
-        <ul>
-          <li>Previous experience working remotely.</li>
-          <li>Previous experience working on software development.</li>
-        </ul>
-        <h5>How to apply</h5>
-        <ul>
-          <li>
-            Write an email with the following attachments plus any information
-            you consider important to{' '}
-            <a href="mailto:hiring@aragon.one">hiring@aragon.one</a>, with the
-            subject
-            <span className="label">
-              Documentation Technical Writer opening application
-            </span>
-            .
-          </li>
-          <li>
-            Please send along your Linkedin, Github, or Twitter profiles, or any
-            other relevant links. Since we are open source only, we require
-            applicants for developer positions to have a very active and healthy
-            GitHub profile.
           </li>
         </ul>
       </JobOpening>
