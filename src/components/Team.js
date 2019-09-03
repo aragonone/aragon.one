@@ -39,6 +39,7 @@ class Team extends React.Component {
             <Carousel
               interval={null}
               nextIcon={<img src={arrow} />}
+              prevIcon={<img src={arrow} />}
               activeIndex={index}
               direction={direction}
               onSelect={this.handleSelect}>
@@ -193,6 +194,7 @@ class Team extends React.Component {
             <Carousel
               interval={null}
               nextIcon={<img src={arrow} />}
+              prevIcon={<img src={arrow} />}
               activeIndex={index}
               direction={direction}
               onSelect={this.handleSelect}>

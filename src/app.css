@@ -60,9 +60,16 @@ a, a span, button {
   bottom: -60px !important;
 }
 .carousel-control-prev {
-  display: none !important;;
+  position: absolute !important;;
+  top: -39px !important;;
+  bottom: 0 !important;;
+  align-items: flex-start !important;;
+  width: auto !important;;
 }
-
+.carousel-control-prev img {
+  transform:
+    rotate(180deg);;
+}
 .carousel-control-next {
   position: absolute !important;;
   top: -39px !important;;
