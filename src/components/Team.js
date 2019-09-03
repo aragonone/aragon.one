@@ -89,15 +89,6 @@ class Team extends React.Component {
               </Carousel.Item>
               <Carousel.Item>
                 <TeamCard
-                  name="Tatu Kärki"
-                  twitter="Smokyish"
-                  position="Communications"
-                  imageUrl="Tatu"
-                  bio="Tatu works on Communications. He loves helping people solve their problems and supporting and spreading the word about decentralization."
-                />
-              </Carousel.Item>
-              <Carousel.Item>
-                <TeamCard
                   name="María Gómez"
                   twitter="MyPaoG"
                   position="Ecosystem"
@@ -251,24 +242,17 @@ class Team extends React.Component {
                     bio="Monica is our HR. She has an international background specialized in strategy, management and executive coaching for startups and founders."
                   />
                   <TeamCard
-                    name="Tatu Kärki"
-                    twitter="Smokyish"
-                    position="Communications"
-                    imageUrl="Tatu"
-                    bio="Tatu works on Communications. He loves helping people solve their problems and supporting and spreading the word about decentralization."
-                  />
-                </TeamContainer>
-              </Carousel.Item>
-
-              <Carousel.Item>
-                <TeamContainer>
-                  <TeamCard
                     name="María Gómez"
                     twitter="MyPaoG"
                     position="Ecosystem"
                     imageUrl="Maria"
                     bio="María is our Ecosystem Developer. She is a reinvented lawyer who loves traveling, networking and technology."
                   />
+                </TeamContainer>
+              </Carousel.Item>
+
+              <Carousel.Item>
+                <TeamContainer>
                   <TeamCard
                     name="Pierre Bertet"
                     twitter="bpierre"
@@ -276,10 +260,6 @@ class Team extends React.Component {
                     imageUrl="Pierre"
                     bio="Pierre is our Frontend Engineer. He is passionate about crafting high quality products, and loves Free Software and the World Wide Web."
                   />
-                </TeamContainer>
-              </Carousel.Item>
-              <Carousel.Item>
-                <TeamContainer>
                   <TeamCard
                     name="Luke Duncan"
                     twitter="lkngtn"
@@ -287,6 +267,10 @@ class Team extends React.Component {
                     imageUrl="Luke"
                     bio="Luke is our Research Lead. He loves to explore how blockchains enable novel forms of governance and how existing forms may perform in new contexts."
                   />
+                </TeamContainer>
+              </Carousel.Item>
+              <Carousel.Item>
+                <TeamContainer>
                   <TeamCard
                     name="Bingen Eguzkitza"
                     twitter="bingentxu"
@@ -294,10 +278,6 @@ class Team extends React.Component {
                     imageUrl="Bingen"
                     bio="Bingen is our Solidity Engineer. He is a long time open source software, hardware and data passionate."
                   />
-                </TeamContainer>
-              </Carousel.Item>
-              <Carousel.Item>
-                <TeamContainer>
                   <TeamCard
                     name="Lorena González"
                     twitter="curritta"
@@ -305,6 +285,10 @@ class Team extends React.Component {
                     imageUrl="Lorena"
                     bio="Lorena is our Operations Assistant. She has worked as a secretary, assistant, and office manager in a very different range of industries."
                   />
+                </TeamContainer>
+              </Carousel.Item>
+              <Carousel.Item>
+                <TeamContainer>
                   <TeamCard
                     name="Delfina Polito"
                     twitter="PolitoDelfina"
@@ -312,10 +296,6 @@ class Team extends React.Component {
                     imageUrl="Delfi"
                     bio="Delfi is our Frontend Engineer. She loves bringing designs to life, being careful about details to make things shine is definitely part of her core."
                   />
-                </TeamContainer>
-              </Carousel.Item>
-              <Carousel.Item>
-                <TeamContainer>
                   <TeamCard
                     name="Gorka Ludlow"
                     twitter="AquiGorka"
@@ -323,7 +303,10 @@ class Team extends React.Component {
                     imageUrl="Gorka"
                     bio="Gorka is our Frontend Engineer. He is passionate about life and a tinkerer, always ready to demo you his new side project."
                   />
-
+                </TeamContainer>
+              </Carousel.Item>
+              <Carousel.Item>
+                <TeamContainer>
                   <TeamCard
                     name="Patricia Davila"
                     twitter="dizzypaty"
@@ -331,10 +314,6 @@ class Team extends React.Component {
                     imageUrl="Paty"
                     bio="Paty is our UX Designer. She orchestrates the collaboration between design, technology, and business making sure products are built around people. "
                   />
-                </TeamContainer>
-              </Carousel.Item>
-              <Carousel.Item>
-                <TeamContainer>
                   <TeamCard
                     name="Adrian García"
                     twitter="owisixseven"
@@ -342,6 +321,10 @@ class Team extends React.Component {
                     imageUrl="Adri"
                     bio="Adrián is our Brand Designer. He is a multidisciplinary designer focused on branding, art direction and the audiovisual world."
                   />
+                </TeamContainer>
+              </Carousel.Item>
+              <Carousel.Item>
+                <TeamContainer>
                   <TeamCard
                     name="Daniel Norman"
                     twitter="daniel2color"
@@ -349,10 +332,6 @@ class Team extends React.Component {
                     imageUrl="Daniel"
                     bio="Daniel is our Web3 Engineer. He is a globetrotter at heart with an interest in culture and how people live their lives."
                   />
-                </TeamContainer>
-              </Carousel.Item>
-              <Carousel.Item>
-                <TeamContainer>
                   <TeamCard
                     name="Facundo Spagnuolo"
                     twitter="facuspagnuolo"
