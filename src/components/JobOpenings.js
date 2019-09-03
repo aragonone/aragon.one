@@ -9,59 +9,48 @@ const large = css => breakpoint('large', css);
 
 const JobOpenings = () => (
   <JobOpeningsSection id="jobs">
-    <h6 id="growth-marketing">
+    <h6 id="head-of-support">
       <span className="grey">—</span> OPEN JOBS POSITIONS
     </h6>
     <Slide bottom duration={1200}>
       <JobOpening
-        role="Growth Marketing"
+        role="Head of Support"
         category="COMMS"
-        title="Growth Marketing"
-        open="growth-marketing"
+        title="Head of Support"
+        open="head-of-support"
         idprop="frontend-engineer"
-        description="We're looking for a Growth Marketer who is hands-on, social, and thrives in a data-informed, vision-driven environment. You will help us bridge the community and developers with Aragon's products and brand. Our Growth Marketer should have a passion for connecting and networking with the open source community.">
+        description="We are looking for a Head of Support who is dedicated to helping users solve their problems with clarity, efficiency, and professionalism. You will own the creation of user-facing product documentation and be responsible for the timely resolution of help desk inquiries. Our Head of Support will play an important part in ensuring success for Aragon users as they build and run their organizations.">
         <h5>Responsibilities</h5>
         <ul>
           <li>
-            Grow the scale of the Aragon brand through different online and
-            offline channels.
+            Document all user-facing features in the frontend client, as well as
+            bugs and feature requests surfaced by product usage and help desk
+            tickets.
           </li>
           <li>
-            Plan, test, track, and optimize growth tactics and metrics
-            for user acquisition and retention.
+            Create educational tutorials and walkthrough videos and articles to
+            demonstrate different ways to safely and successfully use the Aragon
+            client.
           </li>
           <li>
-            Prepare and coordinate press releases, announcements,
-            and other news with media and third-party partners.
+            Resolve help desk tickets in a timely manner with consistently high
+            satisfaction ratings.
           </li>
           <li>
-            Propose and translate creative ideas to boost community engagement
-            and attract product demand and find product-market-fit.
-          </li>
-          <li>
-            Brainstorm, test and implement viral marketing tactics with
-            experimental or template DAOs and other concepts to attract
-            product demand and find product-market-fit.
+            Establish and maintain policies and workflows that enable the
+            support system to scale across multiple channels.
           </li>
         </ul>
         <h5>Requirements</h5>
         <ul>
           <li>
-            Deep understanding of digital marketing analytics,
-            creative and media tactics and best practices.
+            Previous experience in a technical support or customer success type
+            of role.
           </li>
-          <li>
-            Strategic mindset and ability to execute quickly.
-          </li>
-          <li>
-            Very good written and spoken communication skills in English.
-          </li>
-          <li>
-            Being highly organized, analytical, and detail oriented.
-          </li>
-          <li>
-            Being passionate about open source and decentralization.
-          </li>
+          <li>Strategic mindset and ability to execute quickly.</li>
+          <li>Very good written and spoken communication skills in English.</li>
+          <li>Being highly organized, analytical, and detail-oriented.</li>
+          <li>Being passionate about open source and decentralization.</li>
           <li>
             Being an autonomous individual with a proactive attitude and a love
             for time self-management. We work focus-driven, not hours-driven.
@@ -70,7 +59,8 @@ const JobOpenings = () => (
         <h5>Nice to have</h5>
         <ul>
           <li>
-            Previous experience contributing or managing open source projects.
+            Previous experience contributing to or managing open source
+            projects.
           </li>
           <li>Previous experience working remotely.</li>
         </ul>
@@ -81,7 +71,7 @@ const JobOpenings = () => (
             you consider important to{' '}
             <a href="mailto:hiring@aragon.one">hiring@aragon.one</a>, with the
             subject
-            <span className="label">Growth Marketing opening application</span>.
+            <span className="label">Head of Support opening application</span>.
           </li>
           <li>Send along your LinkedIn, CV, Twitter and/or Medium profiles.</li>
         </ul>
@@ -157,8 +147,8 @@ const JobOpenings = () => (
         <h5>How to apply</h5>
         <ul>
           <li>
-            Write an email with your LinkedIn and/or CV plus any information
-            you consider important to{' '}
+            Write an email with your LinkedIn and/or CV plus any information you
+            consider important to{' '}
             <a href="mailto:hiring@aragon.one">hiring@aragon.one</a>, with the
             subject
             <span className="label">Frontend Dev opening application</span>.
@@ -254,9 +244,7 @@ const JobOpenings = () => (
             subject
             <span className="label">Systems Engineer opening application</span>.
           </li>
-          <li>
-            Please send along your LinkedIn, CV, Twitter, and/or Medium.
-          </li>
+          <li>Please send along your LinkedIn, CV, Twitter, and/or Medium.</li>
         </ul>
       </JobOpening>
     </Slide>
