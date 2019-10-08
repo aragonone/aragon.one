@@ -326,18 +326,18 @@ class Team extends React.Component {
               <Carousel.Item>
                 <TeamContainer>
                   <TeamCard
-                    name="Daniel Norman"
-                    twitter="daniel2color"
-                    position="Web3 dev"
-                    imageUrl="Daniel"
-                    bio="Daniel is our Web3 Engineer. He is a globetrotter at heart with an interest in culture and how people live their lives."
-                  />
-                  <TeamCard
                     name="Facundo Spagnuolo"
                     twitter="facuspagnuolo"
                     position="Solidity dev"
                     imageUrl="Facu"
                     bio="Facu is our Solidity Engineer. He is a researcher and security auditor, and the best asados chef you'll ever find."
+                  />
+                  <TeamCard
+                    name="Ale Santander"
+                    twitter="_ajsantander"
+                    position="Solidity dev"
+                    imageUrl="Ale"
+                    bio="Ale is a creative coder, versed in Solidity, JS, and other lingos."
                   />
                 </TeamContainer>
               </Carousel.Item>
