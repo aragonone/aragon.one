@@ -279,29 +279,29 @@ class Team extends React.Component {
                     bio="Bingen is our Solidity Engineer. He is a long time open source software, hardware and data passionate."
                   />
                   <TeamCard
-                    name="Lorena González"
-                    twitter="curritta"
-                    position="Operations"
-                    imageUrl="Lorena"
-                    bio="Lorena is our Operations Assistant. She has worked as a secretary, assistant, and office manager in a very different range of industries."
+                    name="Facundo Spagnuolo"
+                    twitter="facuspagnuolo"
+                    position="Solidity dev"
+                    imageUrl="Facu"
+                    bio="Facu is our Solidity Engineer. He is a researcher and security auditor, and the best asados chef you'll ever find."
                   />
                 </TeamContainer>
               </Carousel.Item>
               <Carousel.Item>
                 <TeamContainer>
                   <TeamCard
+                    name="Lorena González"
+                    twitter="curritta"
+                    position="Operations"
+                    imageUrl="Lorena"
+                    bio="Lorena is our Operations Assistant. She has worked as a secretary, assistant, and office manager in a very different range of industries."
+                  />
+                  <TeamCard
                     name="Delfina Polito"
                     twitter="PolitoDelfina"
                     position="Frontend dev"
                     imageUrl="Delfi"
                     bio="Delfi is our Frontend Engineer. She loves bringing designs to life, being careful about details to make things shine is definitely part of her core."
-                  />
-                  <TeamCard
-                    name="Gorka Ludlow"
-                    twitter="AquiGorka"
-                    position="Frontend dev"
-                    imageUrl="Gorka"
-                    bio="Gorka is our Frontend Engineer. He is passionate about life and a tinkerer, always ready to demo you his new side project."
                   />
                 </TeamContainer>
               </Carousel.Item>
@@ -325,13 +325,6 @@ class Team extends React.Component {
               </Carousel.Item>
               <Carousel.Item>
                 <TeamContainer>
-                  <TeamCard
-                    name="Facundo Spagnuolo"
-                    twitter="facuspagnuolo"
-                    position="Solidity dev"
-                    imageUrl="Facu"
-                    bio="Facu is our Solidity Engineer. He is a researcher and security auditor, and the best asados chef you'll ever find."
-                  />
                   <TeamCard
                     name="Ale Santander"
                     twitter="_ajsantander"
