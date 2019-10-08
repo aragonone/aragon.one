@@ -225,7 +225,7 @@ const JobOpenings = () => (
             consider important to{' '}
             <a href="mailto:hiring@aragon.one">hiring@aragon.one</a>, with the
             subject
-            <span className="label">Frontend Dev opening application</span>.
+            <span className="label">UI engineer opening application</span>.
           </li>
           <li>
             Please send along your GitHub profile. Since we are open source
