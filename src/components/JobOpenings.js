@@ -9,17 +9,17 @@ const large = css => breakpoint('large', css);
 
 const JobOpenings = () => (
   <JobOpeningsSection id="jobs">
-    <h6 id="senior-javascript-engineer">
+    <h6 id="javascript-engineer">
       <span className="grey">—</span> OPEN JOBS POSITIONS
     </h6>
     <Slide bottom duration={1200}>
       <JobOpening
-        role="Senior Javascript Engineer"
+        role="Javascript Engineer"
         category="ENGINEERING"
-        title="Senior Javascript Engineer"
-        open="senior-javascript-engineer"
+        title="Javascript Engineer"
+        open="javascript-engineer"
         idprop="head-of-support"
-        description="We’re looking for a Senior Javascript Engineer to help us interface smart contracts with the frontend using Web3 technologies. Our Senior Javascript Engineer must be someone excited about Web3 and experimenting and researching in new dev tools and libraries. You'll work directly with our Dev Lead and other Aragon teams and community contributors.">
+        description="We’re looking for a Javascript Engineer to help us interface smart contracts with the frontend using Web3 technologies. Our Javascript Engineer must be someone excited about Web3 and experimenting and researching in new dev tools and libraries. You'll work directly with our Dev Lead and other Aragon teams and community contributors.">
         <h5>Responsibilities</h5>
         <ul>
           <li>
@@ -39,9 +39,8 @@ const JobOpenings = () => (
         <ul>
           <li>Track record working with Javascript environments.</li>
           <li>
-            Expert understanding on ES6/ES7, React, client-side storage,
-            resource optimization, CSS, using processors such as LESS or SASS,
-            RxJS, service workers, and device APIs.
+            Experience working with Modern JavaScript (ES6+) and Web APIs, CSS,
+            React (Web and Native), resource optimization, development tools, and service APIs.
           </li>
           <li>
             Proven ability to ship quality, well-crafted code within tight
@@ -65,23 +64,17 @@ const JobOpenings = () => (
         <h5>How to apply</h5>
         <ul>
           <li>
-            Write an email with the following attachments plus any information
+            Write an email with your Linkedin and/or CV, Github profile and any information
             you consider important to{' '}
             <a href="mailto:hiring@aragon.one">hiring@aragon.one</a>, with the
             subject
             <span className="label">
-              Senior Javascript Engineer opening application
+              Javascript Engineer application
             </span>
             .
           </li>
           <li>
-            Please send along your GitHub profile. Since we are open source
-            only, we require applicants for developer positions to have a very
-            active and healthy GitHub profile.
-          </li>
-          <li>
-            Bonus: Why did Aragon catch your attention? Which challenges within
-            the crypto space are you more interested in?
+            Bonus: Why did Aragon catch your attention?
           </li>
         </ul>
       </JobOpening>
@@ -141,13 +134,12 @@ const JobOpenings = () => (
         <h5>How to apply</h5>
         <ul>
           <li>
-            Write an email with the following attachments plus any information
+            Write an email with your LinkedIn, CV, Twitter and/or Medium profiles, plus any information
             you consider important to{' '}
             <a href="mailto:hiring@aragon.one">hiring@aragon.one</a>, with the
             subject
-            <span className="label">Head of Support opening application</span>.
+            <span className="label">Head of Support application</span>.
           </li>
-          <li>Send along your LinkedIn, CV, Twitter and/or Medium profiles.</li>
         </ul>
       </JobOpening>
     </Slide>
@@ -158,25 +150,33 @@ const JobOpenings = () => (
         title="UI Engineer"
         open="ui-engineer"
         idprop="systems-engineer"
-        description="We're looking for a UI Engineer with a love for beautiful, well-crafted interfaces. You'll work with our frontend team building Aragon Labs, Aragon client, and aragonUI.">
+        description="We're looking for a UI Engineer with a love for beautiful, well-crafted interfaces. You'll work with our frontend team building Aragon Court, Aragon Client, and Aragon UI.">
         <h5>Responsibilities</h5>
         <ul>
           <li>
-            Develop, ship, and maintain quality interfaces for{' '}
-            <a
-              href="https://blog.aragon.org/announcing-aragon-labs-a679693429ae/"
-              target="_blank">
-              Aragon Labs
-            </a>{' '}
-            and{' '}
+            Develop, ship, and maintain the{' '}
+            <a href="https://github.com/aragon/aragon-ui" target="_blank">
+              Aragon UI
+            </a>
+            , an Aragon-native toolkit of React UI components for decentralized apps, based on the{' '}
+            <a href="https://hack.aragon.org/docs/layout.html" target="_blank">
+              Aragon Design System
+            </a>
+            .
+          </li>
+          <li>
+            Develop, ship, and maintain quality interfaces for the{' '}
             <a href="https://github.com/aragon/aragon" target="_blank">
               Aragon client
             </a>
-            , working closely with our{' '}
+            .
+          </li>
+          <li>
+            Develop, ship, and maintain the frontend for the first version of the{' '}
             <a
-              href="https://hack.aragon.org/docs/aragonui-intro.html"
+              href="https://github.com/aragon/aragon-court"
               target="_blank">
-              UI toolkit
+              Aragon Court
             </a>
             .
           </li>
@@ -195,10 +195,9 @@ const JobOpenings = () => (
         <h5>Requirements</h5>
         <ul>
           <li>
-            Expert understanding of: Modern JavaScript (ES6+) and Web APIs, CSS,
+            Experience working with Modern JavaScript (ES6+) and Web APIs, CSS,
             React (Web and Native), resource optimization, development tools.
           </li>
-          <li>Experience working with Web3 technologies.</li>
           <li>
             Proven ability to ship quality, well-crafted code within tight
             deadlines.
@@ -211,6 +210,7 @@ const JobOpenings = () => (
         </ul>
         <h5>Nice to have</h5>
         <ul>
+          <li>Experience working with Web3 technologies.</li>
           <li>
             Previous experience contributing or managing open source projects.
           </li>
@@ -221,16 +221,11 @@ const JobOpenings = () => (
         <h5>How to apply</h5>
         <ul>
           <li>
-            Write an email with your LinkedIn and/or CV plus any information you
+            Write an email with your LinkedIn and/or CV, your Github profile, and any information you
             consider important to{' '}
             <a href="mailto:hiring@aragon.one">hiring@aragon.one</a>, with the
             subject
-            <span className="label">UI engineer opening application</span>.
-          </li>
-          <li>
-            Please send along your GitHub profile. Since we are open source
-            only, we require applicants for developer positions to have a very
-            active and healthy GitHub profile.
+            <span className="label">UI engineer application</span>.
           </li>
         </ul>
       </JobOpening>
@@ -281,7 +276,7 @@ const JobOpenings = () => (
             Proven ability to launch, secure, monitor, and maintain automated
             cloud services.
           </li>
-          <li>Experience working with Kubernetes and setting up nodes.</li>
+          <li>Experience working with Kubernetes.</li>
           <li>
             Pragmatic approach to infrastructure; never fail the same way twice.
           </li>
@@ -304,7 +299,7 @@ const JobOpenings = () => (
             delivery pipelines.
           </li>
           <li>
-            Previous experience contributing or managing open source projects.
+            Previous experience contributing or managing open source projects and setting up nodes.
           </li>
           <li>Previous experience working remotely.</li>
           <li>Very good written communication skills.</li>
@@ -312,13 +307,12 @@ const JobOpenings = () => (
         <h5>How to apply</h5>
         <ul>
           <li>
-            Write an email with the following attachments plus any information
+            Write an email with your LinkedIn, CV, Twitter, and/or Medium profiles, plus any information
             you consider important to{' '}
             <a href="mailto:hiring@aragon.one">hiring@aragon.one</a>, with the
             subject
-            <span className="label">Systems Engineer opening application</span>.
+            <span className="label">Systems Engineer application</span>.
           </li>
-          <li>Please send along your LinkedIn, CV, Twitter, and/or Medium.</li>
         </ul>
       </JobOpening>
     </Slide>
@@ -370,7 +364,7 @@ const JobOpenings = () => (
             Interest in working with developers to help them use and build on
             top of Aragon.
           </li>
-          <li>Being passionate about decentralization.</li>
+          <li>Being passionate about open source and decentralization.</li>
           <li>
             Being an autonomous individual with a proactive attitude and a love
             for time self-management.
@@ -388,18 +382,14 @@ const JobOpenings = () => (
         <h5>How to apply</h5>
         <ul>
           <li>
-            Write an email with the following attachments plus any information
+            Write an email with your GitHub, LinkedIn/CV, Twitter/Reddit profiles, plus any information
             you consider important to{' '}
             <a href="mailto:hiring@aragon.one">hiring@aragon.one</a>, with the
             subject
             <span className="label">
-              Developer Relations opening application.
+              Developer Relations application.
             </span>
             .
-          </li>
-          <li>
-            Please send along your GitHub, LinkedIn/CV, Twitter/Reddit profiles,
-            and references we can get in touch with.
           </li>
         </ul>
       </JobOpening>
@@ -410,7 +400,7 @@ const JobOpenings = () => (
         category="ENGINEERING"
         title="Solidity Engineer"
         open="solidity-engineer"
-        description="We're looking for a Solidity Engineer to help us build the smart contract framework for decentralized organizations and court systems. You'll work with our product and research teams to architect and implement the Aragon client, Aragon Labs, and aragonOS. ">
+        description="We're looking for a Solidity Engineer to help us build the smart contract framework for decentralized organizations and court systems. You'll work with our product and research teams to architect and implement the Aragon client, Aragon Court, and aragonOS. ">
         <h5>Responsibilities</h5>
         <ul>
           <li>
@@ -454,17 +444,12 @@ const JobOpenings = () => (
         <h5>How to apply</h5>
         <ul>
           <li>
-            Write an email with the following attachments plus any information
+            Write an email with your GitHub, LinkedIn/CV, Twitter/Reddit profiles, plus any information
             you consider important to{' '}
             <a href="mailto:hiring@aragon.one">hiring@aragon.one</a>, with the
             subject
             <span className="label">Solidity Engineer opening application</span>
             .
-          </li>
-          <li>
-            Please send along your GitHub, LinkedIn/CV, Twitter/Reddit profiles.
-            Since we are open source only, we require applicants for developer
-            positions to have a very active and healthy GitHub profile.
           </li>
         </ul>
       </JobOpening>
