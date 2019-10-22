@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import {breakpoint, BreakPoint, Button} from '@aragon/ui';
-import offsites from './assets/offsites.png';
+import offsites from './assets/offsites.svg';
 import logo from './assets/logo-footer.svg';
 const medium = css => breakpoint('medium', css);
 const large = css => breakpoint('large', css);
@@ -34,7 +34,7 @@ class Events extends React.Component {
             <Offsite>
               <img src={logo} />
               <h6>LATEST TEAM OFFSITE</h6>
-              <h2>LISBON, PT</h2>
+              <h2>GRAN CANARIA</h2>
             </Offsite>
           </Box>
         </Container>
