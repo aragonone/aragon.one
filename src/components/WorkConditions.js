@@ -67,7 +67,8 @@ const WorkConditions = () => (
           </Slide>
           <Slide bottom duration={1200} delay={600}>
             <p>
-              Side projects - we encourage you to spend some time contributing to the broader ecosystem
+              Fully open-source - we contribute in a collaborative public manner to Aragon around
+              the broader ecosystem
             </p>
           </Slide>
         </Item>
@@ -77,7 +78,7 @@ const WorkConditions = () => (
           </Slide>
           <Slide bottom duration={1200} delay={700}>
             <p>
-              Crypto-first - you decide how to allocate your salary in ANT/DAI/ETH
+              Crypto-first - salaries are paid in DAI, a decentralized stablecoin on Ethereum
             </p>
           </Slide>
         </Item>
