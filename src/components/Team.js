@@ -44,29 +44,29 @@ class Team extends React.Component {
               onSelect={this.handleSelect}>
               <Carousel.Item>
                 <TeamCard
-                  name="Luis Cuende"
-                  twitter="licuende"
-                  position="CEO"
-                  imageUrl="Luis"
-                  bio="Luis is our CEO. He loves helping people solve unfair situations in the world through technology and he's currently leading our product efforts."
-                />
-              </Carousel.Item>
-              <Carousel.Item>
-                <TeamCard
                   name="Jorge Izquierdo"
                   twitter="izqui9"
-                  position="CTO"
+                  position="CEO"
                   imageUrl="Jorge"
-                  bio="Jorge is our CTO. He's a curious hacker and researcher pushing to make the decentralized web happen."
+                  bio="Jorge is our CEO. He's a curious hacker and researcher pushing to make the decentralized web happen."
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <TeamCard
                   name="Brett Sun"
                   twitter="sohkai"
-                  position="Dev lead"
+                  position="CTO"
                   imageUrl="Brett"
-                  bio="Brett is our Tech Lead. He's a highly curious full-stack engineer, a wizard both in frontend and Solidity."
+                  bio="Brett is our CTO. He's a highly curious full-stack engineer, a wizard both in frontend and Solidity."
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <TeamCard
+                  name="Facundo Spagnuolo"
+                  twitter="facuspagnuolo"
+                  position="AN team lead"
+                  imageUrl="Facu"
+                  bio="Facu is our AN team lead. He is a researcher and security auditor, and the best asados chef you'll ever find."
                 />
               </Carousel.Item>
               <Carousel.Item>
@@ -120,16 +120,7 @@ class Team extends React.Component {
                   twitter="bingentxu"
                   position="Solidity dev"
                   imageUrl="Bingen"
-                  bio="Bingen is our Solidity Engineer. He is a long time open source software, hardware and data enthusiast."
-                />
-              </Carousel.Item>
-              <Carousel.Item>
-                <TeamCard
-                  name="Lorena González"
-                  twitter="curritta"
-                  position="Operations"
-                  imageUrl="Lorena"
-                  bio="Lorena is our Operations Assistant. She has worked as a secretary, assistant, and office manager in a very different range of industries."
+                  bio="Bingen is our Solidity Engineer. He is a long time open source software, hardware and data passionate."
                 />
               </Carousel.Item>
               <Carousel.Item>
@@ -139,15 +130,6 @@ class Team extends React.Component {
                   position="Frontend dev"
                   imageUrl="Delfi"
                   bio="Delfi is our Frontend Engineer. She loves bringing designs to life, being careful about details to make things shine is definitely part of her core."
-                />
-              </Carousel.Item>
-              <Carousel.Item>
-                <TeamCard
-                  name="Gorka Ludlow"
-                  twitter="AquiGorka"
-                  position="Frontend dev"
-                  imageUrl="Gorka"
-                  bio="Gorka is our Frontend Engineer. He is enthusiast about life and a tinkerer, always ready to demo you his new side project."
                 />
               </Carousel.Item>
               <Carousel.Item>
@@ -170,21 +152,29 @@ class Team extends React.Component {
               </Carousel.Item>
               <Carousel.Item>
                 <TeamCard
-                  name="Daniel Norman"
-                  twitter="daniel2color"
-                  position="Web3 dev"
-                  imageUrl="Daniel"
-                  bio="Daniel is our Web3 Engineer. He is a globetrotter at heart with an interest in culture and how people live their lives."
+                  name="Ale Santander"
+                  twitter="_ajsantander"
+                  position="Solidity dev"
+                  imageUrl="Ale"
+                  bio="Ale is a creative coder, versed in Solidity, JS, and other lingos."
                 />
               </Carousel.Item>
-
               <Carousel.Item>
                 <TeamCard
-                  name="Facundo Spagnuolo"
-                  twitter="facuspagnuolo"
-                  position="Solidity dev"
-                  imageUrl="Facu"
-                  bio="Facu is our Solidity Engineer. He is a researcher and security auditor, and the best asados chef you'll ever find."
+                  name="Lorena González"
+                  twitter="curritta"
+                  position="Operations"
+                  imageUrl="Lorena"
+                  bio="Lorena is our Operations Assistant. She has worked as a secretary, assistant, and office manager in a very different range of industries."
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <TeamCard
+                  name="Luis Cuende"
+                  twitter="licuende"
+                  position="Advisor"
+                  imageUrl="Luis"
+                  bio="Luis is our advisor. He loves helping people solve unfair situations in the world through technology and he's currently leading our product efforts."
                 />
               </Carousel.Item>
             </Carousel>
@@ -199,29 +189,29 @@ class Team extends React.Component {
               <Carousel.Item>
                 <TeamContainer>
                   <TeamCard
-                    name="Luis Cuende"
-                    twitter="licuende"
-                    position="CEO"
-                    imageUrl="Luis"
-                    bio="Luis is our CEO. He loves helping people solve unfair situations in the world through technology and he's currently leading our product efforts."
-                  />
-                  <TeamCard
                     name="Jorge Izquierdo"
                     twitter="izqui9"
-                    position="CTO"
+                    position="CEO"
                     imageUrl="Jorge"
-                    bio="Jorge is our CTO. He's a curious hacker and researcher pushing to make the decentralized web happen."
+                    bio="Jorge is our CEO. He's a curious hacker and researcher pushing to make the decentralized web happen."
+                  />
+                  <TeamCard
+                    name="Brett Sun"
+                    twitter="sohkai"
+                    position="CTO"
+                    imageUrl="Brett"
+                    bio="Brett is our CTO. He's a highly curious full-stack engineer, a wizard both in frontend and Solidity."
                   />
                 </TeamContainer>
               </Carousel.Item>
               <Carousel.Item>
                 <TeamContainer>
                   <TeamCard
-                    name="Brett Sun"
-                    twitter="sohkai"
-                    position="Dev lead"
-                    imageUrl="Brett"
-                    bio="Brett is our Dev Lead. He's a highly curious full-stack engineer, a wizard both in frontend and Solidity."
+                    name="Facundo Spagnuolo"
+                    twitter="facuspagnuolo"
+                    position="AN team lead"
+                    imageUrl="Facu"
+                    bio="Facu is our AN team lead. He is a researcher and security auditor, and the best asados chef you'll ever find."
                   />
                   <TeamCard
                     name="John Light"
@@ -250,7 +240,6 @@ class Team extends React.Component {
                   />
                 </TeamContainer>
               </Carousel.Item>
-
               <Carousel.Item>
                 <TeamContainer>
                   <TeamCard
@@ -277,24 +266,6 @@ class Team extends React.Component {
                     position="Solidity dev"
                     imageUrl="Bingen"
                     bio="Bingen is our Solidity Engineer. He is a long time open source software, hardware and data passionate."
-                  />
-                  <TeamCard
-                    name="Facundo Spagnuolo"
-                    twitter="facuspagnuolo"
-                    position="Solidity dev"
-                    imageUrl="Facu"
-                    bio="Facu is our Solidity Engineer. He is a researcher and security auditor, and the best asados chef you'll ever find."
-                  />
-                </TeamContainer>
-              </Carousel.Item>
-              <Carousel.Item>
-                <TeamContainer>
-                  <TeamCard
-                    name="Lorena González"
-                    twitter="curritta"
-                    position="Operations"
-                    imageUrl="Lorena"
-                    bio="Lorena is our Operations Assistant. She has worked as a secretary, assistant, and office manager in a very different range of industries."
                   />
                   <TeamCard
                     name="Delfina Polito"
@@ -331,6 +302,24 @@ class Team extends React.Component {
                     position="Solidity dev"
                     imageUrl="Ale"
                     bio="Ale is a creative coder, versed in Solidity, JS, and other lingos."
+                  />
+                  <TeamCard
+                    name="Lorena González"
+                    twitter="curritta"
+                    position="Operations"
+                    imageUrl="Lorena"
+                    bio="Lorena is our Operations Assistant. She has worked as a secretary, assistant, and office manager in a very different range of industries."
+                  />
+                </TeamContainer>
+              </Carousel.Item>
+              <Carousel.Item>
+                <TeamContainer>
+                  <TeamCard
+                    name="Luis Cuende"
+                    twitter="licuende"
+                    position="Advisor"
+                    imageUrl="Luis"
+                    bio="Luis is our advisor. He loves helping people solve unfair situations in the world through technology and he's currently leading our product efforts."
                   />
                 </TeamContainer>
               </Carousel.Item>
