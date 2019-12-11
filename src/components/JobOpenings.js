@@ -18,8 +18,8 @@ const JobOpenings = () => (
         category="ENGINEERING"
         title="Javascript Engineer"
         open="javascript-engineer"
-        idprop="head-of-support"
-        description="We’re looking for a Javascript Engineer to help us interface smart contracts with the frontend using Web3 technologies. Our Javascript Engineer must be someone excited about Web3 and experimenting and researching in new dev tools and libraries. You'll work directly with our Dev Lead and other Aragon teams and community contributors.">
+        idprop="ui-engineer"
+        description="We're looking for a Javascript Engineer to research, experiment, and build robust Javascript libraries to interact with the Ethereum blockchain.">
         <h5>Responsibilities</h5>
         <ul>
           <li>
@@ -30,17 +30,14 @@ const JobOpenings = () => (
             Research and experiment with new Web3 technologies, including but
             not limited to Web3.js and Parity systems.
           </li>
-          <li>
-            Assist with smart contracts and frontend development when needed.
-          </li>
           <li>Help to create developer tools and technical documentation.</li>
         </ul>
         <h5>Requirements</h5>
         <ul>
           <li>Track record working with Javascript environments.</li>
           <li>
-            Experience working with Modern JavaScript (ES6+) and Web APIs, CSS,
-            React (Web and Native), resource optimization, development tools, and service APIs.
+            Experience working with modern JavaScript tools like ES6+, React,
+            Node, resource optimization, development tools, and service APIs.
           </li>
           <li>
             Proven ability to ship quality, well-crafted code within tight
@@ -64,81 +61,11 @@ const JobOpenings = () => (
         <h5>How to apply</h5>
         <ul>
           <li>
-            Write an email with your Linkedin and/or CV, Github profile and any information
-            you consider important to{' '}
-            <a href="mailto:hiring@aragon.one">hiring@aragon.one</a>, with the
-            subject
-            <span className="label">
-              Javascript Engineer application
-            </span>
-            .
-          </li>
-          <li>
-            Bonus: Why did Aragon catch your attention?
-          </li>
-        </ul>
-      </JobOpening>
-    </Slide>
-    <Slide bottom duration={1200}>
-      <JobOpening
-        role="Head of Support"
-        category="COMMS"
-        title="Head of Support"
-        open="head-of-support"
-        idprop="ui-engineer"
-        description="We are looking for a Head of Support who is dedicated to helping users solve their problems with clarity, efficiency, and professionalism. You will own the creation of user-facing product documentation and be responsible for the timely resolution of help desk inquiries. Our Head of Support will play an important part in ensuring success for Aragon users as they build and run their organizations.">
-        <h5>Responsibilities</h5>
-        <ul>
-          <li>
-            Document all user-facing features in the frontend client, as well as
-            bugs and feature requests surfaced by product usage and help desk
-            tickets.
-          </li>
-          <li>
-            Create educational tutorials and walkthrough videos and articles to
-            demonstrate different ways to safely and successfully use the Aragon
-            client.
-          </li>
-          <li>
-            Resolve help desk tickets in a timely manner with consistently high
-            satisfaction ratings.
-          </li>
-          <li>
-            Establish and maintain policies and workflows that enable the
-            support system to scale across multiple channels.
-          </li>
-        </ul>
-        <h5>Requirements</h5>
-        <ul>
-          <li>
-            Previous experience in a technical support or customer success type
-            of role.
-          </li>
-          <li>Strategic mindset and ability to execute quickly.</li>
-          <li>Very good written and spoken communication skills in English.</li>
-          <li>Being highly organized, analytical, and detail-oriented.</li>
-          <li>Being passionate about open source and decentralization.</li>
-          <li>
-            Being an autonomous individual with a proactive attitude and a love
-            for time self-management. We work focus-driven, not hours-driven.
-          </li>
-        </ul>
-        <h5>Nice to have</h5>
-        <ul>
-          <li>
-            Previous experience contributing to or managing open source
-            projects.
-          </li>
-          <li>Previous experience working remotely.</li>
-        </ul>
-        <h5>How to apply</h5>
-        <ul>
-          <li>
-            Write an email with your LinkedIn, CV, Twitter and/or Medium profiles, plus any information
-            you consider important to{' '}
-            <a href="mailto:hiring@aragon.one">hiring@aragon.one</a>, with the
-            subject
-            <span className="label">Head of Support application</span>.
+            Fill this{' '}
+            <a href="https://jobs.lever.co/aragonone/1c635748-4c59-4bbf-84ff-59d7754ca32d/apply" target="_blank">
+              form
+            </a>
+            with your Linkedin and/or CV, Github profile and any information you consider important.
           </li>
         </ul>
       </JobOpening>
@@ -150,7 +77,8 @@ const JobOpenings = () => (
         title="UI Engineer"
         open="ui-engineer"
         idprop="solidity-engineer"
-        description="We're looking for a UI Engineer with a love for beautiful, well-crafted interfaces. You'll work with our frontend team building Aragon Court, Aragon Client, and Aragon UI.">
+        description="UI engineering connects the people with the product. As Aragon One looks beyond developer tools, we're looking for UI Engineers with a love for beautiful, well-crafted, pixel-perfect interfaces that enable users to easily build their organizations on top of Aragon. We're building a native toolkit of React UI components for decentralized apps, based on the Aragon Design System. We care about our product's quality standards and consistency, shipping faster and more efficiently, making the toolkit accessible to other app developers and scalable to the entire ecosystem."
+        >
         <h5>Responsibilities</h5>
         <ul>
           <li>
@@ -172,15 +100,6 @@ const JobOpenings = () => (
             .
           </li>
           <li>
-            Develop, ship, and maintain the frontend for the first version of the{' '}
-            <a
-              href="https://github.com/aragon/aragon-court"
-              target="_blank">
-              Aragon Court
-            </a>
-            .
-          </li>
-          <li>
             Work with our Design team to transform ideas and designs into
             modern, clean, and readable code.
           </li>
@@ -195,13 +114,14 @@ const JobOpenings = () => (
         <h5>Requirements</h5>
         <ul>
           <li>
-            Experience working with Modern JavaScript (ES6+) and Web APIs, CSS,
-            React (Web and Native), resource optimization, development tools.
+            Experience working with modern JavaScript tools like ES6+, Web APIs, CSS, React,
+            Styled Components, and resource optimization tools.
           </li>
           <li>
             Proven ability to ship quality, well-crafted code within tight
             deadlines.
           </li>
+          <li>Being detail-oriented with attention to UX/UI design.</li>
           <li>Being passionate about open source and decentralization.</li>
           <li>
             Being an autonomous individual with a proactive attitude and a love
@@ -215,17 +135,15 @@ const JobOpenings = () => (
             Previous experience contributing or managing open source projects.
           </li>
           <li>Previous experience working remotely.</li>
-          <li>Very good written communication skills.</li>
-          <li>Attention to UX/UI design.</li>
         </ul>
         <h5>How to apply</h5>
         <ul>
           <li>
-            Write an email with your LinkedIn and/or CV, your Github profile, and any information you
-            consider important to{' '}
-            <a href="mailto:hiring@aragon.one">hiring@aragon.one</a>, with the
-            subject
-            <span className="label">UI engineer application</span>.
+            Fill this{' '}
+            <a href="https://jobs.lever.co/aragonone/3c6727bf-ed55-4ca2-8985-0b007508bb35/apply" target="_blank">
+              form
+            </a>
+            with your Linkedin and/or CV, Github profile and any information you consider important.
           </li>
         </ul>
       </JobOpening>
@@ -280,12 +198,11 @@ const JobOpenings = () => (
         <h5>How to apply</h5>
         <ul>
           <li>
-            Write an email with your GitHub, LinkedIn/CV, Twitter/Reddit profiles, plus any information
-            you consider important to{' '}
-            <a href="mailto:hiring@aragon.one">hiring@aragon.one</a>, with the
-            subject
-            <span className="label">Solidity Engineer opening application</span>
-            .
+            Fill this{' '}
+            <a href="https://jobs.lever.co/aragonone/9a82ba9c-0f04-4479-a76e-c11d9f415d89/apply" target="_blank">
+              form
+            </a>
+            with your Linkedin and/or CV, Github profile and any information you consider important.
           </li>
         </ul>
       </JobOpening>
