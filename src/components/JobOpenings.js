@@ -62,10 +62,13 @@ const JobOpenings = () => (
         <ul>
           <li>
             Fill this{' '}
-            <a href="https://jobs.lever.co/aragonone/1c635748-4c59-4bbf-84ff-59d7754ca32d/apply" target="_blank">
+            <a
+              href="https://jobs.lever.co/aragonone/1c635748-4c59-4bbf-84ff-59d7754ca32d/apply"
+              target="_blank">
               form
-            </a>
-            with your Linkedin and/or CV, Github profile and any information you consider important.
+            </a>{' '}
+            with your Linkedin and/or CV, Github profile and any information you
+            consider important.
           </li>
         </ul>
       </JobOpening>
@@ -77,8 +80,20 @@ const JobOpenings = () => (
         title="UI Engineer"
         open="ui-engineer"
         idprop="solidity-engineer"
-        description="UI engineering connects the people with the product. As Aragon One looks beyond developer tools, we're looking for UI Engineers with a love for beautiful, well-crafted, pixel-perfect interfaces that enable users to easily build their organizations on top of Aragon. We're building a native toolkit of React UI components for decentralized apps, based on the Aragon Design System. We care about our product's quality standards and consistency, shipping faster and more efficiently, making the toolkit accessible to other app developers and scalable to the entire ecosystem."
-        >
+        description={
+          <span>
+            UI engineering connects the people with the product. As Aragon One
+            looks beyond developer tools, we're looking for UI Engineers with a
+            love for beautiful, well-crafted, pixel-perfect interfaces that
+            enable users to easily build their organizations on top of Aragon.
+            <br /> <br />
+            We&apos;re building a native toolkit of React UI components for
+            decentralized apps, based on the Aragon Design System. We care about
+            our product&apos;s quality standards and consistency, shipping
+            faster and more efficiently, making the toolkit accessible to other
+            app developers and scalable to the entire ecosystem.
+          </span>
+        }>
         <h5>Responsibilities</h5>
         <ul>
           <li>
@@ -86,7 +101,8 @@ const JobOpenings = () => (
             <a href="https://github.com/aragon/aragon-ui" target="_blank">
               Aragon UI
             </a>
-            , an Aragon-native toolkit of React UI components for decentralized apps, based on the{' '}
+            , an Aragon-native toolkit of React UI components for decentralized
+            apps, based on the{' '}
             <a href="https://hack.aragon.org/docs/layout.html" target="_blank">
               Aragon Design System
             </a>
@@ -114,8 +130,8 @@ const JobOpenings = () => (
         <h5>Requirements</h5>
         <ul>
           <li>
-            Experience working with modern JavaScript tools like ES6+, Web APIs, CSS, React,
-            Styled Components, and resource optimization tools.
+            Experience working with modern JavaScript tools like ES6+, Web APIs,
+            CSS, React, Styled Components, and resource optimization tools.
           </li>
           <li>
             Proven ability to ship quality, well-crafted code within tight
@@ -140,10 +156,13 @@ const JobOpenings = () => (
         <ul>
           <li>
             Fill this{' '}
-            <a href="https://jobs.lever.co/aragonone/3c6727bf-ed55-4ca2-8985-0b007508bb35/apply" target="_blank">
+            <a
+              href="https://jobs.lever.co/aragonone/3c6727bf-ed55-4ca2-8985-0b007508bb35/apply"
+              target="_blank">
               form
-            </a>
-            with your Linkedin and/or CV, Github profile and any information you consider important.
+            </a>{' '}
+            with your Linkedin and/or CV, Github profile and any information you
+            consider important.
           </li>
         </ul>
       </JobOpening>
@@ -199,10 +218,13 @@ const JobOpenings = () => (
         <ul>
           <li>
             Fill this{' '}
-            <a href="https://jobs.lever.co/aragonone/9a82ba9c-0f04-4479-a76e-c11d9f415d89/apply" target="_blank">
+            <a
+              href="https://jobs.lever.co/aragonone/9a82ba9c-0f04-4479-a76e-c11d9f415d89/apply"
+              target="_blank">
               form
-            </a>
-            with your Linkedin and/or CV, Github profile and any information you consider important.
+            </a>{' '}
+            with your Linkedin and/or CV, Github profile and any information you
+            consider important.
           </li>
         </ul>
       </JobOpening>
