@@ -19,6 +19,7 @@ const JobOpenings = () => (
         title="Javascript Engineer"
         open="javascript-engineer"
         idprop="ui-engineer"
+        link="https://jobs.lever.co/aragonone/1c635748-4c59-4bbf-84ff-59d7754ca32d"
         description="We're looking for a Javascript Engineer to research, experiment, and build robust Javascript libraries to interact with the Ethereum blockchain.">
         <h5>Responsibilities</h5>
         <ul>
@@ -80,6 +81,7 @@ const JobOpenings = () => (
         title="UI Engineer"
         open="ui-engineer"
         idprop="solidity-engineer"
+        link="https://jobs.lever.co/aragonone/3c6727bf-ed55-4ca2-8985-0b007508bb35"
         description={
           <span>
             UI engineering connects the people with the product. As Aragon One
@@ -173,6 +175,7 @@ const JobOpenings = () => (
         category="ENGINEERING"
         title="Solidity Engineer"
         open="solidity-engineer"
+        link="https://jobs.lever.co/aragonone/9a82ba9c-0f04-4479-a76e-c11d9f415d89"
         description="We're looking for a Solidity Engineer to help us build the smart contract framework for decentralized organizations and court systems. You'll work with our product and research teams to architect and implement the Aragon client, Aragon Court, and aragonOS. ">
         <h5>Responsibilities</h5>
         <ul>

@@ -6,7 +6,7 @@ import Fade from 'react-reveal/Fade';
 import {breakpoint} from '@aragon/ui';
 const medium = css => breakpoint('medium', css);
 
-const SnapshotCard = ({...props}) => (
+const SnapshotCard = ({ ...props }) => (
   <Snapshot>
       <Fade duration={1200}>
         <SnapshotCardContainer>
@@ -25,7 +25,7 @@ const SnapshotCard = ({...props}) => (
             <p>Remote</p>
             <h4>Role</h4>
             <p>{props.role}</p>
-            <a href="mailto:hiring@aragon.one">Apply now</a>
+            <a href={props.link} target="_blank">Apply now</a>
           </Description>
         </SnapshotCardContainer>
       </Fade>

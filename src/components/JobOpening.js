@@ -61,13 +61,13 @@ class JobOpening extends React.Component {
               </Description>
               <JobBody>
                 <BreakPoint to="medium">
-                  <JobSnapshot />
+                  <JobSnapshot link={this.props.link} />
                 </BreakPoint>
                 {this.props.children}
               </JobBody>
             </div>
             <BreakPoint from="medium">
-              <JobSnapshot role={this.props.role}/>
+              <JobSnapshot role={this.props.role} link={this.props.link}/>
             </BreakPoint>
           </JobInformation>
         </Collapse>
