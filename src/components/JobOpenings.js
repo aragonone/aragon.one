@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import JobOpening from './JobOpening';
 import Slide from 'react-reveal/Slide';
 
-import {breakpoint, BreakPoint, Button} from '@aragon/ui';
+import { breakpoint } from '@aragon/ui';
 const medium = css => breakpoint('medium', css);
 const large = css => breakpoint('large', css);
 
@@ -12,83 +12,6 @@ const JobOpenings = () => (
     <h6 id="executive-assistant">
       <span className="grey">—</span> OPEN JOB POSITIONS
     </h6>
-    <Slide bottom duration={1200}>
-      <JobOpening
-        role="Executive Assistant"
-        category="OPERATIONS"
-        title="Executive Assistant"
-        open="executive-assistant"
-        idprop="javascript-engineer"
-        description={
-          <span>
-            We’re looking for an Executive Assistant to work in tandem with our{' '}
-            <a href="https://twitter.com/izqui9" target="_blank">
-              CEO
-            </a>
-            . Here’s what to expect:
-            <br /> <br />
-            Our CEO is highly energetic, creative, and motivated and transmits
-            that to others around him. His day to day consists of balancing the
-            urgent with the important, mixing trips, calls, and focus work. As
-            the CEO of a fast-growing company in an emerging ecosystem, his
-            agenda is very dynamic, involving different stakeholders. Learn more
-            about him through this{' '}
-            <a
-              href="https://blog.aragon.one/team-interviews-jorge-aragons-tech-lead-dae54d7eacac/"
-              target="_blank">
-              Team Interview
-            </a>
-            .
-            <br /> <br />
-            You’re someone energetic who thrives in dynamic environments, and
-            you’re not put off by uncertainty. You can efficiently research and
-            compare options to facilitate decision-making, you can take unclear
-            tasks, figure out boundaries, and get them done, and you work well
-            time and resource-constrained.
-            <br /> <br />
-            Given our sector, it’s important to be open-minded, a fast learner,
-            and being comfortable with technology and tech-related concepts.
-            This is a remote position but you must be willing to travel if
-            necessary.
-          </span>
-        }>
-        <h5>Responsibilities</h5>
-        <ul>
-          <li>
-            Managing his agenda, prioritizing, scheduling, and rescheduling
-            business and personal appointment across timezones.
-          </li>
-          <li>
-            Managing business and personal travel logistics, from the
-            accommodation, flights, transfers, and rental-car bookings to
-            itinerary definition.
-          </li>
-          <li>
-            Handle personal admin tasks: insurance, managing household
-            maintenance, making appointments, reviewing correspondence, and
-            other related tasks.
-          </li>
-          <h5>Nice to have</h5>
-          <ul>
-            <li>Being fluent in Spanish.</li>
-            <li>Being an European resident.</li>
-          </ul>
-          <h5>How to apply</h5>
-          <ul>
-            <li>
-              Fill this{' '}
-              <a
-                href="https://jobs.lever.co/aragonone/043b5d02-f58c-4e1d-9dae-ccd39fcaa7f7/apply"
-                target="_blank">
-                form
-              </a>{' '}
-              with your Linkedin and/or CV, and any information you consider
-              important.
-            </li>
-          </ul>
-        </ul>
-      </JobOpening>
-    </Slide>
     <Slide bottom duration={1200}>
       <JobOpening
         role="Javascript Engineer"
