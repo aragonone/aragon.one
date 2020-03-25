@@ -14,10 +14,12 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: '12.x'
-    - name: npm install, npm run build
+    - name: yarn install, yarn build
       run: |
-        npm install
-        npm build:production
+        yarn --frozen-lockfile
+        yarn build:production
+      env:
+        NODE_ENV: 'production'
     - name: push to gh-pages
       uses: peaceiris/actions-gh-pages@v2
       env:
