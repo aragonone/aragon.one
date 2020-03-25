@@ -15,5 +15,3 @@ jobs:
       run: |
         yarn --frozen-lockfile
         yarn build:production
-      env:
-        NODE_ENV: 'production'
