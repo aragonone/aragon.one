@@ -1,9 +1,6 @@
 name: Deploy on GitHub Pages
 
-on:
-  push:
-    branches:
-      - master
+on: push
 
 jobs:
   build-deploy:
@@ -20,9 +17,3 @@ jobs:
         yarn build:production
       env:
         NODE_ENV: 'production'
-    - name: push to gh-pages
-      uses: peaceiris/actions-gh-pages@v2
-      env:
-        ACTIONS_DEPLOY_KEY: ${{ secrets.GH_PAGES_ACTIONS_DEPLOY_KEY }}
-        PUBLISH_BRANCH: gh-pages
-        PUBLISH_DIR: ./dist
