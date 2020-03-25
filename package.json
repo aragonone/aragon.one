@@ -7,7 +7,7 @@
   "scripts": {
     "start": "NODE_PRESERVE_SYMLINKS=1 react-static start",
     "build": "NODE_PRESERVE_SYMLINKS=1 react-static build",
-    "build:production": "echo 'aragon.one' > dist/CNAME && NODE_ENV=production SITE_ROOT=https://aragon.one/ npm run build",
+    "build:production": "NODE_ENV=production SITE_ROOT=https://aragon.one/ npm run build && echo 'aragon.one' > dist/CNAME",
     "optimize-svg": "find ./src -name '*.svg' -exec svgo --config '{ \"plugins\": [ { \"removeDesc\": {\"removeAny\": true}, \"removeTitle\": true } ] }' {} \\;",
     "generate-favicon": "icon-gen -i favicon.png -o public -r",
     "deploy": "npm run build:production && gh-pages -d dist"
