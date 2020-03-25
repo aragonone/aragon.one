@@ -20,7 +20,7 @@ jobs:
       run: yarn build
       env:
         NODE_ENV: 'production'
-        SITE_ROOT: 'https://aragon.org/'
+        SITE_ROOT: 'https://aragon.one/'
     - name: push to gh-pages
       uses: peaceiris/actions-gh-pages@v3
       with:
