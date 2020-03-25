@@ -17,7 +17,7 @@ class Posts extends React.Component {
   componentDidMount() {
     const api = new GhostContentAPI({
       url: 'https://blog.aragon.one',
-      key: 'aa970326dab17876cf54110182',
+      key: 'f50c80740aa32cd8ab59d60565',
       version: 'v2'
     });
     api.posts
