@@ -73,6 +73,31 @@ export default {
     return html
   },
   Document: class CustomHtml extends React.Component {
+    analyticsCode() {
+      if (process.env.NODE_ENV !== 'production') return ''
+      return `
+        var Countly = Countly || {};
+        Countly.q = Countly.q || [];
+
+        //provide countly initialization parameters
+        Countly.app_key = '00e285914b3ca2424a78bd6b7987362465022466';
+        Countly.url = 'https://try.count.ly';
+        Countly.inactivity_time = 10;
+
+        Countly.q.push(['track_sessions']);
+        Countly.q.push(['track_pageview']);
+        Countly.q.push(['track_clicks']);
+        Countly.q.push(['track_errors']);
+
+        (function() {
+          var cly = document.createElement('script'); cly.type = 'text/javascript';
+          cly.async = true;
+          cly.src = 'https://try.count.ly/sdk/web/countly.min.js';
+          cly.onload = function(){Countly.init()};
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(cly, s);
+        })();
+      `
+    }
     render() {
       const {
         Html,
@@ -121,6 +146,9 @@ export default {
           </Head>
           <Body>
             {children}
+            <script
+              dangerouslySetInnerHTML={{ __html: this.analyticsCode() }}
+            />
           </Body>
         </Html>
       )
