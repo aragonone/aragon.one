@@ -1,9 +1,6 @@
 name: Deploy on GitHub Pages
 
-on:
-  push:
-    branches:
-      - master
+on: push
 
 jobs:
   build-deploy:
@@ -21,9 +18,3 @@ jobs:
       env:
         NODE_ENV: 'production'
         SITE_ROOT: 'https://aragon.org/'
-    - name: push to gh-pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        cname: 'aragon.one'
-        deploy_key: ${{ secrets.GH_PAGES_ACTIONS_DEPLOY_KEY }}
-        publish_dir: ./dist
