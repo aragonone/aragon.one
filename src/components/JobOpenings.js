@@ -9,7 +9,7 @@ const large = css => breakpoint('large', css);
 
 const JobOpenings = () => (
   <JobOpeningsSection id="jobs">
-    <h6 id="executive-assistant">
+    <h6 id="javascript-engineer">
       <span className="grey">—</span> OPEN JOB POSITIONS
     </h6>
     <Slide bottom duration={1200}>
@@ -18,7 +18,7 @@ const JobOpenings = () => (
         category="ENGINEERING"
         title="Javascript Engineer"
         open="javascript-engineer"
-        idprop="ui-engineer"
+        idprop="open-application"
         link="https://jobs.lever.co/aragonone/1c635748-4c59-4bbf-84ff-59d7754ca32d"
         description="We're looking for a Javascript Engineer to research, experiment, and build robust Javascript libraries to interact with the Ethereum blockchain.">
         <h5>Responsibilities</h5>
@@ -35,10 +35,10 @@ const JobOpenings = () => (
         </ul>
         <h5>Requirements</h5>
         <ul>
-          <li>Track record working with Javascript environments.</li>
+          <li>Track record working with backend Javascript environments.</li>
           <li>
-            Experience working with modern JavaScript tools like ES6+, React,
-            Node, resource optimization, development tools, and service APIs.
+            Experience working with modern JavaScript tools like ES6+, Node,
+            React, resource optimization, development tools, and service APIs.
           </li>
           <li>
             Proven ability to ship quality, well-crafted code within tight
@@ -57,7 +57,7 @@ const JobOpenings = () => (
             projects.
           </li>
           <li>Previous experience working remotely.</li>
-          <li>Very good written communication skills.</li>
+          <li>Very good written communication skills in English.</li>
         </ul>
         <h5>How to apply</h5>
         <ul>
@@ -76,153 +76,27 @@ const JobOpenings = () => (
     </Slide>
     <Slide bottom duration={1200}>
       <JobOpening
-        role="UI Engineer"
-        category="ENGINEERING"
-        title="UI Engineer"
-        open="ui-engineer"
-        idprop="solidity-engineer"
-        link="https://jobs.lever.co/aragonone/3c6727bf-ed55-4ca2-8985-0b007508bb35"
-        description={
-          <span>
-            UI engineering connects the people with the product. As Aragon One
-            looks beyond developer tools, we're looking for UI Engineers with a
-            love for beautiful, well-crafted, pixel-perfect interfaces that
-            enable users to easily build their organizations on top of Aragon.
-            <br /> <br />
-            We&apos;re building a native toolkit of React UI components for
-            decentralized apps, based on the Aragon Design System. We care about
-            our product&apos;s quality standards and consistency, shipping
-            faster and more efficiently, making the toolkit accessible to other
-            app developers and scalable to the entire ecosystem.
-          </span>
-        }>
-        <h5>Responsibilities</h5>
-        <ul>
-          <li>
-            Develop, ship, and maintain the{' '}
-            <a href="https://github.com/aragon/aragon-ui" target="_blank">
-              Aragon UI
-            </a>
-            , an Aragon-native toolkit of React UI components for decentralized
-            apps, based on the{' '}
-            <a href="https://hack.aragon.org/docs/layout.html" target="_blank">
-              Aragon Design System
-            </a>
-            .
-          </li>
-          <li>
-            Develop, ship, and maintain quality interfaces for the{' '}
-            <a href="https://github.com/aragon/aragon" target="_blank">
-              Aragon client
-            </a>
-            .
-          </li>
-          <li>
-            Work with our Design team to transform ideas and designs into
-            modern, clean, and readable code.
-          </li>
-          <li>
-            Research, develop, test and implement features on web applications
-            built with modern technologies.
-          </li>
-          <li>
-            Collaborate with the product team to define new product features.
-          </li>
-        </ul>
+        role="Open Application"
+        category="GENERAL"
+        title="Open Application"
+        open="open-application"
+        link="https://jobs.lever.co/aragonone/be7df0cc-4bb8-4379-b027-03c1d544de5c/apply"
+        description="Can't find a role that fits you? It's a privilege to have people interested in working with us and we're always open to meet them to explore opportunities to collaborate. Drop us a line on where you'd like to contribute to and what caught your attention to join Aragon One.">
         <h5>Requirements</h5>
         <ul>
-          <li>
-            Experience working with modern JavaScript tools like ES6+, Web APIs,
-            CSS, React, Styled Components, and resource optimization tools.
-          </li>
-          <li>
-            Proven ability to ship quality, well-crafted code within tight
-            deadlines.
-          </li>
-          <li>Being detail-oriented with attention to UX/UI design.</li>
-          <li>Being passionate about open source and decentralization.</li>
-          <li>
-            Being an autonomous individual with a proactive attitude and a love
-            for time self-management. We work focus-driven, not hours-driven.
-          </li>
-        </ul>
-        <h5>Nice to have</h5>
-        <ul>
-          <li>Experience working with Web3 technologies.</li>
-          <li>
-            Previous experience contributing or managing open source projects.
-          </li>
-          <li>Previous experience working remotely.</li>
-        </ul>
-        <h5>How to apply</h5>
-        <ul>
-          <li>
-            Fill this{' '}
-            <a
-              href="https://jobs.lever.co/aragonone/3c6727bf-ed55-4ca2-8985-0b007508bb35/apply"
-              target="_blank">
-              form
-            </a>{' '}
-            with your Linkedin and/or CV, Github profile and any information you
-            consider important.
-          </li>
-        </ul>
-      </JobOpening>
-    </Slide>
-    <Slide bottom duration={1200}>
-      <JobOpening
-        role="Solidity Engineer"
-        category="ENGINEERING"
-        title="Solidity Engineer"
-        open="solidity-engineer"
-        link="https://jobs.lever.co/aragonone/9a82ba9c-0f04-4479-a76e-c11d9f415d89"
-        description="We're looking for a Solidity Engineer to help us build the smart contract framework for decentralized organizations and court systems. You'll work with our product and research teams to architect and implement the Aragon client, Aragon Court, and aragonOS. ">
-        <h5>Responsibilities</h5>
-        <ul>
-          <li>
-            Develop, ship, and maintain quality smart contracts for the Aragon
-            client, the Aragon Network, and aragonOS.
-          </li>
-          <li>
-            Develop high-quality code that is maintainable, performant,
-            accessible, precise and compatible with modern platforms.
-          </li>
-          <li>
-            Perform internal code audits and code reviews, and produce product
-            and best practices documentation.
-          </li>
-          <li>
-            Collaborate with other product contributors to define new product
-            features, roadmap, and workflow.
-          </li>
-        </ul>
-        <h5>Requirements</h5>
-        <ul>
-          <li>
-            Expert understanding of Ethereum and the inner workings of the EVM.
-          </li>
-          <li>
-            Provable ability to ship high quality, well crafted code running on
-            Ethereum.
-          </li>
-          <li>Strong unit testing culture.</li>
+          <li>Very good written communication skills in English. </li>
           <li>Being passionate about decentralization and open source.</li>
           <li>
             Being an autonomous individual with a proactive attitude and a love
             for time self-management.
           </li>
         </ul>
-        <h5>Nice to have</h5>
-        <ul>
-          <li>Experience contributing or managing open source projects.</li>
-          <li>Very good written communication skills. </li>
-        </ul>
         <h5>How to apply</h5>
         <ul>
           <li>
             Fill this{' '}
             <a
-              href="https://jobs.lever.co/aragonone/9a82ba9c-0f04-4479-a76e-c11d9f415d89/apply"
+              href="https://jobs.lever.co/aragonone/be7df0cc-4bb8-4379-b027-03c1d544de5c/apply"
               target="_blank">
               form
             </a>{' '}
