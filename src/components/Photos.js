@@ -1,21 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import photo1 from './assets/company/photo1.png';
-import photo2 from './assets/company/photo2.png';
-import photo3 from './assets/company/photo3.png';
-import photo4 from './assets/company/photo4.png';
-import photo5 from './assets/company/photo5.png';
-import photo6 from './assets/company/photo6.png';
-import photo7 from './assets/company/photo7.png';
-import photo8 from './assets/company/photo8.png';
-import photo9 from './assets/company/photo9.png';
-import photo10 from './assets/company/photo10.png';
-import photo11 from './assets/company/photo11.png';
-import photo12 from './assets/company/photo12.png';
-import photo13 from './assets/company/photo13.png';
-import photo14 from './assets/company/photo14.png';
-import photo15 from './assets/company/photo15.png';
-import photo16 from './assets/company/photo16.png';
 import Carousel from 'react-bootstrap/Carousel';
 import arrow from './assets/arrow.svg';
 
@@ -43,57 +27,72 @@ class Photos extends React.Component {
   }
 
   render() {
-    const { index, direction } = this.state;
+    const {index, direction} = this.state;
     return (
       <PhotosSection>
         <Container>
-          <Carousel interval={null} pauseOnHover="true" nextIcon={<img src={arrow} />}>
+          <Carousel
+            interval={null}
+            pauseOnHover="true"
+            nextIcon={<img src={arrow} />}>
             <Carousel.Item>
               <PhotosContainer>
-                <img src={photo1} />
-                <img src={photo2} />
+                <img src={require(`./assets/company/photo1.png`)} />
+                <img src={require(`./assets/company/photo2.png`)} />
               </PhotosContainer>
             </Carousel.Item>
             <Carousel.Item>
               <PhotosContainer>
-                <img src={photo3} />
-                <img src={photo4} />
+                <img src={require(`./assets/company/photo3.png`)} />
+                <img src={require(`./assets/company/photo4.png`)} />
               </PhotosContainer>
             </Carousel.Item>
             <Carousel.Item>
               <PhotosContainer>
-                <img src={photo5} />
-                <img src={photo6} />
+                <img src={require(`./assets/company/photo5.png`)} />
+                <img src={require(`./assets/company/photo6.png`)} />
               </PhotosContainer>
             </Carousel.Item>
             <Carousel.Item>
               <PhotosContainer>
-                <img src={photo7} />
-                <img src={photo8} />
+                <img src={require(`./assets/company/photo7.png`)} />
+                <img src={require(`./assets/company/photo8.png`)} />
               </PhotosContainer>
             </Carousel.Item>
             <Carousel.Item>
               <PhotosContainer>
-                <img src={photo9} />
-                <img src={photo10} />
+                <img src={require(`./assets/company/photo9.png`)} />
+                <img src={require(`./assets/company/photo10.png`)} />
               </PhotosContainer>
             </Carousel.Item>
             <Carousel.Item>
               <PhotosContainer>
-                <img src={photo11} />
-                <img src={photo12} />
+                <img src={require(`./assets/company/photo11.png`)} />
+                <img src={require(`./assets/company/photo12.png`)} />
               </PhotosContainer>
             </Carousel.Item>
             <Carousel.Item>
               <PhotosContainer>
-                <img src={photo13} />
-                <img src={photo14} />
+                <img src={require(`./assets/company/photo13.png`)} />
+                <img src={require(`./assets/company/photo14.png`)} />
               </PhotosContainer>
             </Carousel.Item>
             <Carousel.Item>
               <PhotosContainer>
-                <img src={photo15} />
-                <img src={photo16} />
+                <img src={require(`./assets/company/photo15.png`)} />
+                <img src={require(`./assets/company/photo16.png`)} />
+              </PhotosContainer>
+            </Carousel.Item>
+            <Carousel.Item>
+              <PhotosContainer>
+                <img src={require(`./assets/company/photo17.png`)} />
+                <img src={require(`./assets/company/photo18.png`)} />
+              </PhotosContainer>
+            </Carousel.Item>
+            <Carousel.Item>
+              <PhotosContainer>
+                <img src={require(`./assets/company/photo19.png`)} />
+                <img src={require(`./assets/company/photo20.png`)} />
               </PhotosContainer>
             </Carousel.Item>
           </Carousel>
