@@ -34,7 +34,7 @@ class Events extends React.Component {
             <Offsite>
               <img src={logo} />
               <h6>LATEST TEAM OFFSITE</h6>
-              <h2>GRAN CANARIA</h2>
+              <h2>ALGARVE</h2>
             </Offsite>
           </Box>
         </Container>
@@ -70,13 +70,13 @@ const Offsite = styled.div`
   ${medium('width: 30%;')};
   text-align: center;
   h6 {
-    margin: 20px 0 20px 0!important;
-    line-height: 1.4!important;
+    margin: 20px 0 20px 0 !important;
+    line-height: 1.4 !important;
   }
   h2 {
     font-size: 22px;
     letter-spacing: 4px;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 `;
 
