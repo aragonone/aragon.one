@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import JobOpening from './JobOpening';
 import Slide from 'react-reveal/Slide';
 
-import { breakpoint } from '@aragon/ui';
+import {breakpoint} from '@aragon/ui';
 const medium = css => breakpoint('medium', css);
 const large = css => breakpoint('large', css);
 
@@ -20,32 +20,79 @@ const JobOpenings = () => (
         open="product-designer"
         idprop="javascript-engineer"
         link="https://jobs.lever.co/aragonone/848ed00a-da14-4010-9e71-5e6a7f5c5ee2"
-        description="Great design breaks down barriers between people and products. Tesla and Apple introduced millions of people to revolutionary technology and established new industries by building better products and user experiences. Reaching people is the blockchain ecosystem's biggest challenge. The barrier to entry is big, but design can bridge the gap. We're looking for a Product Designer to help us reach millions of people and shape the future of organizations.<br> You will be a key member of our design team and work alongside <a href="https://blog.aragon.one/team-interviews-paty-ux-designer/">Paty</a>, our Product Designer with a strong UX background, and <a href="https://blog.aragon.one/team-interviews-adri-brand-lead-at-aragon-one">Adri</a>, our Brand Designer with a strong visual background. We're creative, thorough, iterative, and systematic. We've developed <a href="https://blog.aragon.org/introducing-aragonds-the-new-aragon-design-system/">aragonDS</a>, a design system to ensure consistency and establish a shared communication style; with <a href="https://ui.aragon.org/">aragonUI</a>, an <a href="https://github.com/aragon/aragon-ui">open-source library of React UI components</a>. Join us to continue building the leading platform for decentralized organizations, <a href="http://poweredby.aragon.org/">powering more than 1400 organizations.</a>">
+        description={
+          <span>
+            Great design breaks down barriers between people and products. Tesla
+            and Apple introduced millions of people to revolutionary technology
+            and established new industries by building better products and user
+            experiences. Reaching people is the blockchain ecosystem's biggest
+            challenge. The barrier to entry is big, but design can bridge the
+            gap. We're looking for a Product Designer to help us reach millions
+            of people and shape the future of organizations.
+            <br /> You will be a key member of our design team and work
+            alongside{' '}
+            <a
+              href="https://blog.aragon.one/team-interviews-paty-ux-designer/"
+              target="_blank">
+              Paty
+            </a>
+            , our Product Designer with a strong UX background, and{' '}
+            <a
+              href="https://blog.aragon.one/team-interviews-adri-brand-lead-at-aragon-one"
+              target="_blank">
+              Adri
+            </a>
+            , our Brand Designer with a strong visual background. We're
+            creative, thorough, iterative, and systematic. We've developed{' '}
+            <a
+              href="https://blog.aragon.org/introducing-aragonds-the-new-aragon-design-system/"
+              target="_blank">
+              aragonDS
+            </a>
+            , a design system to ensure consistency and establish a shared
+            communication style; with{' '}
+            <a href="https://ui.aragon.org/" target="_blank">
+              aragonUI
+            </a>
+            , an{' '}
+            <a href="https://github.com/aragon/aragon-ui" target="_blank">
+              open-source library of React UI components
+            </a>
+            . Join us to continue building the leading platform for
+            decentralized organizations,{' '}
+            <a href="http://poweredby.aragon.org/" target="_blank">
+              powering more than 1400 organizations.
+            </a>
+          </span>
+        }>
         <h5>Your first year at Aragon One</h5>
         <ul>
           <li>
-            In twelve months, you will help define the product design direction 
-            and create experiences that enable thousands of new users to easily 
+            In twelve months, you will help define the product design direction
+            and create experiences that enable thousands of new users to easily
             participate in digital organizations together with the product team.
           </li>
           <li>
-            During the first three months, you will focus on absorbing as much 
-            information as possible about the team, Aragon, and the broader Web3 ecosystem 
-            while progressively growing your contributions as you become more familiar 
-            with the team and subject matter.
+            During the first three months, you will focus on absorbing as much
+            information as possible about the team, Aragon, and the broader Web3
+            ecosystem while progressively growing your contributions as you
+            become more familiar with the team and subject matter.
           </li>
           <li>
-            Around the sixth month, you will be more autonomous, take on complex design decisions, 
-            and contribute to shaping the design culture at Aragon One.
+            Around the sixth month, you will be more autonomous, take on complex
+            design decisions, and contribute to shaping the design culture at
+            Aragon One.
           </li>
         </ul>
         <h5>Responsibilities</h5>
         <ul>
           <li>
-            Work with the frontend and product teams to define product roadmaps, requirements, and sprints
+            Work with the frontend and product teams to define product roadmaps,
+            requirements, and sprints
           </li>
           <li>
-            Work with the design team to create and define specs for components to expand the{' '}
+            Work with the design team to create and define specs for components
+            to expand the{' '}
             <a
               href="https://blog.aragon.org/introducing-aragonds-the-new-aragon-design-system/"
               target="_blank">
@@ -53,16 +100,13 @@ const JobOpenings = () => (
             </a>{' '}
           </li>
           <li>
-            Research, prototype, and develop designs from concept to implementation for{' '}
-            <a
-              href="https://app.aragon.org"
-              target="_blank">
+            Research, prototype, and develop designs from concept to
+            implementation for{' '}
+            <a href="https://app.aragon.org" target="_blank">
               Aragon Client
             </a>{' '}
             ,{' '}
-            <a
-              href="https://court.aragon.org"
-              target="_blank">
+            <a href="https://court.aragon.org" target="_blank">
               Aragon Court
             </a>{' '}
             and,{' '}
@@ -73,28 +117,32 @@ const JobOpenings = () => (
             </a>{' '}
           </li>
           <li>
-            Ensure our products follow design best practices from accessibility to common human interface guidelines
+            Ensure our products follow design best practices from accessibility
+            to common human interface guidelines
           </li>
         </ul>
         <h5>You are someone who can</h5>
         <ul>
           <li>
-            Prove previous experience working with platforms, back-office, or systems design
+            Prove previous experience working with platforms, back-office, or
+            systems design
           </li>
           <li>
-            Write design specifications documenting your design decisions and 
+            Write design specifications documenting your design decisions and
             user flows in a written and visual format
           </li>
           <li>
-            Apply accessibility best practices: you pay attention to product colors, 
-            navigation, contrast, and different end-users
+            Apply accessibility best practices: you pay attention to product
+            colors, navigation, contrast, and different end-users
           </li>
           <li>
-            Contribute to the creation of new UI components, define guidelines and 
-            specifications for their usage, help with the maintenance of the overall system
+            Contribute to the creation of new UI components, define guidelines
+            and specifications for their usage, help with the maintenance of the
+            overall system
           </li>
           <li>
-            Communicate with the engineering, business development, and communications teams
+            Communicate with the engineering, business development, and
+            communications teams
           </li>
           <li>
             Being an autonomous individual with a proactive attitude and a love
