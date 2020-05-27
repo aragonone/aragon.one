@@ -154,7 +154,7 @@ class Team extends React.Component {
               <Carousel.Item>
                 <TeamCard
                   name="Ale Santander"
-                  twitter="_ajsantander"
+                  twitter="palebluethdot"
                   position="Solidity dev"
                   imageUrl="Ale"
                   bio="Ale is a creative coder, versed in Solidity, JS, and other lingos."
@@ -300,7 +300,7 @@ class Team extends React.Component {
                 <TeamContainer>
                   <TeamCard
                     name="Ale Santander"
-                    twitter="_ajsantander"
+                    twitter="palebluethdot"
                     position="Solidity dev"
                     imageUrl="Ale"
                     bio="Ale is a creative coder, versed in Solidity, JS, and other lingos."
