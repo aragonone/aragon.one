@@ -88,7 +88,7 @@ const JobOpenings = () => (
         <ul>
           <li>
             Work with the frontend and product teams to define product roadmaps,
-            requirements, and sprints
+            requirements, and sprints.
           </li>
           <li>
             Work with the design team to create and define specs for components
@@ -97,52 +97,54 @@ const JobOpenings = () => (
               href="https://blog.aragon.org/introducing-aragonds-the-new-aragon-design-system/"
               target="_blank">
               aragonDS
-            </a>{' '}
+            </a>
+            .
           </li>
           <li>
             Research, prototype, and develop designs from concept to
             implementation for{' '}
             <a href="https://app.aragon.org" target="_blank">
               Aragon Client
-            </a>{' '}
+            </a>
             ,{' '}
             <a href="https://court.aragon.org" target="_blank">
               Aragon Court
-            </a>{' '}
-            and,{' '}
+            </a>
+            , and{' '}
             <a
               href="https://https://blog.aragon.one/aragon-agreements/"
               target="_blank">
               Agreements
-            </a>{' '}
+            </a>
+            .
           </li>
           <li>
             Ensure our products follow design best practices from accessibility
-            to common human interface guidelines
+            to common human interface guidelines.
           </li>
         </ul>
         <h5>You are someone who can</h5>
         <ul>
           <li>
             Prove previous experience working with platforms, back-office, or
-            systems design
+            systems design.
           </li>
           <li>
             Write design specifications documenting your design decisions and
-            user flows in a written and visual format
+            user flows in a written and visual format.
           </li>
           <li>
             Apply accessibility best practices: you pay attention to product
-            colors, navigation, contrast, and different end-users
+            colors, navigation, contrast, and different end-users.
           </li>
           <li>
             Contribute to the creation of new UI components, define guidelines
             and specifications for their usage, help with the maintenance of the
-            overall system
+            overall system.
           </li>
           <li>
             Communicate with the engineering, business development, and
-            communications teams
+            communications teams.
           </li>
           <li>
             Being an autonomous individual with a proactive attitude and a love

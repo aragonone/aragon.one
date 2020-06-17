@@ -15,8 +15,9 @@ const Remote = () => (
           <span className="grey">—</span> A COMPLETELY REMOTE TEAM
         </h6>
         <p>
-          Talent shouldn't be constrained by geography. We work remotely.
-          Distance feels shorter when the vision of a fair world unites us all.
+          Talent is borderless. The Internet enables the world to be our
+          playground. We work remotely. There's no distance when the vision of a
+          fair world unites us all.
         </p>
         <MobileImg src={background} />
       </BreakPoint>

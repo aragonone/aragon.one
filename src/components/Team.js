@@ -74,9 +74,9 @@ class Team extends React.Component {
                 <TeamCard
                   name="John Light"
                   twitter="lightcoin"
-                  position="Communications lead"
+                  position="Governance lead"
                   imageUrl="John"
-                  bio="John is our Communications Lead. He's a crypto OG, co-founder of Bitseed, and advisor to cryptocurrency startups and investors."
+                  bio="ohn is leading Governance at the Aragon Association. He's a crypto OG, co-founder of Bitseed, and the one defining our community governance strategy."
                 />
               </Carousel.Item>
               <Carousel.Item>
@@ -92,9 +92,9 @@ class Team extends React.Component {
                 <TeamCard
                   name="María Gómez"
                   twitter="MyPaoG"
-                  position="Ecosystem"
+                  position="Product"
                   imageUrl="Maria"
-                  bio="María is our Ecosystem Developer. She is a reinvented lawyer who loves traveling, networking and technology."
+                  bio="Maria works on Product. She is a reinvented lawyer who loves traveling and networking. She's researching the intersection of law, technology, and markets for our products."
                 />
               </Carousel.Item>
               <Carousel.Item>
@@ -110,9 +110,9 @@ class Team extends React.Component {
                 <TeamCard
                   name="Luke Duncan"
                   twitter="lkngtn"
-                  position="Research"
+                  position="CPO"
                   imageUrl="Luke"
-                  bio="Luke is our Research Lead. He loves to explore how blockchains enable novel forms of governance and how existing forms may perform in new contexts."
+                  bio="Luke is our CPO. He loves to explore how blockchains enable novel forms of governance, how existing forms may perform in new contexts."
                 />
               </Carousel.Item>
               <Carousel.Item>
@@ -155,9 +155,9 @@ class Team extends React.Component {
                 <TeamCard
                   name="Ale Santander"
                   twitter="palebluethdot"
-                  position="Solidity dev"
+                  position="Software engineer"
                   imageUrl="Ale"
-                  bio="Ale is a creative coder, versed in Solidity, JS, and other lingos."
+                  bio="Ale is a self-taught developer with a background in physics, and music. He loves building crazy ideas fast and advocating for just about anything that he believes in strongly."
                 />
               </Carousel.Item>
               <Carousel.Item>
@@ -175,7 +175,7 @@ class Team extends React.Component {
                   twitter="licuende"
                   position="Advisor"
                   imageUrl="Luis"
-                  bio="Luis is our advisor. He loves helping people solve unfair situations in the world through technology and he's currently leading our product efforts."
+                  bio="Luis is our Advisor and the Executive Director of the Aragon Association. He loves helping people solve unfair situation in the world through technology."
                 />
               </Carousel.Item>
             </Carousel>
@@ -218,9 +218,9 @@ class Team extends React.Component {
                   <TeamCard
                     name="John Light"
                     twitter="lightcoin"
-                    position="Communications lead"
+                    position="Governance lead"
                     imageUrl="John"
-                    bio="John is our Communications Lead. He's a crypto OG, co-founder of Bitseed, and advisor to cryptocurrency startups and investors."
+                    bio="ohn is leading Governance at the Aragon Association. He's a crypto OG, co-founder of Bitseed, and the one defining our community governance strategy."
                   />
                 </TeamContainer>
               </Carousel.Item>
@@ -236,9 +236,9 @@ class Team extends React.Component {
                   <TeamCard
                     name="María Gómez"
                     twitter="MyPaoG"
-                    position="Ecosystem"
+                    position="Product"
                     imageUrl="Maria"
-                    bio="María is our Ecosystem Developer. She is a reinvented lawyer who loves traveling, networking and technology."
+                    bio="Maria works on Product. She is a reinvented lawyer who loves traveling and networking. She's researching the intersection of law, technology, and markets for our products."
                   />
                 </TeamContainer>
               </Carousel.Item>
@@ -254,9 +254,9 @@ class Team extends React.Component {
                   <TeamCard
                     name="Luke Duncan"
                     twitter="lkngtn"
-                    position="Research"
+                    position="CPO"
                     imageUrl="Luke"
-                    bio="Luke is our Research Lead. He loves to explore how blockchains enable novel forms of governance and how existing forms may perform in new contexts."
+                    bio="Luke is our CPO. He loves to explore how blockchains enable novel forms of governance, how existing forms may perform in new contexts."
                   />
                 </TeamContainer>
               </Carousel.Item>
@@ -301,9 +301,9 @@ class Team extends React.Component {
                   <TeamCard
                     name="Ale Santander"
                     twitter="palebluethdot"
-                    position="Solidity dev"
+                    position="Software engineer"
                     imageUrl="Ale"
-                    bio="Ale is a creative coder, versed in Solidity, JS, and other lingos."
+                    bio="Ale is a self-taught developer with a background in physics, and music. He loves building crazy ideas fast and advocating for just about anything that he believes in strongly."
                   />
                   <TeamCard
                     name="Lorena González"
@@ -321,7 +321,7 @@ class Team extends React.Component {
                     twitter="licuende"
                     position="Advisor"
                     imageUrl="Luis"
-                    bio="Luis is our advisor. He loves helping people solve unfair situations in the world through technology and he's currently leading our product efforts."
+                    bio="Luis is our Advisor and the Executive Director of the Aragon Association. He loves helping people solve unfair situation in the world through technology."
                   />
                 </TeamContainer>
               </Carousel.Item>
