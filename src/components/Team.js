@@ -76,7 +76,7 @@ class Team extends React.Component {
                   twitter="lightcoin"
                   position="Governance lead"
                   imageUrl="John"
-                  bio="ohn is leading Governance at the Aragon Association. He's a crypto OG, co-founder of Bitseed, and the one defining our community governance strategy."
+                  bio="John is leading Governance at the Aragon Association. He's a crypto OG, co-founder of Bitseed, and the one defining our community governance strategy."
                 />
               </Carousel.Item>
               <Carousel.Item>
