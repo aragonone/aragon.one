@@ -76,7 +76,7 @@ class Team extends React.Component {
                   twitter="lightcoin"
                   position="Governance lead"
                   imageUrl="John"
-                  bio="ohn is leading Governance at the Aragon Association. He's a crypto OG, co-founder of Bitseed, and the one defining our community governance strategy."
+                  bio="John is leading Governance at the Aragon Association. He's a crypto OG, co-founder of Bitseed, and the one defining our community governance strategy."
                 />
               </Carousel.Item>
               <Carousel.Item>
@@ -193,7 +193,7 @@ class Team extends React.Component {
                   twitter="cryptoyizus"
                   position="Frontend dev"
                   imageUrl="Enrique"
-                  bio="Enrique is our Frontend Dev, with love and passion for writing both code and music to make ideas reality."
+                  bio="Enrique is our Frontend Engineer, with love and passion for writing both code and music to make ideas reality."
                 />
               </Carousel.Item>
               <Carousel.Item>
