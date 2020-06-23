@@ -171,6 +171,51 @@ class Team extends React.Component {
               </Carousel.Item>
               <Carousel.Item>
                 <TeamCard
+                  name="Jack Gane"
+                  twitter="JackGane_"
+                  position="Marketing"
+                  imageUrl="Jack"
+                  bio="Jack works on Marketing. He's a high school dropout turned multidisciplinary entrepreneur that loves making music and helping people achieve their wildest dreams."
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <TeamCard
+                  name="Martynas Prokopas"
+                  twitter="promaty0"
+                  position="Systems engineer"
+                  imageUrl="Martinas"
+                  bio="Martynas is our Systems Engineer. He holds a P.h.D. in Technological Physics Engineering. He loves solving complex problems and he finds building the future of web the most interesting one to work on."
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <TeamCard
+                  name="Enrique  Ortiz"
+                  twitter="cryptoyizus"
+                  position="Frontend dev"
+                  imageUrl="Enrique"
+                  bio="Enrique is our Frontend Dev, with love and passion for writing both code and music to make ideas reality."
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <TeamCard
+                  name="Andy Hook"
+                  twitter="Andy_Hook"
+                  position="Frontend dev"
+                  imageUrl="Andy"
+                  bio="Andy is a passionate UI Engineer who sweats the details and loves working at the intersection between code and design."
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <TeamCard
+                  name="Gabi Garcia"
+                  twitter="0xGabi"
+                  position="Software engineer"
+                  imageUrl="Gabi"
+                  bio="Gabi is our Software Engineer and an OG Aragon community contributor. Here he helps to build the tools to improve the internal and external developer experience."
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <TeamCard
                   name="Luis Cuende"
                   twitter="licuende"
                   position="Advisor"
@@ -316,6 +361,49 @@ class Team extends React.Component {
               </Carousel.Item>
               <Carousel.Item>
                 <TeamContainer>
+                  <TeamCard
+                    name="Jack Gane"
+                    twitter="JackGane_"
+                    position="Marketing"
+                    imageUrl="Jack"
+                    bio="Jack works on Marketing. He's a high school dropout turned multidisciplinary entrepreneur that loves making music and helping people achieve their wildest dreams."
+                  />
+                  <TeamCard
+                    name="Martynas Prokopas"
+                    twitter="promaty0"
+                    position="Systems engineer"
+                    imageUrl="Martinas"
+                    bio="Martynas is our Systems Engineer. He holds a P.h.D. in Technological Physics Engineering. He loves solving complex problems and he finds building the future of web the most interesting one to work on."
+                  />
+                </TeamContainer>
+              </Carousel.Item>
+              <Carousel.Item>
+                <TeamContainer>
+                  <TeamCard
+                    name="Enrique  Ortiz"
+                    twitter="cryptoyizus"
+                    position="Frontend dev"
+                    imageUrl="Enrique"
+                    bio="Enrique is our Frontend Dev, with love and passion for writing both code and music to make ideas reality."
+                  />
+                  <TeamCard
+                    name="Andy Hook"
+                    twitter="Andy_Hook"
+                    position="Frontend dev"
+                    imageUrl="Andy"
+                    bio="Andy is a passionate UI Engineer who sweats the details and loves working at the intersection between code and design."
+                  />
+                </TeamContainer>
+              </Carousel.Item>
+              <Carousel.Item>
+                <TeamContainer>
+                  <TeamCard
+                    name="Gabi Garcia"
+                    twitter="0xGabi"
+                    position="Software engineer"
+                    imageUrl="Gabi"
+                    bio="Gabi is our Software Engineer and an OG Aragon community contributor. Here he helps to build the tools to improve the internal and external developer experience."
+                  />
                   <TeamCard
                     name="Luis Cuende"
                     twitter="licuende"
