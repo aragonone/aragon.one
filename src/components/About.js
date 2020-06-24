@@ -47,7 +47,7 @@ const text1 = (
     <a href="https://aragon.org" target="_blank">
       Aragon project
     </a>
-    , building the tools and community necessary for the project to succeed.
+    , building tools and services related to Aragon.
   </p>
 );
 const text2 = (
