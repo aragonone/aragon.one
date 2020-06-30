@@ -303,7 +303,7 @@ class PrivacyPolicy extends React.Component {
           <i>
             If you do not agree with this retention period, you always have the
             right to object by clicking{' '}
-            <a target="_blank" href="https://aragon.one/abjection">
+            <a target="_blank" href="https://aragon.one/objection">
               here
             </a>
           </i>
