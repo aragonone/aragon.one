@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 import {breakpoint, BreakPoint, Button} from '@aragon/ui';
 const medium = css => breakpoint('medium', css);
@@ -8,7 +10,8 @@ const large = css => breakpoint('large', css);
 class PrivacyPolicy extends React.Component {
   render() {
     return (
-      <React.Fragment>
+      <OuterContainer>
+        <Navbar />
         <PrivacyPolicyContainer>
           <h1>Privacy Policy</h1>
           <div>
@@ -440,7 +443,9 @@ class PrivacyPolicy extends React.Component {
             ensure you understand any changes to this Policy.
           </p>
         </PrivacyPolicyContainer>
-      </React.Fragment>
+
+        <Footer />
+      </OuterContainer>
     );
   }
 }
@@ -462,5 +467,8 @@ const PrivacyPolicyContainer = styled.div`
   b {
     font-weight: 900;
   }
+`;
+const OuterContainer = styled.div`
+  width: 100vw;
 `;
 export default PrivacyPolicy;
