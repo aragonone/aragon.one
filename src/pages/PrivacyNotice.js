@@ -2,12 +2,12 @@ import React from 'react';
 import styled from 'styled-components';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import {Link} from 'react-static';
 
 class PrivacyNotice extends React.Component {
   render() {
     return (
       <OuterContainer>
-        <Navbar />
         <PrivacyNoticeContainer>
           <h1>Privacy notice</h1>
           <div>
@@ -29,14 +29,10 @@ class PrivacyNotice extends React.Component {
             order to inform you about future job opportunities. After those two
             (2) years, we will either delete your personal data or request your
             consent annually to retain them for future job opportunities. See
-            our Recruiting{' '}
-            <a href="https://aragon.one/privacy-policy" target="_blank">
-              Privacy Policy
-            </a>{' '}
+            our Recruiting <Link to={'/privacy-policy'}>Privacy policy</Link>{' '}
             for further information.
           </div>
         </PrivacyNoticeContainer>
-        <Footer />
       </OuterContainer>
     );
   }
@@ -44,7 +40,7 @@ class PrivacyNotice extends React.Component {
 
 const PrivacyNoticeContainer = styled.div`
   padding: 100px 15%;
-  min-height: 82vh;
+
   font-family: 'FontRegular';
   a {
     color: #ff7671;
