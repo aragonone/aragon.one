@@ -303,7 +303,9 @@ class PrivacyPolicy extends React.Component {
           <i>
             If you do not agree with this retention period, you always have the
             right to object by clicking{' '}
-            <a target="_blank" href="https://aragon.one/objection">
+            <a
+              target="_blank"
+              href="https://docs.google.com/document/d/1nqeomeCgoVIxfDjMwHXeqH1-nm2mhU70yNhCvw_oQPE/edit">
               here
             </a>
           </i>
@@ -357,10 +359,11 @@ class PrivacyPolicy extends React.Component {
           </p>
           <p>
             For more information regarding all Lever security matters, please
-            refer to Level policy by clicking{' '}
+            refer to Lever policy by clicking{' '}
             <a href="https://www.lever.co/privacy/" target="_blank">
               here
             </a>
+            .
           </p>
           <p>
             {' '}
@@ -404,7 +407,7 @@ class PrivacyPolicy extends React.Component {
           </p>
           <p>
             To do so, please write to the company’s head office at Zug, 6300,
-            Switzerland, or by email to hiring AT aragon DOT one
+            Switzerland, or by email to hiring AT aragon DOT one.
           </p>
           <h2>8. Security of your Personal Data</h2>{' '}
           <p>

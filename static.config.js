@@ -40,11 +40,6 @@ export default {
       component: 'src/pages/PrivacyNotice',
       getData: () => ({title: ''}),
     },
-    {
-      path: '/objection',
-      component: 'src/pages/Objection',
-      getData: () => ({title: ''}),
-    },
   ],
   paths: REACT_STATIC_PATHS,
   webpack: (conf, {defaultLoaders}) => {
