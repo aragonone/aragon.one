@@ -1,7 +1,8 @@
 import React from 'react';
+import {Link} from 'react-static';
 import styled from 'styled-components';
-import logo from './assets/logo-footer.svg'
-import signature from './assets/signature.svg'
+import logo from './assets/logo-footer.svg';
+import signature from './assets/signature.svg';
 
 import {breakpoint, BreakPoint, Button} from '@aragon/ui';
 const medium = css => breakpoint('medium', css);
@@ -10,13 +11,20 @@ const Footer = () => (
   <FooterSection>
     <Container>
       <div>
-        <A1Logo src={logo}/>
-        <a href="https://blog.aragon.one" target="_blank">Blog</a>
-        <a href="https://twitter.com/AragonOneTeam" target="_blank">Twitter</a>
-        <a href="https://aragon.org" target="_blank">Aragon Project</a>
+        <A1Logo src={logo} />
+        <a href="https://blog.aragon.one" target="_blank">
+          Blog
+        </a>
+        <a href="https://twitter.com/AragonOneTeam" target="_blank">
+          Twitter
+        </a>
+        <a href="https://aragon.org" target="_blank">
+          Aragon Project
+        </a>
+        <Link to={'/privacy-policy'}>Privacy policy</Link>
       </div>
       <div>
-        <img src={signature}/>
+        <img src={signature} />
       </div>
     </Container>
   </FooterSection>
@@ -31,7 +39,7 @@ const FooterSection = styled.section`
 `;
 const A1Logo = styled.img`
   ${medium('padding-right: 15px;')};
-`
+`;
 const Container = styled.div`
   width: 80%;
   margin: auto;
@@ -42,7 +50,7 @@ const Container = styled.div`
   padding-top: 30px;
   flex-direction: column;
   ${medium('flex-direction: row;')};
-  border-top: solid 1px #3A3A3A;
+  border-top: solid 1px #3a3a3a;
   a {
     font-family: 'FontRegular';
     line-height: 2;
@@ -56,7 +64,6 @@ const Container = styled.div`
     color: white;
     text-decoration: none;
     ${medium('display: inline; margin: 0;')};
-
   }
   a:hover {
     opacity: 0.8;
