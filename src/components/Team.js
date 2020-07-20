@@ -153,15 +153,6 @@ class Team extends React.Component {
               </Carousel.Item>
               <Carousel.Item>
                 <TeamCard
-                  name="Ale Santander"
-                  twitter="palebluethdot"
-                  position="Software engineer"
-                  imageUrl="Ale"
-                  bio="Ale is a self-taught developer with a background in physics, and music. He loves building crazy ideas fast and advocating for just about anything that he believes in strongly."
-                />
-              </Carousel.Item>
-              <Carousel.Item>
-                <TeamCard
                   name="Lorena González"
                   twitter="curritta"
                   position="Operations"
@@ -344,23 +335,12 @@ class Team extends React.Component {
               <Carousel.Item>
                 <TeamContainer>
                   <TeamCard
-                    name="Ale Santander"
-                    twitter="palebluethdot"
-                    position="Software engineer"
-                    imageUrl="Ale"
-                    bio="Ale is a self-taught developer with a background in physics, and music. He loves building crazy ideas fast and advocating for just about anything that he believes in strongly."
-                  />
-                  <TeamCard
                     name="Lorena González"
                     twitter="curritta"
                     position="Operations"
                     imageUrl="Lorena"
                     bio="Lorena is our Operations Assistant. She has worked as a secretary, assistant, and office manager in a very different range of industries."
                   />
-                </TeamContainer>
-              </Carousel.Item>
-              <Carousel.Item>
-                <TeamContainer>
                   <TeamCard
                     name="Jack Gane"
                     twitter="JackGane_"
@@ -368,6 +348,10 @@ class Team extends React.Component {
                     imageUrl="Jack"
                     bio="Jack works on Marketing. He's a high school dropout turned multidisciplinary entrepreneur that loves making music and helping people achieve their wildest dreams."
                   />
+                </TeamContainer>
+              </Carousel.Item>
+              <Carousel.Item>
+                <TeamContainer>
                   <TeamCard
                     name="Martynas Prokopas"
                     twitter="promaty0"
@@ -375,23 +359,12 @@ class Team extends React.Component {
                     imageUrl="Martinas"
                     bio="Martynas is our Systems Engineer. He holds a P.h.D. in Technological Physics Engineering. He loves solving complex problems and he finds building the future of web the most interesting one to work on."
                   />
-                </TeamContainer>
-              </Carousel.Item>
-              <Carousel.Item>
-                <TeamContainer>
                   <TeamCard
-                    name="Enrique  Ortiz"
+                    name="Enrique Ortiz"
                     twitter="cryptoyizus"
                     position="Frontend dev"
                     imageUrl="Enrique"
                     bio="Enrique is our Frontend Dev, with love and passion for writing both code and music to make ideas reality."
-                  />
-                  <TeamCard
-                    name="Andy Hook"
-                    twitter="Andy_Hook"
-                    position="Frontend dev"
-                    imageUrl="Andy"
-                    bio="Andy is a passionate UI Engineer who sweats the details and loves working at the intersection between code and design."
                   />
                 </TeamContainer>
               </Carousel.Item>
@@ -404,6 +377,17 @@ class Team extends React.Component {
                     imageUrl="Gabi"
                     bio="Gabi is our Software Engineer and an OG Aragon community contributor. Here he helps to build the tools to improve the internal and external developer experience."
                   />
+                  <TeamCard
+                    name="Andy Hook"
+                    twitter="Andy_Hook"
+                    position="Frontend dev"
+                    imageUrl="Andy"
+                    bio="Andy is a passionate UI Engineer who sweats the details and loves working at the intersection between code and design."
+                  />
+                </TeamContainer>
+              </Carousel.Item>
+              <Carousel.Item>
+                <TeamContainer>
                   <TeamCard
                     name="Luis Cuende"
                     twitter="licuende"
