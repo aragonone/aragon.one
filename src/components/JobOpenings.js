@@ -89,10 +89,10 @@ const JobOpenings = () => (
     </Slide>
     <Slide bottom duration={1200}>
       <JobOpening
-        role="Growth Hacker"
+        role="Marketing Communications Manager"
         category="COMMUNICATIONS"
-        title="Growth Hacker"
-        open="growth-hacker"
+        title="Marketing Communications Manager"
+        open="marketing-communications-manager"
         idprop="protocol-engineer"
         link="https://jobs.lever.co/aragonone/6fac9534-deec-4716-b307-e1e8af7b60d2/"
         description={
@@ -113,11 +113,12 @@ const JobOpenings = () => (
               headless brand
             </a>.
             <br /> <br />
-            We’re looking to hire a Growth Hacker to work cross-functionally with the team 
-            and community stakeholders. We value generalists who are deep in a particular area. 
-            We highly value strategic thinkers that are execution-focused. We’re looking for someone 
-            who speaks the language of the community (memes and good vibes) and able to turn 
-            complex technical ideas simple.
+            We’re looking to hire a Marketing Communications Manager to work cross-functionally with
+            the team and community stakeholders. You’ll report to Luis, and work alongside with Jack —marketing, 
+            Adri —design, Burrrata —community, John —governance, and the rest of the team. We value generalists 
+            who are deep in a particular area. We highly value strategic thinkers that are execution-focused. 
+            We’re looking for someone who speaks the language of the community (memes and good vibes) and 
+            able to turn complex technical ideas simple.
           </span>
         }>
         <h5>What You’ll Do</h5>
@@ -194,10 +195,11 @@ const JobOpenings = () => (
           </li>
           <li>
             A storyteller and an excellent writer. From announcement tweets and 
-            inspirational content to technical blogposts. You have deep empathy for users 
-            and are able to adapt to how you communicate to best reach and engage DAO 
-            creators, developers, and users. You hate typos, double spaces, and inconsistencies. 
-            You have excellent verbal and written communication skills.
+            inspirational content to reviewing blog posts written by the engineering team. 
+            You have deep empathy for users and are able to adapt to how you communicate 
+            to best reach and engage DAO creators, developers, and users. You hate typos, 
+            double spaces, and inconsistencies. You have excellent verbal and 
+            written communication skills.
           </li>
           <li>
             Data-oriented. You optimize for performance. You can set up the infrastructure to 
