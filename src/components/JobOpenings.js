@@ -21,32 +21,29 @@ const JobOpenings = () => (
         link="https://jobs.lever.co/aragonone/689be195-ad79-4ffd-a342-76e8ded91ebb/"
         description={
           <span>
-            Our protocols secure more than $300M on Ethereum’s blockchain and power more 
-            than 1500 on-chain organizations — and this number is increasing every day. 
-            That means that not only creators but hundreds of users trust us to deliver 
-            reliable and secure tools to govern their communities and protocols, 
-            and we value this more than anything.
+            Our protocols secure more than $300M on Ethereum’s blockchain and power more than 
+            1500 on-chain organizations — and this number increases every day. Collectively, 
+            thousands of users trust us to deliver secure and reliable tools to govern their 
+            communities and protocols, and we value this more than anything.
             <br /> <br />
-            We’re looking to hire Protocol Engineers to join our team to continue building 
-            secure and reliable governance protocols. We highly value individuals with 
-            intellectual curiosity and openness, with strong attention to detail and quality. 
-            You’re someone with experience working as a full-stack engineer, 
-            and can architect and implement robust solutions.
+            We’re looking to hire a Protocol Engineer to join our team to continue delivering on 
+            the frontiers of protocol design on and off of Ethereum. We highly value individuals 
+            with intellectual curiosity who maintain a strong attention to detail and quality. 
+            You’re someone with work experience across a variety of technical disciplines that 
+            enjoys independence amongst a strong surrounding team.
             <br /> <br />
-            Your first month should be focused on absorbing as much information as possible 
-            and then progressively contributing to larger and larger efforts with more 
-            autonomy and independence. You have the potential to create incredible leverage 
-            within and outside of Aragon by contributing to existing projects such as 
-            the Aragon Network, Aragon Court, and Aragon Chain, and research and 
-            experiment with new governance mechanisms.
+            Your first month will be focused on absorbing as much information as possible and then 
+            progressively contributing to larger and larger efforts with more autonomy. You will have 
+            the potential to create incredible value within and outside of the Aragon, DAO, and Ethereum 
+            communities by contributing to existing projects such as the Aragon Network and Aragon Court, 
+            as well as exploring the frontiers with new governance products.
           </span>
         }>
         <h5>What You’ll Do</h5>
         <ul>
           <li>
-            Architect, develop, and maintain smart contract frameworks for aragonOS, 
-            the Aragon Network, Aragon Court, and projects in the broader Aragon 
-            ecosystem such as Aragon Chain.
+            Architect, develop, and maintain smart contracts for DAOs, the Aragon Network, Aragon Court, 
+            and projects in the broader Aragon ecosystem.
           </li>
           <li>
             Perform internal code audits and code reviews, and produce product 
@@ -56,13 +53,13 @@ const JobOpenings = () => (
             Research and experiment with new Web3 technologies to explore new governance mechanisms.
           </li>
           <li>
-            Understand incentives and thinking out of the box to build robust solutions.
+            Understand incentives and thinking out of the box to design robust behavioural mechanisms.
           </li>
         </ul>
         <h5>What We’re Looking For</h5>
         <ul>
           <li>Experience working as a full-stack engineer, with strong backend development skills.</li>
-          <li>Provable ability to ship high quality, well crafted code, architecting and developing complex systems.</li>
+          <li>Proven ability to ship high quality, well crafted code, and architecting complex systems.</li>
           <li>Strong testing culture.</li>
           <li>Being passionate about open source and distributed systems.</li>
           <li>Being a detail oriented, autonomous individual with a proactive attitude and a love for time self-management.</li>
