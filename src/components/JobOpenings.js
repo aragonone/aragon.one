@@ -66,7 +66,7 @@ const JobOpenings = () => (
         </ul>
         <h5>Bonus Points</h5>
         <ul>
-          <li>Experience contributing or managing open source projects.</li>
+          <li>Experience contributing to or managing open source projects.</li>
           <li>Understanding of Ethereum, Ethereum security risks and incentives, and the inner workings of the EVM.</li>
         </ul>
         <h5>How to apply</h5>
@@ -138,7 +138,10 @@ const JobOpenings = () => (
             always linking initiatives back to growth.
           </li>
           <li>
-            Projects where you’ll do this: Aragon Network, Aragon Court, DAOs powered by Aragon, and experiments.
+            Work with the design team to always be looking out for ways to improve user experience from end to end.
+          </li>
+          <li>
+            Projects where you’ll do this: Aragon Network, Aragon Court, DAOs powered by Aragon, and product research experiments.
           </li>
           <li>
             Existing channels and platforms:{' '}
@@ -217,7 +220,8 @@ const JobOpenings = () => (
         </ul>
         <h5>Bonus Points</h5>
         <ul>
-          <li>Experience contributing or managing open source projects.</li>
+          <li>Design skills and basic knowledge of design concepts, image formats, Figma, and Webflow.</li>
+          <li>Experience contributing to or managing open source projects.</li>
           <li>Understanding of Ethereum, and the blockchain space.</li>
         </ul>
         <h5>How to apply</h5>
