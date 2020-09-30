@@ -117,15 +117,6 @@ class Team extends React.Component {
               </Carousel.Item>
               <Carousel.Item>
                 <TeamCard
-                  name="Bingen Eguzkitza"
-                  twitter="bingentxu"
-                  position="Solidity dev"
-                  imageUrl="Bingen"
-                  bio="Bingen is our Solidity Engineer. He is a long time open source software, hardware and data passionate."
-                />
-              </Carousel.Item>
-              <Carousel.Item>
-                <TeamCard
                   name="Delfina Polito"
                   twitter="PolitoDelfina"
                   position="Frontend dev"
@@ -293,24 +284,6 @@ class Team extends React.Component {
                     position="CPO"
                     imageUrl="Luke"
                     bio="Luke is our CPO. He loves to explore how blockchains enable novel forms of governance, how existing forms may perform in new contexts."
-                  />
-                </TeamContainer>
-              </Carousel.Item>
-              <Carousel.Item>
-                <TeamContainer>
-                  <TeamCard
-                    name="Bingen Eguzkitza"
-                    twitter="bingentxu"
-                    position="Solidity dev"
-                    imageUrl="Bingen"
-                    bio="Bingen is our Solidity Engineer. He is a long time open source software, hardware and data passionate."
-                  />
-                  <TeamCard
-                    name="Delfina Polito"
-                    twitter="PolitoDelfina"
-                    position="Frontend dev"
-                    imageUrl="Delfi"
-                    bio="Delfi is our Frontend Engineer. She loves bringing designs to life, being careful about details to make things shine is definitely part of her core."
                   />
                 </TeamContainer>
               </Carousel.Item>
