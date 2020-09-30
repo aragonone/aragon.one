@@ -126,6 +126,15 @@ class Team extends React.Component {
               </Carousel.Item>
               <Carousel.Item>
                 <TeamCard
+                  name="Andy Hook"
+                  twitter="Andy_Hook"
+                  position="Frontend dev"
+                  imageUrl="Andy"
+                  bio="Andy is a passionate UI Engineer who sweats the details and loves working at the intersection between code and design."
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <TeamCard
                   name="Patricia Davila"
                   twitter="dizzypaty"
                   position="UX design"
@@ -176,15 +185,6 @@ class Team extends React.Component {
                   position="Frontend dev"
                   imageUrl="Enrique"
                   bio="Enrique is our Frontend Engineer, with love and passion for writing both code and music to make ideas reality."
-                />
-              </Carousel.Item>
-              <Carousel.Item>
-                <TeamCard
-                  name="Andy Hook"
-                  twitter="Andy_Hook"
-                  position="Frontend dev"
-                  imageUrl="Andy"
-                  bio="Andy is a passionate UI Engineer who sweats the details and loves working at the intersection between code and design."
                 />
               </Carousel.Item>
               <Carousel.Item>
