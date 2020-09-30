@@ -117,20 +117,20 @@ class Team extends React.Component {
               </Carousel.Item>
               <Carousel.Item>
                 <TeamCard
-                  name="Bingen Eguzkitza"
-                  twitter="bingentxu"
-                  position="Solidity dev"
-                  imageUrl="Bingen"
-                  bio="Bingen is our Solidity Engineer. He is a long time open source software, hardware and data passionate."
-                />
-              </Carousel.Item>
-              <Carousel.Item>
-                <TeamCard
                   name="Delfina Polito"
                   twitter="PolitoDelfina"
                   position="Frontend dev"
                   imageUrl="Delfi"
                   bio="Delfi is our Frontend Engineer. She loves bringing designs to life, being careful about details to make things shine is definitely part of her core."
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <TeamCard
+                  name="Andy Hook"
+                  twitter="Andy_Hook"
+                  position="Frontend dev"
+                  imageUrl="Andy"
+                  bio="Andy is a passionate UI Engineer who sweats the details and loves working at the intersection between code and design."
                 />
               </Carousel.Item>
               <Carousel.Item>
@@ -185,15 +185,6 @@ class Team extends React.Component {
                   position="Frontend dev"
                   imageUrl="Enrique"
                   bio="Enrique is our Frontend Engineer, with love and passion for writing both code and music to make ideas reality."
-                />
-              </Carousel.Item>
-              <Carousel.Item>
-                <TeamCard
-                  name="Andy Hook"
-                  twitter="Andy_Hook"
-                  position="Frontend dev"
-                  imageUrl="Andy"
-                  bio="Andy is a passionate UI Engineer who sweats the details and loves working at the intersection between code and design."
                 />
               </Carousel.Item>
               <Carousel.Item>
@@ -299,18 +290,18 @@ class Team extends React.Component {
               <Carousel.Item>
                 <TeamContainer>
                   <TeamCard
-                    name="Bingen Eguzkitza"
-                    twitter="bingentxu"
-                    position="Solidity dev"
-                    imageUrl="Bingen"
-                    bio="Bingen is our Solidity Engineer. He is a long time open source software, hardware and data passionate."
-                  />
-                  <TeamCard
                     name="Delfina Polito"
                     twitter="PolitoDelfina"
                     position="Frontend dev"
                     imageUrl="Delfi"
                     bio="Delfi is our Frontend Engineer. She loves bringing designs to life, being careful about details to make things shine is definitely part of her core."
+                  />
+                  <TeamCard
+                    name="Andy Hook"
+                    twitter="Andy_Hook"
+                    position="Frontend dev"
+                    imageUrl="Andy"
+                    bio="Andy is a passionate UI Engineer who sweats the details and loves working at the intersection between code and design."
                   />
                 </TeamContainer>
               </Carousel.Item>
@@ -378,22 +369,11 @@ class Team extends React.Component {
                     bio="Gabi is our Software Engineer and an OG Aragon community contributor. Here he helps to build the tools to improve the internal and external developer experience."
                   />
                   <TeamCard
-                    name="Andy Hook"
-                    twitter="Andy_Hook"
-                    position="Frontend dev"
-                    imageUrl="Andy"
-                    bio="Andy is a passionate UI Engineer who sweats the details and loves working at the intersection between code and design."
-                  />
-                </TeamContainer>
-              </Carousel.Item>
-              <Carousel.Item>
-                <TeamContainer>
-                  <TeamCard
                     name="Luis Cuende"
                     twitter="licuende"
                     position="Advisor"
                     imageUrl="Luis"
-                    bio="Luis is our Advisor and the Executive Director of the Aragon Association. He loves helping people solve unfair situation in the world through technology."
+                    bio="Luis is our Advisor and the Executive Director of the Aragon Association. He loves helping people solve unfair situations in the world through technology."
                   />
                 </TeamContainer>
               </Carousel.Item>

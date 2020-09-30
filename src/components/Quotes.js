@@ -16,10 +16,6 @@ const Quotes = () => (
           That’s{' '}
           <span className="mobile-pink">why we are building Aragon.</span>
         </h3>
-        <br />
-        <h6>
-          <span className="grey">—</span> LUIS CUENDE, CEO
-        </h6>
       </BreakPoint>
       <BreakPoint from="medium">
         <Fade bottom duration={1200} delay={200}>
