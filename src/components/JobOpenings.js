@@ -110,7 +110,7 @@ const JobOpenings = () => (
         category="COMMUNICATIONS"
         title="Marketing Communications Manager"
         open="marketing-communications-manager"
-        idprop="protocol-engineer"
+        idprop="marketing-communications-manager"
         link="https://jobs.lever.co/aragonone/6fac9534-deec-4716-b307-e1e8af7b60d2/"
         description={
           <span>
@@ -270,7 +270,7 @@ const JobOpenings = () => (
         category="GENERAL"
         title="Open Application"
         open="open-application"
-        idprop="growth-hacker"
+        idprop="open-application"
         link="https://jobs.lever.co/aragonone/be7df0cc-4bb8-4379-b027-03c1d544de5c/apply"
         description="Can't find a role that fits you? It's a privilege to have people interested in working with us and we're always open to meet them to explore opportunities to collaborate. Drop us a line on where you'd like to contribute to and what caught your attention to join Aragon One.">
         <h5>Requirements</h5>
